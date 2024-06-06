@@ -1,0 +1,12 @@
+/home/yeryn/final/build/unitree_ocr/CMakeFiles/uninstall.dir
+/home/yeryn/final/build/unitree_ocr/CMakeFiles/unitree_ocr_uninstall.dir
+/home/yeryn/final/build/unitree_ocr/CMakeFiles/unitree_ocr.dir
+/home/yeryn/final/build/unitree_ocr/CMakeFiles/text_detection_subscriber.dir
+/home/yeryn/final/build/unitree_ocr/CMakeFiles/doxygen.dir
+/home/yeryn/final/build/unitree_ocr/CMakeFiles/test.dir
+/home/yeryn/final/build/unitree_ocr/CMakeFiles/edit_cache.dir
+/home/yeryn/final/build/unitree_ocr/CMakeFiles/rebuild_cache.dir
+/home/yeryn/final/build/unitree_ocr/CMakeFiles/list_install_components.dir
+/home/yeryn/final/build/unitree_ocr/CMakeFiles/install.dir
+/home/yeryn/final/build/unitree_ocr/CMakeFiles/install/local.dir
+/home/yeryn/final/build/unitree_ocr/CMakeFiles/install/strip.dir

@@ -1,0 +1,10 @@
+/home/yeryn/final/build/unitree_inspection/CMakeFiles/uninstall.dir
+/home/yeryn/final/build/unitree_inspection/CMakeFiles/unitree_inspection_uninstall.dir
+/home/yeryn/final/build/unitree_inspection/CMakeFiles/inspection.dir
+/home/yeryn/final/build/unitree_inspection/CMakeFiles/test.dir
+/home/yeryn/final/build/unitree_inspection/CMakeFiles/edit_cache.dir
+/home/yeryn/final/build/unitree_inspection/CMakeFiles/rebuild_cache.dir
+/home/yeryn/final/build/unitree_inspection/CMakeFiles/list_install_components.dir
+/home/yeryn/final/build/unitree_inspection/CMakeFiles/install.dir
+/home/yeryn/final/build/unitree_inspection/CMakeFiles/install/local.dir
+/home/yeryn/final/build/unitree_inspection/CMakeFiles/install/strip.dir

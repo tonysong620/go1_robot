@@ -1,0 +1,535 @@
+[0.071s] DEBUG:colcon:Command line arguments: ['/home/yeryn/.local/bin/colcon', 'build']
+[0.071s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xe0fc837b1d50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xe0fc837374c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xe0fc837374c0>>)
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.130s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yeryn/final'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/display/fonts) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/ocr) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/ocr) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/ocr) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_inspection/unitree_inspection' with type 'ros.ament_cmake' and name 'unitree_inspection'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection_interfaces) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection_interfaces) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection_interfaces) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection_interfaces) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection_interfaces) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection_interfaces) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection_interfaces) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_inspection_interfaces) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_inspection/unitree_inspection_interfaces' with type 'ros.ament_cmake' and name 'unitree_inspection_interfaces'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_inspection/unitree_ocr' with type 'ros.ament_cmake' and name 'unitree_ocr'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr_interfaces) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr_interfaces) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr_interfaces) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr_interfaces) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr_interfaces) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr_interfaces) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr_interfaces) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_inspection/unitree_ocr_interfaces) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_inspection/unitree_ocr_interfaces' with type 'ros.ament_cmake' and name 'unitree_ocr_interfaces'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'ros'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extensions ['cmake', 'python']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'cmake'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_ros2/go1_description' with type 'ros.ament_cmake' and name 'go1_description'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_ros2/ros2_unitree_legged_msgs' with type 'ros.ament_cmake' and name 'ros2_unitree_legged_msgs'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_ros2/unitree_legged_real' with type 'ros.ament_cmake' and name 'unitree_legged_real'
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_target' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.150s] DEBUG:colcon.colcon_core.verb:Building package 'go1_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeryn/final/build/go1_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeryn/final/install/go1_description', 'merge_install': False, 'path': '/home/yeryn/final/unitree_ros2/go1_description', 'symlink_install': False, 'test_result_base': None}
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_target' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.151s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_unitree_legged_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeryn/final/build/ros2_unitree_legged_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeryn/final/install/ros2_unitree_legged_msgs', 'merge_install': False, 'path': '/home/yeryn/final/unitree_ros2/ros2_unitree_legged_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.151s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_inspection_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeryn/final/build/unitree_inspection_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeryn/final/install/unitree_inspection_interfaces', 'merge_install': False, 'path': '/home/yeryn/final/unitree_inspection/unitree_inspection_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.151s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_ocr_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeryn/final/build/unitree_ocr_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeryn/final/install/unitree_ocr_interfaces', 'merge_install': False, 'path': '/home/yeryn/final/unitree_inspection/unitree_ocr_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'cmake_target' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'cmake_clean_cache' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'cmake_clean_first' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'cmake_force_configure' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'ament_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'catkin_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.151s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_legged_real' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeryn/final/build/unitree_legged_real', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeryn/final/install/unitree_legged_real', 'merge_install': False, 'path': '/home/yeryn/final/unitree_ros2/unitree_legged_real', 'symlink_install': False, 'test_result_base': None}
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr' build argument 'cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr' build argument 'cmake_target' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr' build argument 'cmake_clean_first' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr' build argument 'cmake_force_configure' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr' build argument 'ament_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'unitree_ocr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.151s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_ocr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeryn/final/build/unitree_ocr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeryn/final/install/unitree_ocr', 'merge_install': False, 'path': '/home/yeryn/final/unitree_inspection/unitree_ocr', 'symlink_install': False, 'test_result_base': None}
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection' build argument 'cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection' build argument 'cmake_target' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection' build argument 'cmake_clean_first' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection' build argument 'cmake_force_configure' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection' build argument 'ament_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'unitree_inspection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.152s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_inspection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeryn/final/build/unitree_inspection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeryn/final/install/unitree_inspection', 'merge_install': False, 'path': '/home/yeryn/final/unitree_inspection/unitree_inspection', 'symlink_install': False, 'test_result_base': None}
+[0.152s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.152s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeryn/final/unitree_inspection/unitree_ocr_interfaces' with build type 'ament_cmake'
+[0.152s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeryn/final/unitree_inspection/unitree_ocr_interfaces'
+[0.153s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.153s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.153s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.155s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeryn/final/unitree_ros2/ros2_unitree_legged_msgs' with build type 'ament_cmake'
+[0.155s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeryn/final/unitree_ros2/ros2_unitree_legged_msgs'
+[0.155s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.157s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeryn/final/unitree_inspection/unitree_inspection_interfaces' with build type 'ament_cmake'
+[0.157s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeryn/final/unitree_inspection/unitree_inspection_interfaces'
+[0.157s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.157s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.158s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeryn/final/unitree_ros2/go1_description' with build type 'ament_cmake'
+[0.158s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeryn/final/unitree_ros2/go1_description'
+[0.159s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.159s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/unitree_ocr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/final/unitree_inspection/unitree_ocr_interfaces -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_ocr_interfaces
+[0.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/final/unitree_ros2/ros2_unitree_legged_msgs -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/ros2_unitree_legged_msgs
+[0.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/unitree_inspection_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/final/unitree_inspection/unitree_inspection_interfaces -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_inspection_interfaces
+[0.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/final/unitree_ros2/go1_description -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/go1_description
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/final/unitree_ros2/go1_description -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/go1_description
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/go1_description -- -j4 -l4
+[0.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/go1_description -- -j4 -l4
+[0.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/go1_description
+[0.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go1_description)
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/go1_description' for CMake module files
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/go1_description' for CMake config files
+[0.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('go1_description', 'cmake_prefix_path')
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/go1_description/share/go1_description/hook/cmake_prefix_path.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/go1_description/share/go1_description/hook/cmake_prefix_path.dsv'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/go1_description/share/go1_description/hook/cmake_prefix_path.sh'
+[0.658s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/go1_description/bin'
+[0.658s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/go1_description/lib/pkgconfig/go1_description.pc'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/go1_description/lib/python3.10/site-packages'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/go1_description/bin'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/go1_description/share/go1_description/package.ps1'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeryn/final/install/go1_description/share/go1_description/package.dsv'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/go1_description/share/go1_description/package.sh'
+[0.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/go1_description
+[0.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/go1_description/share/go1_description/package.bash'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/go1_description/share/go1_description/package.zsh'
+[0.661s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeryn/final/install/go1_description/share/colcon-core/packages/go1_description)
+[0.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go1_description)
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/go1_description' for CMake module files
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/go1_description' for CMake config files
+[0.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('go1_description', 'cmake_prefix_path')
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/go1_description/share/go1_description/hook/cmake_prefix_path.ps1'
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/go1_description/share/go1_description/hook/cmake_prefix_path.dsv'
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/go1_description/share/go1_description/hook/cmake_prefix_path.sh'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/go1_description/bin'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/go1_description/lib/pkgconfig/go1_description.pc'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/go1_description/lib/python3.10/site-packages'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/go1_description/bin'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/go1_description/share/go1_description/package.ps1'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeryn/final/install/go1_description/share/go1_description/package.dsv'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/go1_description/share/go1_description/package.sh'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/go1_description/share/go1_description/package.bash'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/go1_description/share/go1_description/package.zsh'
+[0.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeryn/final/install/go1_description/share/colcon-core/packages/go1_description)
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/unitree_inspection_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/final/unitree_inspection/unitree_inspection_interfaces -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_inspection_interfaces
+[1.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/unitree_inspection_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/unitree_inspection_interfaces -- -j4 -l4
+[1.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/unitree_ocr_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/final/unitree_inspection/unitree_ocr_interfaces -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_ocr_interfaces
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/unitree_ocr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/unitree_ocr_interfaces -- -j4 -l4
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/ros2_unitree_legged_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/final/unitree_ros2/ros2_unitree_legged_msgs -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/ros2_unitree_legged_msgs
+[1.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/ros2_unitree_legged_msgs -- -j4 -l4
+[3.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/unitree_inspection_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/unitree_inspection_interfaces -- -j4 -l4
+[4.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/unitree_inspection_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/unitree_inspection_interfaces
+[4.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/unitree_ocr_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/unitree_ocr_interfaces -- -j4 -l4
+[4.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_inspection_interfaces)
+[4.282s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces' for CMake module files
+[4.283s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces' for CMake config files
+[4.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_inspection_interfaces', 'cmake_prefix_path')
+[4.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/hook/cmake_prefix_path.ps1'
+[4.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/hook/cmake_prefix_path.dsv'
+[4.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/hook/cmake_prefix_path.sh'
+[4.284s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces/lib'
+[4.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_inspection_interfaces', 'ld_library_path_lib')
+[4.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/hook/ld_library_path_lib.ps1'
+[4.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/hook/ld_library_path_lib.dsv'
+[4.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/hook/ld_library_path_lib.sh'
+[4.285s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces/bin'
+[4.285s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces/lib/pkgconfig/unitree_inspection_interfaces.pc'
+[4.285s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces/lib/python3.10/site-packages'
+[4.285s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces/bin'
+[4.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/package.ps1'
+[4.285s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/package.dsv'
+[4.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/package.sh'
+[4.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/unitree_inspection_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/unitree_inspection_interfaces
+[4.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/package.bash'
+[4.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/package.zsh'
+[4.286s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeryn/final/install/unitree_inspection_interfaces/share/colcon-core/packages/unitree_inspection_interfaces)
+[4.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_inspection_interfaces)
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces' for CMake module files
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces' for CMake config files
+[4.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_inspection_interfaces', 'cmake_prefix_path')
+[4.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/hook/cmake_prefix_path.ps1'
+[4.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/hook/cmake_prefix_path.dsv'
+[4.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/hook/cmake_prefix_path.sh'
+[4.363s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces/lib'
+[4.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_inspection_interfaces', 'ld_library_path_lib')
+[4.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/hook/ld_library_path_lib.ps1'
+[4.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/hook/ld_library_path_lib.dsv'
+[4.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/hook/ld_library_path_lib.sh'
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces/bin'
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces/lib/pkgconfig/unitree_inspection_interfaces.pc'
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces/lib/python3.10/site-packages'
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection_interfaces/bin'
+[4.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/package.ps1'
+[4.364s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/package.dsv'
+[4.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/package.sh'
+[4.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/package.bash'
+[4.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/package.zsh'
+[4.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeryn/final/install/unitree_inspection_interfaces/share/colcon-core/packages/unitree_inspection_interfaces)
+[4.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/unitree_ocr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/unitree_ocr_interfaces
+[4.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_ocr_interfaces)
+[4.429s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces' for CMake module files
+[4.429s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces' for CMake config files
+[4.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ocr_interfaces', 'cmake_prefix_path')
+[4.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/hook/cmake_prefix_path.ps1'
+[4.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/hook/cmake_prefix_path.dsv'
+[4.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/hook/cmake_prefix_path.sh'
+[4.430s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces/lib'
+[4.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ocr_interfaces', 'ld_library_path_lib')
+[4.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/hook/ld_library_path_lib.ps1'
+[4.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/hook/ld_library_path_lib.dsv'
+[4.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/hook/ld_library_path_lib.sh'
+[4.430s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces/bin'
+[4.430s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces/lib/pkgconfig/unitree_ocr_interfaces.pc'
+[4.430s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces/lib/python3.10/site-packages'
+[4.431s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces/bin'
+[4.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.ps1'
+[4.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.dsv'
+[4.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.sh'
+[4.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.bash'
+[4.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.zsh'
+[4.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeryn/final/install/unitree_ocr_interfaces/share/colcon-core/packages/unitree_ocr_interfaces)
+[4.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/unitree_ocr_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/unitree_ocr_interfaces
+[4.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_ocr_interfaces)
+[4.545s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces' for CMake module files
+[4.545s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces' for CMake config files
+[4.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ocr_interfaces', 'cmake_prefix_path')
+[4.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/hook/cmake_prefix_path.ps1'
+[4.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/hook/cmake_prefix_path.dsv'
+[4.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/hook/cmake_prefix_path.sh'
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces/lib'
+[4.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ocr_interfaces', 'ld_library_path_lib')
+[4.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/hook/ld_library_path_lib.ps1'
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/hook/ld_library_path_lib.dsv'
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/hook/ld_library_path_lib.sh'
+[4.547s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces/bin'
+[4.547s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces/lib/pkgconfig/unitree_ocr_interfaces.pc'
+[4.547s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces/lib/python3.10/site-packages'
+[4.547s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr_interfaces/bin'
+[4.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.ps1'
+[4.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.dsv'
+[4.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.sh'
+[4.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.bash'
+[4.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.zsh'
+[4.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeryn/final/install/unitree_ocr_interfaces/share/colcon-core/packages/unitree_ocr_interfaces)
+[4.549s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeryn/final/unitree_inspection/unitree_ocr' with build type 'ament_cmake'
+[4.549s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeryn/final/unitree_inspection/unitree_ocr'
+[4.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/unitree_ocr': AMENT_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yeryn/final/install/unitree_ocr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yeryn/final/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yeryn/final/unitree_inspection/unitree_ocr -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_ocr
+[6.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/unitree_ocr' returned '0': AMENT_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yeryn/final/install/unitree_ocr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yeryn/final/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yeryn/final/unitree_inspection/unitree_ocr -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_ocr
+[6.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/unitree_ocr': AMENT_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yeryn/final/install/unitree_ocr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yeryn/final/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yeryn/final/build/unitree_ocr -- -j4 -l4
+[7.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/ros2_unitree_legged_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/ros2_unitree_legged_msgs -- -j4 -l4
+[8.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/ros2_unitree_legged_msgs
+[8.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_unitree_legged_msgs)
+[8.230s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs' for CMake module files
+[8.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/ros2_unitree_legged_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/ros2_unitree_legged_msgs
+[8.231s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs' for CMake config files
+[8.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_msgs', 'cmake_prefix_path')
+[8.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.ps1'
+[8.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.dsv'
+[8.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.sh'
+[8.232s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs/lib'
+[8.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_msgs', 'ld_library_path_lib')
+[8.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.ps1'
+[8.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.dsv'
+[8.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.sh'
+[8.232s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs/bin'
+[8.232s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs/lib/pkgconfig/ros2_unitree_legged_msgs.pc'
+[8.233s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs/lib/python3.10/site-packages'
+[8.233s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs/bin'
+[8.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.ps1'
+[8.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.dsv'
+[8.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.sh'
+[8.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.bash'
+[8.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.zsh'
+[8.234s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeryn/final/install/ros2_unitree_legged_msgs/share/colcon-core/packages/ros2_unitree_legged_msgs)
+[8.337s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_unitree_legged_msgs)
+[8.337s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs' for CMake module files
+[8.338s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs' for CMake config files
+[8.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_msgs', 'cmake_prefix_path')
+[8.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.ps1'
+[8.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.dsv'
+[8.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.sh'
+[8.339s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs/lib'
+[8.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_msgs', 'ld_library_path_lib')
+[8.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.ps1'
+[8.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.dsv'
+[8.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.sh'
+[8.339s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs/bin'
+[8.339s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs/lib/pkgconfig/ros2_unitree_legged_msgs.pc'
+[8.339s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs/lib/python3.10/site-packages'
+[8.340s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/ros2_unitree_legged_msgs/bin'
+[8.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.ps1'
+[8.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.dsv'
+[8.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.sh'
+[8.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.bash'
+[8.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.zsh'
+[8.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeryn/final/install/ros2_unitree_legged_msgs/share/colcon-core/packages/ros2_unitree_legged_msgs)
+[8.341s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeryn/final/unitree_ros2/unitree_legged_real' with build type 'ament_cmake'
+[8.341s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeryn/final/unitree_ros2/unitree_legged_real'
+[8.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/yeryn/final/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeryn/final/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/yeryn/final/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yeryn/final/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yeryn/final/unitree_ros2/unitree_legged_real -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_legged_real
+[9.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/yeryn/final/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeryn/final/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/yeryn/final/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yeryn/final/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yeryn/final/unitree_ros2/unitree_legged_real -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_legged_real
+[9.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/yeryn/final/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeryn/final/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/yeryn/final/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yeryn/final/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yeryn/final/build/unitree_legged_real -- -j4 -l4
+[11.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/unitree_ocr' returned '0': AMENT_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yeryn/final/install/unitree_ocr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yeryn/final/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yeryn/final/build/unitree_ocr -- -j4 -l4
+[12.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/unitree_ocr': AMENT_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yeryn/final/install/unitree_ocr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yeryn/final/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yeryn/final/build/unitree_ocr
+[12.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_ocr)
+[12.154s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr' for CMake module files
+[12.156s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr' for CMake config files
+[12.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/unitree_ocr' returned '0': AMENT_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yeryn/final/install/unitree_ocr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yeryn/final/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yeryn/final/build/unitree_ocr
+[12.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ocr', 'cmake_prefix_path')
+[12.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/hook/cmake_prefix_path.ps1'
+[12.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/hook/cmake_prefix_path.dsv'
+[12.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/hook/cmake_prefix_path.sh'
+[12.161s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr/lib'
+[12.161s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr/bin'
+[12.162s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr/lib/pkgconfig/unitree_ocr.pc'
+[12.162s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr/lib/python3.10/site-packages'
+[12.163s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr/bin'
+[12.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/package.ps1'
+[12.163s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/package.dsv'
+[12.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/package.sh'
+[12.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/package.bash'
+[12.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/package.zsh'
+[12.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeryn/final/install/unitree_ocr/share/colcon-core/packages/unitree_ocr)
+[12.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_ocr)
+[12.433s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr' for CMake module files
+[12.433s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr' for CMake config files
+[12.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ocr', 'cmake_prefix_path')
+[12.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/hook/cmake_prefix_path.ps1'
+[12.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/hook/cmake_prefix_path.dsv'
+[12.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/hook/cmake_prefix_path.sh'
+[12.436s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr/lib'
+[12.436s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr/bin'
+[12.436s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr/lib/pkgconfig/unitree_ocr.pc'
+[12.436s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr/lib/python3.10/site-packages'
+[12.436s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_ocr/bin'
+[12.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/package.ps1'
+[12.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/package.dsv'
+[12.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/package.sh'
+[12.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/package.bash'
+[12.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_ocr/share/unitree_ocr/package.zsh'
+[12.438s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeryn/final/install/unitree_ocr/share/colcon-core/packages/unitree_ocr)
+[12.438s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeryn/final/unitree_inspection/unitree_inspection' with build type 'ament_cmake'
+[12.438s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeryn/final/unitree_inspection/unitree_inspection'
+[12.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeryn/final/build/unitree_inspection': AMENT_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr:/home/yeryn/final/install/unitree_ocr_interfaces:/home/yeryn/final/install/unitree_inspection_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr:/home/yeryn/final/install/unitree_ocr_interfaces:/home/yeryn/final/install/unitree_inspection_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yeryn/final/install/unitree_ocr_interfaces/lib:/home/yeryn/final/install/unitree_inspection_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yeryn/final/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages:/home/yeryn/final/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yeryn/final/unitree_inspection/unitree_inspection -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_inspection
+[18.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeryn/final/build/unitree_inspection' returned '1': AMENT_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr:/home/yeryn/final/install/unitree_ocr_interfaces:/home/yeryn/final/install/unitree_inspection_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeryn/final/install/unitree_ocr:/home/yeryn/final/install/unitree_ocr_interfaces:/home/yeryn/final/install/unitree_inspection_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yeryn/final/install/unitree_ocr_interfaces/lib:/home/yeryn/final/install/unitree_inspection_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yeryn/final/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages:/home/yeryn/final/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yeryn/final/unitree_inspection/unitree_inspection -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_inspection
+[18.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_inspection)
+[18.462s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection' for CMake module files
+[18.463s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection' for CMake config files
+[18.463s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection/bin'
+[18.463s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection/lib/pkgconfig/unitree_inspection.pc'
+[18.464s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection/lib/python3.10/site-packages'
+[18.464s] Level 1:colcon.colcon_core.environment:checking '/home/yeryn/final/install/unitree_inspection/bin'
+[18.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_inspection/share/unitree_inspection/package.ps1'
+[18.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeryn/final/install/unitree_inspection/share/unitree_inspection/package.dsv'
+[18.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_inspection/share/unitree_inspection/package.sh'
+[18.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_inspection/share/unitree_inspection/package.bash'
+[18.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeryn/final/install/unitree_inspection/share/unitree_inspection/package.zsh'
+[18.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeryn/final/install/unitree_inspection/share/colcon-core/packages/unitree_inspection)
+[42.555s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[42.570s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[42.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[42.573s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[42.680s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[42.680s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[42.681s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[42.857s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[42.858s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yeryn/final/install/local_setup.ps1'
+[42.865s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yeryn/final/install/_local_setup_util_ps1.py'
+[42.868s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yeryn/final/install/setup.ps1'
+[42.870s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yeryn/final/install/local_setup.sh'
+[42.871s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yeryn/final/install/_local_setup_util_sh.py'
+[42.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yeryn/final/install/setup.sh'
+[42.872s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yeryn/final/install/local_setup.bash'
+[42.872s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yeryn/final/install/setup.bash'
+[42.873s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yeryn/final/install/local_setup.zsh'
+[42.874s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yeryn/final/install/setup.zsh'

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from unitree_inspection_interfaces/srv/GoToInspectionPoint.srv
+// generated code does not contain a copyright notice
+
+
+module unitree_inspection_interfaces {
+  module srv {
+    struct GoToInspectionPoint_Request {
+      @verbatim (language="comment", text=
+        "the name of the inspection point to navigate to")
+      string inspection_point;
+    };
+    struct GoToInspectionPoint_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

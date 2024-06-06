@@ -1,0 +1,6 @@
+Invoking command in '/home/yeryn/final/build/unitree_inspection_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/final/unitree_inspection/unitree_inspection_interfaces -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_inspection_interfaces
+Invoked command in '/home/yeryn/final/build/unitree_inspection_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/final/unitree_inspection/unitree_inspection_interfaces -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_inspection_interfaces
+Invoking command in '/home/yeryn/final/build/unitree_inspection_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/unitree_inspection_interfaces -- -j4 -l4
+Invoked command in '/home/yeryn/final/build/unitree_inspection_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/unitree_inspection_interfaces -- -j4 -l4
+Invoking command in '/home/yeryn/final/build/unitree_inspection_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/unitree_inspection_interfaces
+Invoked command in '/home/yeryn/final/build/unitree_inspection_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/unitree_inspection_interfaces
