@@ -1,2 +1,0 @@
-/usr/bin/ar qc libunitree_ocr.a CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o
-/usr/bin/ranlib libunitree_ocr.a

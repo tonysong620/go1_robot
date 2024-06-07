@@ -1,6 +1,0 @@
-{
-  "package_name": "unitree_inspection_interfaces",
-  "non_idl_tuples": [
-    "/home/yeryn/final/unitree_inspection/unitree_inspection_interfaces:srv/GoToInspectionPoint.srv"
-  ]
-}

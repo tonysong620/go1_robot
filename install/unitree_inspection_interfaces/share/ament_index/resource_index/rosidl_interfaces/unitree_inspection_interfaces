@@ -1,4 +1,0 @@
-srv/GoToInspectionPoint.idl
-srv/GoToInspectionPoint.srv
-srv/GoToInspectionPoint_Request.msg
-srv/GoToInspectionPoint_Response.msg
