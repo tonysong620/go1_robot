@@ -1,0 +1,161 @@
+[0.126s] Invoking command in '/home/rs/final_auto/build/unitree_ocr_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rs/final_auto/install/unitree_nav_launch_module:/opt/ros/humble /usr/bin/cmake --build /home/rs/final_auto/build/unitree_ocr_interfaces -- -j13 -l13
+[0.357s] [  2%] Built target unitree_ocr_interfaces_msg__cpp
+[0.371s] [ 12%] Built target unitree_ocr_interfaces_msg__rosidl_generator_c
+[0.451s] [ 12%] Built target ament_cmake_python_copy_unitree_ocr_interfaces
+[0.520s] [ 23%] Built target unitree_ocr_interfaces_msg__rosidl_typesupport_cpp
+[0.571s] [ 33%] Built target unitree_ocr_interfaces_msg__rosidl_typesupport_fastrtps_c
+[0.592s] [ 43%] Built target unitree_ocr_interfaces_msg__rosidl_typesupport_c
+[0.595s] [ 53%] Built target unitree_ocr_interfaces_msg__rosidl_typesupport_fastrtps_cpp
+[0.599s] [ 64%] Built target unitree_ocr_interfaces_msg__rosidl_typesupport_introspection_c
+[0.600s] [ 74%] Built target unitree_ocr_interfaces_msg__rosidl_typesupport_introspection_cpp
+[0.731s] [ 74%] Built target unitree_ocr_interfaces_msg
+[0.816s] [ 76%] Built target unitree_ocr_interfaces_msg__py
+[0.913s] [ 84%] Built target unitree_ocr_interfaces_msg__rosidl_generator_py
+[1.032s] [ 89%] Built target unitree_ocr_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.042s] [ 94%] Built target unitree_ocr_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.066s] [100%] Built target unitree_ocr_interfaces__rosidl_typesupport_c__pyext
+[1.389s] running egg_info
+[1.401s] writing unitree_ocr_interfaces.egg-info/PKG-INFO
+[1.410s] writing dependency_links to unitree_ocr_interfaces.egg-info/dependency_links.txt
+[1.411s] writing top-level names to unitree_ocr_interfaces.egg-info/top_level.txt
+[1.414s] reading manifest file 'unitree_ocr_interfaces.egg-info/SOURCES.txt'
+[1.419s] writing manifest file 'unitree_ocr_interfaces.egg-info/SOURCES.txt'
+[1.522s] [100%] Built target ament_cmake_python_build_unitree_ocr_interfaces_egg
+[1.566s] Invoked command in '/home/rs/final_auto/build/unitree_ocr_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rs/final_auto/install/unitree_nav_launch_module:/opt/ros/humble /usr/bin/cmake --build /home/rs/final_auto/build/unitree_ocr_interfaces -- -j13 -l13
+[2.164s] Invoking command in '/home/rs/final_auto/build/unitree_ocr_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rs/final_auto/install/unitree_nav_launch_module:/opt/ros/humble /usr/bin/cmake --install /home/rs/final_auto/build/unitree_ocr_interfaces
+[2.198s] -- Install configuration: ""
+[2.199s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/ament_index/resource_index/rosidl_interfaces/unitree_ocr_interfaces
+[2.201s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces
+[2.201s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg
+[2.202s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detections.h
+[2.205s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail
+[2.205s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__functions.h
+[2.205s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__functions.h
+[2.205s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__struct.h
+[2.210s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__type_support.h
+[2.214s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__functions.c
+[2.215s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__struct.h
+[2.215s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__functions.c
+[2.216s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__type_support.h
+[2.220s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.221s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detection.h
+[2.224s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/library_path.sh
+[2.228s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/library_path.dsv
+[2.228s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_generator_c.so
+[2.232s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces
+[2.240s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg
+[2.241s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail
+[2.242s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[2.243s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__rosidl_typesupport_fastrtps_c.h
+[2.243s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.244s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.245s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces
+[2.246s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg
+[2.248s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.248s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail
+[2.249s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[2.249s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__rosidl_typesupport_introspection_c.h
+[2.250s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__type_support.c
+[2.250s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__type_support.c
+[2.251s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_introspection_c.so
+[2.252s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_c.so
+[2.252s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces
+[2.253s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg
+[2.253s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detection.hpp
+[2.254s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detections.hpp
+[2.257s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail
+[2.260s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__traits.hpp
+[2.261s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__builder.hpp
+[2.261s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__traits.hpp
+[2.262s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__builder.hpp
+[2.263s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__struct.hpp
+[2.264s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__struct.hpp
+[2.264s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces
+[2.264s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg
+[2.264s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail
+[2.264s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/dds_fastrtps
+[2.264s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__rosidl_typesupport_fastrtps_cpp.hpp
+[2.265s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[2.265s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.298s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.299s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces
+[2.300s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg
+[2.300s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail
+[2.300s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__rosidl_typesupport_introspection_cpp.hpp
+[2.301s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__type_support.cpp
+[2.301s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__type_support.cpp
+[2.302s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[2.306s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.308s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_cpp.so
+[2.311s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/pythonpath.sh
+[2.313s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/pythonpath.dsv
+[2.314s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces-0.0.0-py3.10.egg-info
+[2.314s] -- Installing: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.315s] -- Installing: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.315s] -- Installing: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.316s] -- Installing: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.316s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces
+[2.317s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/_unitree_ocr_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.318s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/_unitree_ocr_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.319s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/unitree_ocr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.319s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/__init__.py
+[2.320s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/unitree_ocr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.320s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/_unitree_ocr_interfaces_s.ep.rosidl_typesupport_c.c
+[2.321s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg
+[2.321s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg/_detection.py
+[2.322s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg/_detection_s.c
+[2.322s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg/_detections_s.c
+[2.323s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg/__init__.py
+[2.324s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg/_detections.py
+[2.325s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/libunitree_ocr_interfaces_msg__rosidl_generator_py.so
+[2.327s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/unitree_ocr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.356s] Listing '/home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces'...
+[2.357s] Listing '/home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg'...
+[2.383s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/unitree_ocr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.383s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/unitree_ocr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.386s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/unitree_ocr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.387s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces_msg__rosidl_generator_py.so
+[2.387s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/msg/Detection.idl
+[2.388s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/msg/Detections.idl
+[2.388s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/msg/Detection.msg
+[2.389s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/msg/Detections.msg
+[2.389s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/ament_index/resource_index/package_run_dependencies/unitree_ocr_interfaces
+[2.390s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/ament_index/resource_index/parent_prefix_path/unitree_ocr_interfaces
+[2.390s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/ament_prefix_path.sh
+[2.391s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/ament_prefix_path.dsv
+[2.392s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/path.sh
+[2.392s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/path.dsv
+[2.393s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/local_setup.bash
+[2.393s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/local_setup.sh
+[2.394s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/local_setup.zsh
+[2.394s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/local_setup.dsv
+[2.394s] -- Installing: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.dsv
+[2.394s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/ament_index/resource_index/packages/unitree_ocr_interfaces
+[2.394s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_generator_cExport.cmake
+[2.394s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_generator_cExport-noconfig.cmake
+[2.395s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[2.395s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.395s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_introspection_cExport.cmake
+[2.396s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.396s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_cExport.cmake
+[2.396s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_cExport-noconfig.cmake
+[2.399s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_generator_cppExport.cmake
+[2.400s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.401s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.401s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_introspection_cppExport.cmake
+[2.403s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.404s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_cppExport.cmake
+[2.405s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[2.411s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_generator_pyExport.cmake
+[2.412s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_generator_pyExport-noconfig.cmake
+[2.415s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.416s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.421s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.422s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.427s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.429s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.429s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.430s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfacesConfig.cmake
+[2.431s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfacesConfig-version.cmake
+[2.431s] -- Up-to-date: /home/rs/final_auto/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.xml
+[2.484s] Invoked command in '/home/rs/final_auto/build/unitree_ocr_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rs/final_auto/install/unitree_nav_launch_module:/opt/ros/humble /usr/bin/cmake --install /home/rs/final_auto/build/unitree_ocr_interfaces

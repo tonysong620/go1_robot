@@ -1,0 +1,36 @@
+[1.846s] Invoking command in '/home/rs/final_auto/src/unitree_nav/unitree_nav_launch_module': PYTHONPATH=/home/rs/final_auto/build/unitree_nav_launch_module/prefix_override:/home/rs/final_auto/install/unitree_nav_launch_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/unitree_nav_launch_module build --build-base /home/rs/final_auto/build/unitree_nav_launch_module/build install --record /home/rs/final_auto/build/unitree_nav_launch_module/install.log --single-version-externally-managed install_data
+[2.484s] running egg_info
+[2.487s] creating ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info
+[2.487s] writing ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/PKG-INFO
+[2.487s] writing dependency_links to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/dependency_links.txt
+[2.488s] writing entry points to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/entry_points.txt
+[2.488s] writing requirements to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/requires.txt
+[2.488s] writing top-level names to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/top_level.txt
+[2.488s] writing manifest file '../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/SOURCES.txt'
+[2.494s] reading manifest file '../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/SOURCES.txt'
+[2.497s] writing manifest file '../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/SOURCES.txt'
+[2.498s] running build
+[2.499s] running build_py
+[2.499s] creating /home/rs/final_auto/build/unitree_nav_launch_module/build
+[2.499s] creating /home/rs/final_auto/build/unitree_nav_launch_module/build/lib
+[2.499s] creating /home/rs/final_auto/build/unitree_nav_launch_module/build/lib/unitree_nav_launch_module
+[2.504s] copying unitree_nav_launch_module/ternary_text_substitution.py -> /home/rs/final_auto/build/unitree_nav_launch_module/build/lib/unitree_nav_launch_module
+[2.505s] copying unitree_nav_launch_module/__init__.py -> /home/rs/final_auto/build/unitree_nav_launch_module/build/lib/unitree_nav_launch_module
+[2.506s] running install
+[2.506s] running install_lib
+[2.507s] creating /home/rs/final_auto/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree_nav_launch_module
+[2.507s] copying /home/rs/final_auto/build/unitree_nav_launch_module/build/lib/unitree_nav_launch_module/ternary_text_substitution.py -> /home/rs/final_auto/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree_nav_launch_module
+[2.508s] copying /home/rs/final_auto/build/unitree_nav_launch_module/build/lib/unitree_nav_launch_module/__init__.py -> /home/rs/final_auto/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree_nav_launch_module
+[2.508s] byte-compiling /home/rs/final_auto/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree_nav_launch_module/ternary_text_substitution.py to ternary_text_substitution.cpython-310.pyc
+[2.509s] byte-compiling /home/rs/final_auto/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree_nav_launch_module/__init__.py to __init__.cpython-310.pyc
+[2.510s] running install_data
+[2.510s] creating /home/rs/final_auto/install/unitree_nav_launch_module/share/ament_index
+[2.511s] creating /home/rs/final_auto/install/unitree_nav_launch_module/share/ament_index/resource_index
+[2.511s] creating /home/rs/final_auto/install/unitree_nav_launch_module/share/ament_index/resource_index/packages
+[2.511s] copying resource/unitree_nav_launch_module -> /home/rs/final_auto/install/unitree_nav_launch_module/share/ament_index/resource_index/packages
+[2.512s] copying package.xml -> /home/rs/final_auto/install/unitree_nav_launch_module/share/unitree_nav_launch_module
+[2.512s] running install_egg_info
+[2.523s] Copying ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info to /home/rs/final_auto/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree_nav_launch_module-0.0.0-py3.10.egg-info
+[2.526s] running install_scripts
+[2.595s] writing list of installed files to '/home/rs/final_auto/build/unitree_nav_launch_module/install.log'
+[2.671s] Invoked command in '/home/rs/final_auto/src/unitree_nav/unitree_nav_launch_module' returned '0': PYTHONPATH=/home/rs/final_auto/build/unitree_nav_launch_module/prefix_override:/home/rs/final_auto/install/unitree_nav_launch_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/unitree_nav_launch_module build --build-base /home/rs/final_auto/build/unitree_nav_launch_module/build install --record /home/rs/final_auto/build/unitree_nav_launch_module/install.log --single-version-externally-managed install_data

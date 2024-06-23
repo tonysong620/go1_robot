@@ -1,0 +1,6 @@
+Invoking command in '/home/rs/final_auto/build/unitree_inspection_interfaces': /usr/bin/cmake /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces -DCMAKE_INSTALL_PREFIX=/home/rs/final_auto/install/unitree_inspection_interfaces
+Invoked command in '/home/rs/final_auto/build/unitree_inspection_interfaces' returned '0': /usr/bin/cmake /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces -DCMAKE_INSTALL_PREFIX=/home/rs/final_auto/install/unitree_inspection_interfaces
+Invoking command in '/home/rs/final_auto/build/unitree_inspection_interfaces': /usr/bin/cmake --build /home/rs/final_auto/build/unitree_inspection_interfaces -- -j13 -l13
+Invoked command in '/home/rs/final_auto/build/unitree_inspection_interfaces' returned '0': /usr/bin/cmake --build /home/rs/final_auto/build/unitree_inspection_interfaces -- -j13 -l13
+Invoking command in '/home/rs/final_auto/build/unitree_inspection_interfaces': /usr/bin/cmake --install /home/rs/final_auto/build/unitree_inspection_interfaces
+Invoked command in '/home/rs/final_auto/build/unitree_inspection_interfaces' returned '0': /usr/bin/cmake --install /home/rs/final_auto/build/unitree_inspection_interfaces

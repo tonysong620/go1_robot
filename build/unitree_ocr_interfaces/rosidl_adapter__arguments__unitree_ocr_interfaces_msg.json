@@ -1,0 +1,7 @@
+{
+  "package_name": "unitree_ocr_interfaces",
+  "non_idl_tuples": [
+    "/home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces:msg/Detection.msg",
+    "/home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces:msg/Detections.msg"
+  ]
+}

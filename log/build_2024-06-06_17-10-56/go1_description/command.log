@@ -1,4 +1,0 @@
-Invoking command in '/home/yeryn/final/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/go1_description -- -j4 -l4
-Invoked command in '/home/yeryn/final/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/go1_description -- -j4 -l4
-Invoking command in '/home/yeryn/final/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/go1_description
-Invoked command in '/home/yeryn/final/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/go1_description

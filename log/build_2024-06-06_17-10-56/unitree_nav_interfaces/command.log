@@ -1,6 +1,0 @@
-Invoking command in '/home/yeryn/final/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/final/unitree_nav/unitree_nav_interfaces -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_nav_interfaces
-Invoked command in '/home/yeryn/final/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/final/unitree_nav/unitree_nav_interfaces -DCMAKE_INSTALL_PREFIX=/home/yeryn/final/install/unitree_nav_interfaces
-Invoking command in '/home/yeryn/final/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/unitree_nav_interfaces -- -j4 -l4
-Invoked command in '/home/yeryn/final/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/final/build/unitree_nav_interfaces -- -j4 -l4
-Invoking command in '/home/yeryn/final/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/unitree_nav_interfaces
-Invoked command in '/home/yeryn/final/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/final/build/unitree_nav_interfaces

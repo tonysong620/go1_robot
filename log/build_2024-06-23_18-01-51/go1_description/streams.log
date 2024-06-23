@@ -1,0 +1,44 @@
+[0.141s] Invoking command in '/home/rs/final_auto/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rs/final_auto/install/unitree_nav_launch_module:/opt/ros/humble /usr/bin/cmake --build /home/rs/final_auto/build/go1_description -- -j13 -l13
+[1.351s] Invoked command in '/home/rs/final_auto/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rs/final_auto/install/unitree_nav_launch_module:/opt/ros/humble /usr/bin/cmake --build /home/rs/final_auto/build/go1_description -- -j13 -l13
+[1.466s] Invoking command in '/home/rs/final_auto/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rs/final_auto/install/unitree_nav_launch_module:/opt/ros/humble /usr/bin/cmake --install /home/rs/final_auto/build/go1_description
+[1.494s] -- Install configuration: ""
+[1.495s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//launch
+[1.496s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//launch/gazebo_with_gui.launch.py
+[1.496s] -- Installing: /home/rs/final_auto/install/go1_description/share/go1_description//launch/load_go1.launch.py
+[1.497s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//launch/spawn_go1.launch.py
+[1.499s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//config
+[1.500s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//config/go1.rviz
+[1.501s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes
+[1.502s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/thigh.dae
+[1.503s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/depthCamera.dae
+[1.506s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/thigh_mirror.dae
+[1.509s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/ultraSound.dae
+[1.511s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/calf.dae
+[1.513s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/trunk.dae
+[1.513s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/hip.dae
+[1.514s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro
+[1.515s] -- Installing: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/robot.urdf
+[1.515s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/depthCamera.xacro
+[1.516s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/gazebo.xacro
+[1.519s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/const.xacro
+[1.521s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/transmission.xacro
+[1.521s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/leg.xacro
+[1.522s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/robot.xacro
+[1.522s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/ultraSound.xacro
+[1.523s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/materials.xacro
+[1.524s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/ament_index/resource_index/package_run_dependencies/go1_description
+[1.525s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/ament_index/resource_index/parent_prefix_path/go1_description
+[1.525s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/environment/ament_prefix_path.sh
+[1.526s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/environment/ament_prefix_path.dsv
+[1.527s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/environment/path.sh
+[1.529s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/environment/path.dsv
+[1.530s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/local_setup.bash
+[1.530s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/local_setup.sh
+[1.531s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/local_setup.zsh
+[1.532s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/local_setup.dsv
+[1.532s] -- Installing: /home/rs/final_auto/install/go1_description/share/go1_description/package.dsv
+[1.532s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/ament_index/resource_index/packages/go1_description
+[1.532s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/cmake/go1_descriptionConfig.cmake
+[1.532s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/cmake/go1_descriptionConfig-version.cmake
+[1.532s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/package.xml
+[1.534s] Invoked command in '/home/rs/final_auto/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rs/final_auto/install/unitree_nav_launch_module:/opt/ros/humble /usr/bin/cmake --install /home/rs/final_auto/build/go1_description

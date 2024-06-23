@@ -1,0 +1,23 @@
+[100%] Built target inspection
+-- Install configuration: ""
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/lib/unitree_inspection/inspection
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/launch
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/launch/inspection.launch.py
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/launch/autonomous_inspection.launch.py
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/config
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/config/environment_params.yaml
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/ament_index/resource_index/package_run_dependencies/unitree_inspection
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/ament_index/resource_index/parent_prefix_path/unitree_inspection
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/environment/path.sh
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/environment/path.dsv
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/local_setup.bash
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/local_setup.sh
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/local_setup.zsh
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/local_setup.dsv
+-- Installing: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/package.dsv
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/ament_index/resource_index/packages/unitree_inspection
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/cmake/unitree_inspectionConfig.cmake
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/cmake/unitree_inspectionConfig-version.cmake
+-- Up-to-date: /home/rs/final_auto/install/unitree_inspection/share/unitree_inspection/package.xml
