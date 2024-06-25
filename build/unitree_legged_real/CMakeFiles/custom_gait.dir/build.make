@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_ros2/unitree_legged_real
+CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_legged_real
+CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_legged_real
 
 # Include any dependencies generated for this target.
 include CMakeFiles/custom_gait.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/custom_gait.dir/progress.make
 include CMakeFiles/custom_gait.dir/flags.make
 
 CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o: CMakeFiles/custom_gait.dir/flags.make
-CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o: /home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/custom_gait.cpp
+CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o: /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/custom_gait.cpp
 CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o: CMakeFiles/custom_gait.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/final_auto/build/unitree_legged_real/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o -MF CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o.d -o CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o -c /home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/custom_gait.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/go1_robot/build/unitree_legged_real/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o -MF CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o.d -o CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o -c /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/custom_gait.cpp
 
 CMakeFiles/custom_gait.dir/src/custom_gait.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/custom_gait.dir/src/custom_gait.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/custom_gait.cpp > CMakeFiles/custom_gait.dir/src/custom_gait.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/custom_gait.cpp > CMakeFiles/custom_gait.dir/src/custom_gait.cpp.i
 
 CMakeFiles/custom_gait.dir/src/custom_gait.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/custom_gait.dir/src/custom_gait.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/custom_gait.cpp -o CMakeFiles/custom_gait.dir/src/custom_gait.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/custom_gait.cpp -o CMakeFiles/custom_gait.dir/src/custom_gait.cpp.s
 
 # Object files for target custom_gait
 custom_gait_OBJECTS = \
@@ -93,12 +93,12 @@ custom_gait_EXTERNAL_OBJECTS =
 custom_gait: CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o
 custom_gait: CMakeFiles/custom_gait.dir/build.make
 custom_gait: /opt/ros/humble/lib/librclcpp.so
-custom_gait: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c.so
-custom_gait: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_c.so
-custom_gait: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp.so
-custom_gait: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp.so
-custom_gait: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_cpp.so
-custom_gait: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_py.so
+custom_gait: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c.so
+custom_gait: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_c.so
+custom_gait: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp.so
+custom_gait: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp.so
+custom_gait: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_cpp.so
+custom_gait: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_py.so
 custom_gait: /opt/ros/humble/lib/liblibstatistics_collector.so
 custom_gait: /opt/ros/humble/lib/librcl.so
 custom_gait: /opt/ros/humble/lib/librmw_implementation.so
@@ -147,15 +147,15 @@ custom_gait: /opt/ros/humble/lib/librmw.so
 custom_gait: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 custom_gait: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 custom_gait: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-custom_gait: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_c.so
-custom_gait: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_c.so
+custom_gait: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_c.so
+custom_gait: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_c.so
 custom_gait: /opt/ros/humble/lib/librosidl_typesupport_c.so
 custom_gait: /opt/ros/humble/lib/librcpputils.so
 custom_gait: /opt/ros/humble/lib/librosidl_runtime_c.so
 custom_gait: /opt/ros/humble/lib/librcutils.so
 custom_gait: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 custom_gait: CMakeFiles/custom_gait.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/final_auto/build/unitree_legged_real/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable custom_gait"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/go1_robot/build/unitree_legged_real/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable custom_gait"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/custom_gait.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -167,6 +167,6 @@ CMakeFiles/custom_gait.dir/clean:
 .PHONY : CMakeFiles/custom_gait.dir/clean
 
 CMakeFiles/custom_gait.dir/depend:
-	cd /home/rs/final_auto/build/unitree_legged_real && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_ros2/unitree_legged_real /home/rs/final_auto/src/unitree_ros2/unitree_legged_real /home/rs/final_auto/build/unitree_legged_real /home/rs/final_auto/build/unitree_legged_real /home/rs/final_auto/build/unitree_legged_real/CMakeFiles/custom_gait.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/go1_robot/build/unitree_legged_real && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real /home/rs/go1_robot/build/unitree_legged_real /home/rs/go1_robot/build/unitree_legged_real /home/rs/go1_robot/build/unitree_legged_real/CMakeFiles/custom_gait.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custom_gait.dir/depend
 

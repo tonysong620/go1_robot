@@ -1,0 +1,148 @@
+[0.115s] Invoking command in '/home/rs/go1_robot/build/unitree_inspection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rs/go1_robot/install/unitree_nav_launch_module /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_inspection_interfaces -- -j13 -l13
+[0.369s] [  3%] Built target unitree_inspection_interfaces_msg__cpp
+[0.440s] [ 12%] Built target unitree_inspection_interfaces_msg__rosidl_generator_c
+[0.576s] [ 12%] Built target ament_cmake_python_copy_unitree_inspection_interfaces
+[0.662s] [ 22%] Built target unitree_inspection_interfaces_msg__rosidl_typesupport_fastrtps_c
+[0.686s] [ 32%] Built target unitree_inspection_interfaces_msg__rosidl_typesupport_cpp
+[0.694s] [ 41%] Built target unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_cpp
+[0.715s] [ 51%] Built target unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c
+[0.720s] [ 61%] Built target unitree_inspection_interfaces_msg__rosidl_typesupport_fastrtps_cpp
+[0.732s] [ 70%] Built target unitree_inspection_interfaces_msg__rosidl_typesupport_c
+[0.851s] [ 70%] Built target unitree_inspection_interfaces_msg
+[0.976s] [ 74%] Built target unitree_inspection_interfaces_msg__py
+[1.116s] [ 80%] Built target unitree_inspection_interfaces_msg__rosidl_generator_py
+[1.245s] [ 87%] Built target unitree_inspection_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.261s] [ 93%] Built target unitree_inspection_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.270s] [100%] Built target unitree_inspection_interfaces__rosidl_typesupport_c__pyext
+[1.839s] running egg_info
+[1.841s] writing unitree_inspection_interfaces.egg-info/PKG-INFO
+[1.842s] writing dependency_links to unitree_inspection_interfaces.egg-info/dependency_links.txt
+[1.843s] writing top-level names to unitree_inspection_interfaces.egg-info/top_level.txt
+[1.851s] reading manifest file 'unitree_inspection_interfaces.egg-info/SOURCES.txt'
+[1.854s] writing manifest file 'unitree_inspection_interfaces.egg-info/SOURCES.txt'
+[1.941s] [100%] Built target ament_cmake_python_build_unitree_inspection_interfaces_egg
+[1.993s] Invoked command in '/home/rs/go1_robot/build/unitree_inspection_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rs/go1_robot/install/unitree_nav_launch_module /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_inspection_interfaces -- -j13 -l13
+[2.466s] Invoking command in '/home/rs/go1_robot/build/unitree_inspection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rs/go1_robot/install/unitree_nav_launch_module /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_inspection_interfaces
+[2.504s] -- Install configuration: ""
+[2.505s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/ament_index/resource_index/rosidl_interfaces/unitree_inspection_interfaces
+[2.506s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces
+[2.506s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv
+[2.506s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail
+[2.507s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__struct.h
+[2.509s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__functions.h
+[2.509s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__functions.c
+[2.510s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.h
+[2.511s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/go_to_inspection_point.h
+[2.511s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/msg
+[2.512s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.512s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/environment/library_path.sh
+[2.513s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/environment/library_path.dsv
+[2.513s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_generator_c.so
+[2.515s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces
+[2.516s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv
+[2.516s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail
+[2.517s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__rosidl_typesupport_fastrtps_c.h
+[2.517s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/msg
+[2.519s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.519s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.520s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces
+[2.521s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv
+[2.521s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail
+[2.522s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c
+[2.524s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__rosidl_typesupport_introspection_c.h
+[2.524s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/msg
+[2.525s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.526s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_introspection_c.so
+[2.526s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_c.so
+[2.528s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces
+[2.529s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv
+[2.530s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail
+[2.532s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__builder.hpp
+[2.533s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__traits.hpp
+[2.534s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__struct.hpp
+[2.535s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/go_to_inspection_point.hpp
+[2.536s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces
+[2.536s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv
+[2.537s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail
+[2.538s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/dds_fastrtps
+[2.538s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__rosidl_typesupport_fastrtps_cpp.hpp
+[2.539s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/msg
+[2.540s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.540s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.541s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces
+[2.542s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv
+[2.543s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail
+[2.543s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.cpp
+[2.544s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__rosidl_typesupport_introspection_cpp.hpp
+[2.545s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.546s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_cpp.so
+[2.547s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/environment/pythonpath.sh
+[2.548s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/environment/pythonpath.dsv
+[2.549s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces-0.0.0-py3.10.egg-info
+[2.550s] -- Installing: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.552s] -- Installing: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.553s] -- Installing: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.553s] -- Installing: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.554s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces
+[2.554s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/unitree_inspection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.556s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/unitree_inspection_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.557s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/unitree_inspection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.558s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/__init__.py
+[2.559s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/srv
+[2.560s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/srv/_go_to_inspection_point.py
+[2.561s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/srv/__init__.py
+[2.564s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c
+[2.564s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/_unitree_inspection_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.565s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/libunitree_inspection_interfaces_msg__rosidl_generator_py.so
+[2.565s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/_unitree_inspection_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.566s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/_unitree_inspection_interfaces_s.ep.rosidl_typesupport_c.c
+[2.744s] Listing '/home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces'...
+[2.745s] Listing '/home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/srv'...
+[2.763s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/unitree_inspection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.764s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/unitree_inspection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.764s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/local/lib/python3.10/dist-packages/unitree_inspection_interfaces/unitree_inspection_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.765s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces_msg__rosidl_generator_py.so
+[2.765s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/srv/GoToInspectionPoint.idl
+[2.766s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/srv/GoToInspectionPoint.srv
+[2.767s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/srv/GoToInspectionPoint_Request.msg
+[2.767s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/srv/GoToInspectionPoint_Response.msg
+[2.768s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/ament_index/resource_index/package_run_dependencies/unitree_inspection_interfaces
+[2.771s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/ament_index/resource_index/parent_prefix_path/unitree_inspection_interfaces
+[2.772s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/environment/ament_prefix_path.sh
+[2.772s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/environment/ament_prefix_path.dsv
+[2.773s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/environment/path.sh
+[2.773s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/environment/path.dsv
+[2.775s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/local_setup.bash
+[2.775s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/local_setup.sh
+[2.776s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/local_setup.zsh
+[2.777s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/local_setup.dsv
+[2.777s] -- Installing: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/package.dsv
+[2.779s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/ament_index/resource_index/packages/unitree_inspection_interfaces
+[2.779s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/export_unitree_inspection_interfaces_msg__rosidl_generator_cExport.cmake
+[2.780s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/export_unitree_inspection_interfaces_msg__rosidl_generator_cExport-noconfig.cmake
+[2.780s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/export_unitree_inspection_interfaces_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[2.780s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/export_unitree_inspection_interfaces_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.781s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_cExport.cmake
+[2.782s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.783s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/unitree_inspection_interfaces_msg__rosidl_typesupport_cExport.cmake
+[2.784s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/unitree_inspection_interfaces_msg__rosidl_typesupport_cExport-noconfig.cmake
+[2.784s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/export_unitree_inspection_interfaces_msg__rosidl_generator_cppExport.cmake
+[2.785s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/export_unitree_inspection_interfaces_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.786s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/export_unitree_inspection_interfaces_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.787s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_cppExport.cmake
+[2.787s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.788s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/unitree_inspection_interfaces_msg__rosidl_typesupport_cppExport.cmake
+[2.788s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/unitree_inspection_interfaces_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[2.789s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/export_unitree_inspection_interfaces_msg__rosidl_generator_pyExport.cmake
+[2.789s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/export_unitree_inspection_interfaces_msg__rosidl_generator_pyExport-noconfig.cmake
+[2.790s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.791s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.791s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.797s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.798s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.799s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.800s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.800s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/unitree_inspection_interfacesConfig.cmake
+[2.801s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/cmake/unitree_inspection_interfacesConfig-version.cmake
+[2.802s] -- Up-to-date: /home/rs/go1_robot/install/unitree_inspection_interfaces/share/unitree_inspection_interfaces/package.xml
+[2.808s] Invoked command in '/home/rs/go1_robot/build/unitree_inspection_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rs/go1_robot/install/unitree_nav_launch_module /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_inspection_interfaces

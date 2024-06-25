@@ -1,0 +1,4 @@
+Invoking command in '/home/rs/go1_robot/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_nav_interfaces -- -j13 -l13
+Invoked command in '/home/rs/go1_robot/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_nav_interfaces -- -j13 -l13
+Invoking command in '/home/rs/go1_robot/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_nav_interfaces
+Invoked command in '/home/rs/go1_robot/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_nav_interfaces

@@ -1,0 +1,41 @@
+[0.174s] Invoking command in '/home/rs/go1_robot/build/unitree_move_base': /usr/bin/cmake /home/rs/go1_robot/src/unitree_guide/unitree_move_base -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/unitree_move_base
+[0.204s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.205s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.205s]   CMake.
+[0.205s] 
+[0.205s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.206s]   CMake that the project does not need compatibility with older versions.
+[0.206s] 
+[0.206s] [0m
+[1.077s] -- The C compiler identification is GNU 11.4.0
+[1.738s] -- The CXX compiler identification is GNU 11.4.0
+[1.800s] -- Detecting C compiler ABI info
+[2.177s] -- Detecting C compiler ABI info - done
+[2.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.271s] -- Detecting C compile features
+[2.272s] -- Detecting C compile features - done
+[2.272s] -- Detecting CXX compiler ABI info
+[2.771s] -- Detecting CXX compiler ABI info - done
+[2.801s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.815s] -- Detecting CXX compile features
+[2.816s] -- Detecting CXX compile features - done
+[2.927s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.928s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.929s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.929s]   CMake did not find one.
+[2.929s] 
+[2.931s]   Could not find a package configuration file provided by "catkin" with any
+[2.931s]   of the following names:
+[2.932s] 
+[2.933s]     catkinConfig.cmake
+[2.934s]     catkin-config.cmake
+[2.935s] 
+[2.937s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.937s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.938s]   provides a separate development package or SDK, be sure it has been
+[2.939s]   installed.
+[2.940s] 
+[2.941s] [0m
+[2.941s] -- Configuring incomplete, errors occurred!
+[2.942s] See also "/home/rs/go1_robot/build/unitree_move_base/CMakeFiles/CMakeOutput.log".
+[2.946s] Invoked command in '/home/rs/go1_robot/build/unitree_move_base' returned '1': /usr/bin/cmake /home/rs/go1_robot/src/unitree_guide/unitree_move_base -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/unitree_move_base

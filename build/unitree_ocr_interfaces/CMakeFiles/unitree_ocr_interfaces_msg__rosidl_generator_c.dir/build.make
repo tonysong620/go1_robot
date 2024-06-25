@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces
+CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_ocr_interfaces
+CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_ocr_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/depend.make
@@ -84,8 +84,8 @@ rosidl_generator_c/unitree_ocr_interfaces/msg/detection.h: /opt/ros/humble/share
 rosidl_generator_c/unitree_ocr_interfaces/msg/detection.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/unitree_ocr_interfaces/msg/detection.h: rosidl_adapter/unitree_ocr_interfaces/msg/Detection.idl
 rosidl_generator_c/unitree_ocr_interfaces/msg/detection.h: rosidl_adapter/unitree_ocr_interfaces/msg/Detections.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rs/final_auto/build/unitree_ocr_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rs/go1_robot/build/unitree_ocr_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.h: rosidl_generator_c/unitree_ocr_interfaces/msg/detection.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.h
@@ -117,30 +117,30 @@ rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c: ro
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.o: CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/flags.make
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.o: rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.o: CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/final_auto/build/unitree_ocr_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.o -MF CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.o.d -o CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.o -c /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/go1_robot/build/unitree_ocr_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.o -MF CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.o.d -o CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.o -c /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c
 
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c > CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c > CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.i
 
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c -o CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c -o CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.c.s
 
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.o: CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/flags.make
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.o: rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.o: CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/final_auto/build/unitree_ocr_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.o -MF CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.o.d -o CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.o -c /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/go1_robot/build/unitree_ocr_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.o -MF CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.o.d -o CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.o -c /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c
 
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c > CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c > CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.i
 
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c -o CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c -o CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.c.s
 
 # Object files for target unitree_ocr_interfaces_msg__rosidl_generator_c
 unitree_ocr_interfaces_msg__rosidl_generator_c_OBJECTS = \
@@ -156,7 +156,7 @@ libunitree_ocr_interfaces__rosidl_generator_c.so: CMakeFiles/unitree_ocr_interfa
 libunitree_ocr_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libunitree_ocr_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libunitree_ocr_interfaces__rosidl_generator_c.so: CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/final_auto/build/unitree_ocr_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libunitree_ocr_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/go1_robot/build/unitree_ocr_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libunitree_ocr_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -177,6 +177,6 @@ CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/depend: rosidl_gen
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__type_support.h
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/unitree_ocr_interfaces/msg/detection.h
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/depend: rosidl_generator_c/unitree_ocr_interfaces/msg/detections.h
-	cd /home/rs/final_auto/build/unitree_ocr_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces /home/rs/final_auto/build/unitree_ocr_interfaces /home/rs/final_auto/build/unitree_ocr_interfaces /home/rs/final_auto/build/unitree_ocr_interfaces/CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/go1_robot/build/unitree_ocr_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces /home/rs/go1_robot/build/unitree_ocr_interfaces /home/rs/go1_robot/build/unitree_ocr_interfaces /home/rs/go1_robot/build/unitree_ocr_interfaces/CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_c.dir/depend
 

@@ -1,0 +1,3 @@
+Invoking command in '/home/rs/go1_robot/build/motor_ctrl': /usr/bin/cmake /home/rs/go1_robot/src/unitree_guide/unitree_actuator_sdk -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/motor_ctrl
+Invoked command in '/home/rs/go1_robot/build/motor_ctrl' returned '0': /usr/bin/cmake /home/rs/go1_robot/src/unitree_guide/unitree_actuator_sdk -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/motor_ctrl
+Invoking command in '/home/rs/go1_robot/build/motor_ctrl': /usr/bin/cmake --build /home/rs/go1_robot/build/motor_ctrl -- -j13 -l13

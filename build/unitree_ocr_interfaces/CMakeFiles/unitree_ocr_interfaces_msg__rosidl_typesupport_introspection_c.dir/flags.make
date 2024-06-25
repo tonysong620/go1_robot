@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_TYPESUPPORT_INTROSPECTION_C_BUILDING_DLL_unitree_ocr_interfaces -DROS_PACKAGE_NAME=\"unitree_ocr_interfaces\"
 
-C_INCLUDES = -I/home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_typesupport_introspection_c -I/home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c
+C_INCLUDES = -I/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_typesupport_introspection_c -I/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c
 
 C_FLAGS = -fPIC -Wall -std=gnu11
 

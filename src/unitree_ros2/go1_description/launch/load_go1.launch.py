@@ -10,7 +10,7 @@ from launch.substitutions import Command, LaunchConfiguration, PathJoinSubstitut
 from launch.conditions import LaunchConfigurationEquals, IfCondition
 from launch_ros.substitutions import FindPackageShare
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-
+import os
 
 def generate_launch_description():
     pkg_gazebo_ros = FindPackageShare('gazebo_ros').find('gazebo_ros')
@@ -82,19 +82,19 @@ def generate_launch_description():
 
         # Include Gazebo server
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([pkg_gazebo_ros, '/launch/gzserver.launch.py'])
+            PythonLaunchDescriptionSource([os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')])
         ),
 
         # Include Gazebo client
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([pkg_gazebo_ros, '/launch/gzclient.launch.py'])
+            PythonLaunchDescriptionSource([os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')])
         ),
 
         # Spawn the robot in Gazebo
         Node(
             package='gazebo_ros',
             executable='spawn_entity.py',
-            arguments=['-entity', 'go1_name', '-file', urdf_file],
+            arguments=['-topic', 'robot_description', '-entity', 'robot', '-x', '0.0', '-y', '0.0', '-z', '0.0'],
             output='screen'
         ),
 

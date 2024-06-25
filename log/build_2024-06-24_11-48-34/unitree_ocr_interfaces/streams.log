@@ -1,0 +1,161 @@
+[0.113s] Invoking command in '/home/rs/go1_robot/build/unitree_ocr_interfaces': /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_ocr_interfaces -- -j13 -l13
+[0.560s] [  2%] Built target unitree_ocr_interfaces_msg__cpp
+[0.569s] [ 12%] Built target unitree_ocr_interfaces_msg__rosidl_generator_c
+[0.579s] [ 12%] Built target ament_cmake_python_copy_unitree_ocr_interfaces
+[0.830s] [ 23%] Built target unitree_ocr_interfaces_msg__rosidl_typesupport_c
+[0.840s] [ 33%] Built target unitree_ocr_interfaces_msg__rosidl_typesupport_introspection_c
+[0.864s] [ 43%] Built target unitree_ocr_interfaces_msg__rosidl_typesupport_introspection_cpp
+[0.904s] [ 53%] Built target unitree_ocr_interfaces_msg__rosidl_typesupport_fastrtps_cpp
+[0.908s] [ 64%] Built target unitree_ocr_interfaces_msg__rosidl_typesupport_cpp
+[0.919s] [ 74%] Built target unitree_ocr_interfaces_msg__rosidl_typesupport_fastrtps_c
+[1.023s] [ 74%] Built target unitree_ocr_interfaces_msg
+[1.124s] [ 76%] Built target unitree_ocr_interfaces_msg__py
+[1.288s] [ 84%] Built target unitree_ocr_interfaces_msg__rosidl_generator_py
+[1.493s] [ 89%] Built target unitree_ocr_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.521s] [ 94%] Built target unitree_ocr_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.533s] [100%] Built target unitree_ocr_interfaces__rosidl_typesupport_c__pyext
+[1.863s] running egg_info
+[1.868s] writing unitree_ocr_interfaces.egg-info/PKG-INFO
+[1.869s] writing dependency_links to unitree_ocr_interfaces.egg-info/dependency_links.txt
+[1.869s] writing top-level names to unitree_ocr_interfaces.egg-info/top_level.txt
+[1.882s] reading manifest file 'unitree_ocr_interfaces.egg-info/SOURCES.txt'
+[1.884s] writing manifest file 'unitree_ocr_interfaces.egg-info/SOURCES.txt'
+[1.970s] [100%] Built target ament_cmake_python_build_unitree_ocr_interfaces_egg
+[2.017s] Invoked command in '/home/rs/go1_robot/build/unitree_ocr_interfaces' returned '0': /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_ocr_interfaces -- -j13 -l13
+[2.449s] Invoking command in '/home/rs/go1_robot/build/unitree_ocr_interfaces': /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_ocr_interfaces
+[2.491s] -- Install configuration: ""
+[2.497s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/ament_index/resource_index/rosidl_interfaces/unitree_ocr_interfaces
+[2.498s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces
+[2.500s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg
+[2.500s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detections.h
+[2.507s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail
+[2.508s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__functions.h
+[2.509s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__functions.h
+[2.509s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__struct.h
+[2.510s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__type_support.h
+[2.512s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__functions.c
+[2.513s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__struct.h
+[2.514s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__functions.c
+[2.514s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__type_support.h
+[2.516s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.522s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detection.h
+[2.522s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/library_path.sh
+[2.526s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/library_path.dsv
+[2.526s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_generator_c.so
+[2.529s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces
+[2.530s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg
+[2.530s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail
+[2.531s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[2.534s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__rosidl_typesupport_fastrtps_c.h
+[2.535s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.536s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.538s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces
+[2.540s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg
+[2.541s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.543s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail
+[2.544s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[2.544s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__rosidl_typesupport_introspection_c.h
+[2.545s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__type_support.c
+[2.549s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__type_support.c
+[2.557s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_introspection_c.so
+[2.557s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_c.so
+[2.557s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces
+[2.558s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg
+[2.558s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detection.hpp
+[2.560s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detections.hpp
+[2.560s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail
+[2.560s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__traits.hpp
+[2.561s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__builder.hpp
+[2.561s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__traits.hpp
+[2.562s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__builder.hpp
+[2.562s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__struct.hpp
+[2.562s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__struct.hpp
+[2.563s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces
+[2.563s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg
+[2.563s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail
+[2.563s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/dds_fastrtps
+[2.564s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__rosidl_typesupport_fastrtps_cpp.hpp
+[2.564s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[2.565s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.566s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.570s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces
+[2.571s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg
+[2.572s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail
+[2.572s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__rosidl_typesupport_introspection_cpp.hpp
+[2.574s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__type_support.cpp
+[2.574s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__type_support.cpp
+[2.574s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[2.576s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.577s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_cpp.so
+[2.577s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/pythonpath.sh
+[2.578s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/pythonpath.dsv
+[2.578s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces-0.0.0-py3.10.egg-info
+[2.579s] -- Installing: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.579s] -- Installing: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.579s] -- Installing: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.579s] -- Installing: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.581s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces
+[2.581s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/_unitree_ocr_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.581s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/_unitree_ocr_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.582s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/unitree_ocr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.583s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/__init__.py
+[2.584s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/unitree_ocr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.585s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/_unitree_ocr_interfaces_s.ep.rosidl_typesupport_c.c
+[2.596s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg
+[2.597s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg/_detection.py
+[2.597s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg/_detection_s.c
+[2.597s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg/_detections_s.c
+[2.597s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg/__init__.py
+[2.597s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg/_detections.py
+[2.598s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/libunitree_ocr_interfaces_msg__rosidl_generator_py.so
+[2.598s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/unitree_ocr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.676s] Listing '/home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces'...
+[2.677s] Listing '/home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/msg'...
+[2.701s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/unitree_ocr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.705s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/unitree_ocr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.720s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/local/lib/python3.10/dist-packages/unitree_ocr_interfaces/unitree_ocr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.723s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces_msg__rosidl_generator_py.so
+[2.723s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/msg/Detection.idl
+[2.724s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/msg/Detections.idl
+[2.725s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/msg/Detection.msg
+[2.726s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/msg/Detections.msg
+[2.728s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/ament_index/resource_index/package_run_dependencies/unitree_ocr_interfaces
+[2.730s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/ament_index/resource_index/parent_prefix_path/unitree_ocr_interfaces
+[2.733s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/ament_prefix_path.sh
+[2.734s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/ament_prefix_path.dsv
+[2.763s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/path.sh
+[2.764s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/environment/path.dsv
+[2.766s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/local_setup.bash
+[2.768s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/local_setup.sh
+[2.769s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/local_setup.zsh
+[2.771s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/local_setup.dsv
+[2.772s] -- Installing: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.dsv
+[2.775s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/ament_index/resource_index/packages/unitree_ocr_interfaces
+[2.778s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_generator_cExport.cmake
+[2.779s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_generator_cExport-noconfig.cmake
+[2.781s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[2.782s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.783s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_introspection_cExport.cmake
+[2.785s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.786s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_cExport.cmake
+[2.788s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_cExport-noconfig.cmake
+[2.788s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_generator_cppExport.cmake
+[2.789s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.790s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.792s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_introspection_cppExport.cmake
+[2.794s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.794s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_cppExport.cmake
+[2.795s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfaces_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[2.797s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_generator_pyExport.cmake
+[2.798s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/export_unitree_ocr_interfaces_msg__rosidl_generator_pyExport-noconfig.cmake
+[2.799s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.805s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.809s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.812s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.813s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.814s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.814s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.815s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfacesConfig.cmake
+[2.816s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/cmake/unitree_ocr_interfacesConfig-version.cmake
+[2.817s] -- Up-to-date: /home/rs/go1_robot/install/unitree_ocr_interfaces/share/unitree_ocr_interfaces/package.xml
+[2.817s] Invoked command in '/home/rs/go1_robot/build/unitree_ocr_interfaces' returned '0': /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_ocr_interfaces

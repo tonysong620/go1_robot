@@ -1,0 +1,190 @@
+[0.097s] Invoking command in '/home/rs/go1_robot/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rs/go1_robot/install/unitree_nav_launch_module:/opt/ros/humble /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_nav_interfaces -- -j13 -l13
+[0.308s] [  2%] Built target unitree_nav_interfaces_srv__cpp
+[0.317s] [ 12%] Built target unitree_nav_interfaces_srv__rosidl_generator_c
+[0.411s] [ 12%] Built target ament_cmake_python_copy_unitree_nav_interfaces
+[0.479s] [ 23%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_introspection_c
+[0.483s] [ 34%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_c
+[0.540s] [ 44%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_c
+[0.545s] [ 55%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cpp
+[0.559s] [ 65%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cpp
+[0.589s] [ 76%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_cpp
+[0.696s] [ 76%] Built target unitree_nav_interfaces_srv
+[0.778s] [ 78%] Built target unitree_nav_interfaces_srv__py
+[0.848s] [ 87%] Built target unitree_nav_interfaces_srv__rosidl_generator_py
+[0.947s] [ 91%] Built target unitree_nav_interfaces__rosidl_typesupport_c__pyext
+[0.948s] [ 95%] Built target unitree_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.962s] [100%] Built target unitree_nav_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.311s] running egg_info
+[1.322s] writing unitree_nav_interfaces.egg-info/PKG-INFO
+[1.323s] writing dependency_links to unitree_nav_interfaces.egg-info/dependency_links.txt
+[1.325s] writing top-level names to unitree_nav_interfaces.egg-info/top_level.txt
+[1.326s] reading manifest file 'unitree_nav_interfaces.egg-info/SOURCES.txt'
+[1.329s] writing manifest file 'unitree_nav_interfaces.egg-info/SOURCES.txt'
+[1.404s] [100%] Built target ament_cmake_python_build_unitree_nav_interfaces_egg
+[1.433s] Invoked command in '/home/rs/go1_robot/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rs/go1_robot/install/unitree_nav_launch_module:/opt/ros/humble /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_nav_interfaces -- -j13 -l13
+[2.423s] Invoking command in '/home/rs/go1_robot/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rs/go1_robot/install/unitree_nav_launch_module:/opt/ros/humble /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_nav_interfaces
+[2.424s] -- Install configuration: ""
+[2.425s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/ament_index/resource_index/rosidl_interfaces/unitree_nav_interfaces
+[2.426s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[2.426s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[2.429s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[2.430s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__functions.h
+[2.432s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.h
+[2.434s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.h
+[2.435s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.h
+[2.436s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__functions.h
+[2.436s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__struct.h
+[2.437s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__functions.c
+[2.438s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__functions.h
+[2.439s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__struct.h
+[2.440s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__functions.c
+[2.441s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__type_support.h
+[2.441s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__functions.c
+[2.443s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/nav_to_pose.h
+[2.444s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_gait.h
+[2.444s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_body_rpy.h
+[2.445s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[2.445s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.446s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/library_path.sh
+[2.447s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/library_path.dsv
+[2.447s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_generator_c.so
+[2.448s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[2.448s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[2.449s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[2.449s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_fastrtps_c.h
+[2.450s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_fastrtps_c.h
+[2.451s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__rosidl_typesupport_fastrtps_c.h
+[2.451s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[2.452s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.453s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.453s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[2.454s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[2.454s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_gait.hpp
+[2.455s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[2.455s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__struct.hpp
+[2.456s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__builder.hpp
+[2.457s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__builder.hpp
+[2.457s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__struct.hpp
+[2.458s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__traits.hpp
+[2.458s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__traits.hpp
+[2.459s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__traits.hpp
+[2.460s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.hpp
+[2.460s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__builder.hpp
+[2.462s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/nav_to_pose.hpp
+[2.465s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_body_rpy.hpp
+[2.465s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[2.466s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[2.467s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[2.467s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__rosidl_typesupport_fastrtps_cpp.hpp
+[2.468s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/dds_fastrtps
+[2.468s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_fastrtps_cpp.hpp
+[2.469s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[2.471s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[2.471s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.473s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.473s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[2.474s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[2.476s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[2.476s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.c
+[2.477s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.c
+[2.477s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__rosidl_typesupport_introspection_c.h
+[2.477s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_introspection_c.h
+[2.477s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__type_support.c
+[2.478s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_introspection_c.h
+[2.478s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[2.478s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.478s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so
+[2.478s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_c.so
+[2.478s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[2.479s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[2.479s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[2.479s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.cpp
+[2.479s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_introspection_cpp.hpp
+[2.479s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.cpp
+[2.479s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__type_support.cpp
+[2.480s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_introspection_cpp.hpp
+[2.480s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__rosidl_typesupport_introspection_cpp.hpp
+[2.481s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.483s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_cpp.so
+[2.484s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/pythonpath.sh
+[2.484s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/pythonpath.dsv
+[2.484s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info
+[2.485s] -- Installing: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.485s] -- Installing: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.485s] -- Installing: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.489s] -- Installing: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.489s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces
+[2.490s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/libunitree_nav_interfaces_srv__rosidl_generator_py.so
+[2.491s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.491s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.492s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/__init__.py
+[2.493s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv
+[2.493s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_body_rpy.py
+[2.494s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/__init__.py
+[2.495s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_body_rpy_s.c
+[2.496s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_gait_s.c
+[2.497s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_nav_to_pose_s.c
+[2.497s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_gait.py
+[2.498s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_nav_to_pose.py
+[2.499s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.499s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.500s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.500s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_c.c
+[2.555s] Listing '/home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces'...
+[2.556s] Listing '/home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv'...
+[2.568s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.569s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.573s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.573s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces_srv__rosidl_generator_py.so
+[2.574s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY.idl
+[2.576s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose.idl
+[2.579s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetGait.idl
+[2.579s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY.srv
+[2.580s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY_Request.msg
+[2.580s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY_Response.msg
+[2.585s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose.srv
+[2.586s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose_Request.msg
+[2.587s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose_Response.msg
+[2.587s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetGait.srv
+[2.588s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetGait_Request.msg
+[2.591s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetGait_Response.msg
+[2.592s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/ament_index/resource_index/package_run_dependencies/unitree_nav_interfaces
+[2.592s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/ament_index/resource_index/parent_prefix_path/unitree_nav_interfaces
+[2.592s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/ament_prefix_path.sh
+[2.592s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/ament_prefix_path.dsv
+[2.593s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/path.sh
+[2.593s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/path.dsv
+[2.594s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.bash
+[2.595s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.sh
+[2.596s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.zsh
+[2.596s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.dsv
+[2.597s] -- Installing: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.dsv
+[2.597s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/ament_index/resource_index/packages/unitree_nav_interfaces
+[2.598s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_cExport.cmake
+[2.598s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_cExport-noconfig.cmake
+[2.598s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cExport.cmake
+[2.598s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.599s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_cppExport.cmake
+[2.600s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.600s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.603s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cExport.cmake
+[2.604s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.604s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cExport.cmake
+[2.605s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cExport-noconfig.cmake
+[2.605s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cppExport.cmake
+[2.606s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.606s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cppExport.cmake
+[2.606s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cppExport-noconfig.cmake
+[2.607s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_pyExport.cmake
+[2.607s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_pyExport-noconfig.cmake
+[2.607s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.607s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.607s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.608s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.608s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.608s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.609s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.609s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfacesConfig.cmake
+[2.610s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfacesConfig-version.cmake
+[2.610s] -- Up-to-date: /home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.xml
+[2.650s] Invoked command in '/home/rs/go1_robot/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rs/go1_robot/install/unitree_nav_launch_module:/opt/ros/humble /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_nav_interfaces

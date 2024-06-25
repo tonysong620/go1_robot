@@ -1,0 +1,20 @@
+[2.575s] Invoking command in '/home/rs/go1_robot/src/unitree_nav/unitree_nav_launch_module': PYTHONPATH=/home/rs/go1_robot/build/unitree_nav_launch_module/prefix_override:/home/rs/go1_robot/install/unitree_nav_launch_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/unitree_nav_launch_module build --build-base /home/rs/go1_robot/build/unitree_nav_launch_module/build install --record /home/rs/go1_robot/build/unitree_nav_launch_module/install.log --single-version-externally-managed install_data
+[3.574s] running egg_info
+[3.576s] writing ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/PKG-INFO
+[3.577s] writing dependency_links to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/dependency_links.txt
+[3.578s] writing entry points to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/entry_points.txt
+[3.578s] writing requirements to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/requires.txt
+[3.585s] writing top-level names to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/top_level.txt
+[3.586s] reading manifest file '../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/SOURCES.txt'
+[3.587s] writing manifest file '../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/SOURCES.txt'
+[3.587s] running build
+[3.587s] running build_py
+[3.588s] running install
+[3.589s] running install_lib
+[3.592s] running install_data
+[3.593s] running install_egg_info
+[3.598s] removing '/home/rs/go1_robot/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree_nav_launch_module-0.0.0-py3.10.egg-info' (and everything under it)
+[3.599s] Copying ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info to /home/rs/go1_robot/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree_nav_launch_module-0.0.0-py3.10.egg-info
+[3.601s] running install_scripts
+[3.654s] writing list of installed files to '/home/rs/go1_robot/build/unitree_nav_launch_module/install.log'
+[3.704s] Invoked command in '/home/rs/go1_robot/src/unitree_nav/unitree_nav_launch_module' returned '0': PYTHONPATH=/home/rs/go1_robot/build/unitree_nav_launch_module/prefix_override:/home/rs/go1_robot/install/unitree_nav_launch_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/unitree_nav_launch_module build --build-base /home/rs/go1_robot/build/unitree_nav_launch_module/build install --record /home/rs/go1_robot/build/unitree_nav_launch_module/install.log --single-version-externally-managed install_data

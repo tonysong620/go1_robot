@@ -1,0 +1,43 @@
+[0.118s] Invoking command in '/home/rs/go1_robot/build/go1_description': /usr/bin/cmake --build /home/rs/go1_robot/build/go1_description -- -j13 -l13
+[0.171s] [0mCMake Error: The current CMakeCache.txt directory /home/rs/go1_robot/build/go1_description/CMakeCache.txt is different than the directory /home/rs/final_auto/build/go1_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.646s] Invoked command in '/home/rs/go1_robot/build/go1_description' returned '0': /usr/bin/cmake --build /home/rs/go1_robot/build/go1_description -- -j13 -l13
+[0.745s] Invoking command in '/home/rs/go1_robot/build/go1_description': /usr/bin/cmake --install /home/rs/go1_robot/build/go1_description
+[0.797s] -- Install configuration: ""
+[0.813s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//launch
+[0.815s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//launch/load_go1.launch.py
+[0.816s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//config
+[0.817s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//config/go1.rviz
+[0.823s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes
+[0.828s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/thigh.dae
+[0.829s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/depthCamera.dae
+[0.829s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/thigh_mirror.dae
+[0.830s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/ultraSound.dae
+[0.830s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/calf.dae
+[0.831s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/trunk.dae
+[0.831s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//meshes/hip.dae
+[0.832s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro
+[0.832s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/robot.urdf
+[0.833s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/depthCamera.xacro
+[0.833s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/gazebo.xacro
+[0.834s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/const.xacro
+[0.835s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/transmission.xacro
+[0.836s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/leg.xacro
+[0.837s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/robot.xacro
+[0.837s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/ultraSound.xacro
+[0.838s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description//xacro/materials.xacro
+[0.838s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/ament_index/resource_index/package_run_dependencies/go1_description
+[0.839s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/ament_index/resource_index/parent_prefix_path/go1_description
+[0.842s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/environment/ament_prefix_path.sh
+[0.844s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/environment/ament_prefix_path.dsv
+[0.846s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/environment/path.sh
+[0.851s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/environment/path.dsv
+[0.851s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/local_setup.bash
+[0.852s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/local_setup.sh
+[0.852s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/local_setup.zsh
+[0.853s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/local_setup.dsv
+[0.853s] -- Installing: /home/rs/final_auto/install/go1_description/share/go1_description/package.dsv
+[0.854s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/ament_index/resource_index/packages/go1_description
+[0.854s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/cmake/go1_descriptionConfig.cmake
+[0.854s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/cmake/go1_descriptionConfig-version.cmake
+[0.856s] -- Up-to-date: /home/rs/final_auto/install/go1_description/share/go1_description/package.xml
+[0.867s] Invoked command in '/home/rs/go1_robot/build/go1_description' returned '0': /usr/bin/cmake --install /home/rs/go1_robot/build/go1_description

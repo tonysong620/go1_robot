@@ -1,0 +1,121 @@
+[0.125s] Invoking command in '/home/rs/go1_robot/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rs/go1_robot/install/unitree_nav_launch_module /usr/bin/cmake --build /home/rs/go1_robot/build/go1_description -- -j13 -l13
+[0.295s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.423s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.430s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.638s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.650s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.690s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.767s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.909s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.307s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.324s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.905s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.025s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.226s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.238s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.269s] -- Searching for dependencies of ignition-math6
+[4.282s] -- Looking for OGRE...
+[4.309s] -- Found Ogre Ghadamon (1.9.0)
+[4.314s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[4.346s] -- Looking for OGRE_Paging...
+[4.347s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.351s] -- Looking for OGRE_Terrain...
+[4.352s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[4.353s] -- Looking for OGRE_Property...
+[4.353s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.354s] -- Looking for OGRE_RTShaderSystem...
+[4.354s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[4.355s] -- Looking for OGRE_Volume...
+[4.355s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.357s] -- Looking for OGRE_Overlay...
+[4.357s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.787s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.790s] -- Looking for ignition-transport8 -- found version 8.2.1
+[4.792s] -- Searching for dependencies of ignition-transport8
+[4.849s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[4.873s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.887s] -- Checking for module 'libzmq >= 4'
+[4.949s] --   Found libzmq , version 4.3.4
+[5.084s] -- Checking for module 'uuid'
+[5.126s] --   Found uuid, version 2.37.2
+[5.265s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.266s] -- Searching for dependencies of ignition-msgs5
+[5.309s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.325s] -- Checking for module 'tinyxml2'
+[5.366s] --   Found tinyxml2, version 9.0.0
+[5.479s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.486s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.491s] -- Searching for dependencies of ignition-common3
+[5.495s] -- Looking for dlfcn.h - found
+[5.496s] -- Looking for libdl - found
+[5.549s] -- Searching for <ignition-common3> component [graphics]
+[5.550s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[5.550s] -- Searching for dependencies of ignition-common3-graphics
+[5.552s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.563s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[5.564s] -- Searching for dependencies of ignition-fuel_tools4
+[5.703s] -- Checking for module 'jsoncpp'
+[5.782s] --   Found jsoncpp, version 1.9.5
+[5.929s] -- Checking for module 'libzip'
+[5.999s] --   Found libzip, version 1.7.3
+[6.134s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.134s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.137s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.138s] -- Gazebo version: 11.10
+[6.162s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[6.260s] -- Found rviz2: 11.2.12 (/opt/ros/humble/share/rviz2/cmake)
+[6.262s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[6.486s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.490s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.641s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.809s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.810s] -- Added test 'lint_cmake' to check CMake code style
+[7.812s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.816s] -- Added test 'xmllint' to check XML markup files
+[7.819s] -- Configuring done
+[7.842s] -- Generating done
+[7.850s] -- Build files have been written to: /home/rs/go1_robot/build/go1_description
+[7.926s] Invoked command in '/home/rs/go1_robot/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rs/go1_robot/install/unitree_nav_launch_module /usr/bin/cmake --build /home/rs/go1_robot/build/go1_description -- -j13 -l13
+[8.013s] Invoking command in '/home/rs/go1_robot/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rs/go1_robot/install/unitree_nav_launch_module /usr/bin/cmake --install /home/rs/go1_robot/build/go1_description
+[8.033s] -- Install configuration: ""
+[8.033s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//launch
+[8.033s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//launch/gazebo_with_gui.launch.py
+[8.033s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description//launch/load_go1.launch.py
+[8.034s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//launch/spawn_go1.launch.py
+[8.034s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//config
+[8.034s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//config/go1.rviz
+[8.035s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes
+[8.035s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/thigh.dae
+[8.035s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/depthCamera.dae
+[8.035s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/thigh_mirror.dae
+[8.035s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/ultraSound.dae
+[8.035s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/calf.dae
+[8.036s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/trunk.dae
+[8.036s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/hip.dae
+[8.036s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro
+[8.036s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/depthCamera.xacro
+[8.036s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/gazebo.xacro
+[8.036s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/const.xacro
+[8.037s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/transmission.xacro
+[8.037s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/leg.xacro
+[8.037s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/robot.xacro
+[8.037s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/ultraSound.xacro
+[8.037s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/materials.xacro
+[8.038s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description//urdf
+[8.038s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description//urdf/robot.urdf
+[8.038s] -- Installing: /home/rs/go1_robot/install/go1_description/share/ament_index/resource_index/package_run_dependencies/go1_description
+[8.038s] -- Installing: /home/rs/go1_robot/install/go1_description/share/ament_index/resource_index/parent_prefix_path/go1_description
+[8.039s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description/environment/ament_prefix_path.sh
+[8.039s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/environment/ament_prefix_path.dsv
+[8.039s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description/environment/path.sh
+[8.040s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/environment/path.dsv
+[8.041s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description/local_setup.bash
+[8.042s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description/local_setup.sh
+[8.042s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description/local_setup.zsh
+[8.042s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/local_setup.dsv
+[8.043s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/package.dsv
+[8.043s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/ament_index/resource_index/packages/go1_description
+[8.043s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description/cmake/go1_descriptionConfig.cmake
+[8.043s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description/cmake/go1_descriptionConfig-version.cmake
+[8.044s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/package.xml
+[8.050s] Invoked command in '/home/rs/go1_robot/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rs/go1_robot/install/unitree_nav_launch_module /usr/bin/cmake --install /home/rs/go1_robot/build/go1_description

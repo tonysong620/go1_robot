@@ -1,8 +1,8 @@
-# Install script for directory: /home/rs/final_auto/build/unitree_ocr_interfaces/unitree_ocr_interfaces_msg__py
+# Install script for directory: /home/rs/go1_robot/build/unitree_ocr_interfaces/unitree_ocr_interfaces_msg__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rs/final_auto/install/unitree_ocr_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/rs/go1_robot/install/unitree_ocr_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

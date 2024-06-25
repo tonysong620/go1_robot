@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs
+CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/final_auto/build/ros2_unitree_legged_msgs
+CMAKE_BINARY_DIR = /home/rs/go1_robot/build/ros2_unitree_legged_msgs
 
 # Utility rule file for ros2_unitree_legged_msgs__py.
 
@@ -117,8 +117,8 @@ rosidl_generator_py/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosi
 rosidl_generator_py/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ros2_unitree_legged_msgs/msg/LowState.idl
 rosidl_generator_py/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ros2_unitree_legged_msgs/msg/HighCmd.idl
 rosidl_generator_py/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ros2_unitree_legged_msgs/msg/HighState.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rs/final_auto/build/ros2_unitree_legged_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/rs/final_auto/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rs/go1_robot/build/ros2_unitree_legged_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/rs/go1_robot/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosidl_typesupport_introspection_c.c
@@ -230,10 +230,10 @@ ros2_unitree_legged_msgs__py/CMakeFiles/ros2_unitree_legged_msgs__py.dir/build: 
 .PHONY : ros2_unitree_legged_msgs__py/CMakeFiles/ros2_unitree_legged_msgs__py.dir/build
 
 ros2_unitree_legged_msgs__py/CMakeFiles/ros2_unitree_legged_msgs__py.dir/clean:
-	cd /home/rs/final_auto/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/ros2_unitree_legged_msgs__py.dir/cmake_clean.cmake
+	cd /home/rs/go1_robot/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/ros2_unitree_legged_msgs__py.dir/cmake_clean.cmake
 .PHONY : ros2_unitree_legged_msgs__py/CMakeFiles/ros2_unitree_legged_msgs__py.dir/clean
 
 ros2_unitree_legged_msgs__py/CMakeFiles/ros2_unitree_legged_msgs__py.dir/depend:
-	cd /home/rs/final_auto/build/ros2_unitree_legged_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py /home/rs/final_auto/build/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py /home/rs/final_auto/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py/CMakeFiles/ros2_unitree_legged_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/go1_robot/build/ros2_unitree_legged_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py /home/rs/go1_robot/build/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py /home/rs/go1_robot/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py/CMakeFiles/ros2_unitree_legged_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros2_unitree_legged_msgs__py/CMakeFiles/ros2_unitree_legged_msgs__py.dir/depend
 

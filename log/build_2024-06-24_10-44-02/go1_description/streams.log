@@ -1,0 +1,68 @@
+[0.059s] Invoking command in '/home/rs/go1_robot/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rs/go1_robot/src/unitree_ros2/go1_description -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/go1_description
+[0.531s] -- The C compiler identification is GNU 11.4.0
+[0.854s] -- The CXX compiler identification is GNU 11.4.0
+[0.887s] -- Detecting C compiler ABI info
+[1.093s] -- Detecting C compiler ABI info - done
+[1.104s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.107s] -- Detecting C compile features
+[1.110s] -- Detecting C compile features - done
+[1.119s] -- Detecting CXX compiler ABI info
+[1.356s] -- Detecting CXX compiler ABI info - done
+[1.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.370s] -- Detecting CXX compile features
+[1.370s] -- Detecting CXX compile features - done
+[1.380s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.731s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.980s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.196s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.199s] -- Added test 'lint_cmake' to check CMake code style
+[2.206s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.210s] -- Added test 'xmllint' to check XML markup files
+[2.214s] -- Configuring done
+[2.219s] -- Generating done
+[2.221s] -- Build files have been written to: /home/rs/go1_robot/build/go1_description
+[2.235s] Invoked command in '/home/rs/go1_robot/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rs/go1_robot/src/unitree_ros2/go1_description -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/go1_description
+[2.245s] Invoking command in '/home/rs/go1_robot/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rs/go1_robot/build/go1_description -- -j13 -l13
+[2.350s] Invoked command in '/home/rs/go1_robot/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rs/go1_robot/build/go1_description -- -j13 -l13
+[2.468s] Invoking command in '/home/rs/go1_robot/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rs/go1_robot/build/go1_description
+[2.494s] -- Install configuration: ""
+[2.495s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//launch
+[2.495s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description//launch/gazebo_with_gui.launch.py
+[2.496s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description//launch/load_go1.launch.py
+[2.498s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description//launch/spawn_go1.launch.py
+[2.499s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//config
+[2.499s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description//config/go1.rviz
+[2.499s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes
+[2.499s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/thigh.dae
+[2.500s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/depthCamera.dae
+[2.500s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/thigh_mirror.dae
+[2.500s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/ultraSound.dae
+[2.500s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/calf.dae
+[2.500s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/trunk.dae
+[2.648s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//meshes/hip.dae
+[2.649s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro
+[2.650s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/robot.urdf
+[2.651s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/depthCamera.xacro
+[2.651s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/gazebo.xacro
+[2.652s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/const.xacro
+[2.652s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/transmission.xacro
+[2.653s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/leg.xacro
+[2.653s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/robot.xacro
+[2.653s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/ultraSound.xacro
+[2.654s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description//xacro/materials.xacro
+[2.654s] -- Installing: /home/rs/go1_robot/install/go1_description/share/ament_index/resource_index/package_run_dependencies/go1_description
+[2.655s] -- Installing: /home/rs/go1_robot/install/go1_description/share/ament_index/resource_index/parent_prefix_path/go1_description
+[2.655s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/environment/ament_prefix_path.sh
+[2.655s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/environment/ament_prefix_path.dsv
+[2.656s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/environment/path.sh
+[2.656s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/environment/path.dsv
+[2.657s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/local_setup.bash
+[2.657s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/local_setup.sh
+[2.657s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/local_setup.zsh
+[2.657s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/local_setup.dsv
+[2.657s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/package.dsv
+[2.657s] -- Installing: /home/rs/go1_robot/install/go1_description/share/ament_index/resource_index/packages/go1_description
+[2.657s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/cmake/go1_descriptionConfig.cmake
+[2.658s] -- Installing: /home/rs/go1_robot/install/go1_description/share/go1_description/cmake/go1_descriptionConfig-version.cmake
+[2.658s] -- Up-to-date: /home/rs/go1_robot/install/go1_description/share/go1_description/package.xml
+[2.662s] Invoked command in '/home/rs/go1_robot/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rs/go1_robot/build/go1_description

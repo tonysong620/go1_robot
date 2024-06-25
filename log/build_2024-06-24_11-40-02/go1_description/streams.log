@@ -1,0 +1,91 @@
+[0.098s] Invoking command in '/home/rs/go1_robot/build/go1_description': /usr/bin/cmake --build /home/rs/go1_robot/build/go1_description -- -j13 -l13
+[0.184s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.816s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.817s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.958s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.968s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.990s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.023s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.046s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.165s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.174s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.491s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.639s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.750s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.758s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.774s] -- Searching for dependencies of ignition-math6
+[2.780s] -- Looking for OGRE...
+[2.807s] -- Found Ogre Ghadamon (1.9.0)
+[2.807s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.849s] -- Looking for OGRE_Paging...
+[2.851s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.853s] -- Looking for OGRE_Terrain...
+[2.854s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.855s] -- Looking for OGRE_Property...
+[2.856s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.857s] -- Looking for OGRE_RTShaderSystem...
+[2.859s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.860s] -- Looking for OGRE_Volume...
+[2.863s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.863s] -- Looking for OGRE_Overlay...
+[2.864s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.282s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.284s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.286s] -- Searching for dependencies of ignition-transport8
+[3.356s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.385s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.405s] -- Checking for module 'libzmq >= 4'
+[3.488s] --   Found libzmq , version 4.3.4
+[3.622s] -- Checking for module 'uuid'
+[3.651s] --   Found uuid, version 2.37.2
+[3.748s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.750s] -- Searching for dependencies of ignition-msgs5
+[3.787s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.803s] -- Checking for module 'tinyxml2'
+[3.877s] --   Found tinyxml2, version 9.0.0
+[4.047s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.048s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.050s] -- Searching for dependencies of ignition-common3
+[4.050s] -- Looking for dlfcn.h - found
+[4.051s] -- Looking for libdl - found
+[4.091s] -- Searching for <ignition-common3> component [graphics]
+[4.092s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[4.094s] -- Searching for dependencies of ignition-common3-graphics
+[4.096s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.104s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[4.106s] -- Searching for dependencies of ignition-fuel_tools4
+[4.214s] -- Checking for module 'jsoncpp'
+[4.264s] --   Found jsoncpp, version 1.9.5
+[4.387s] -- Checking for module 'libzip'
+[4.434s] --   Found libzip, version 1.7.3
+[4.541s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.542s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.543s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.547s] -- Gazebo version: 11.10
+[4.570s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[4.624s] -- Found rviz2: 11.2.12 (/opt/ros/humble/share/rviz2/cmake)
+[4.638s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[4.837s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.844s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.846s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.208s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[6.209s]   By not providing "Findjoint_state_publisher_gui.cmake" in CMAKE_MODULE_PATH
+[6.209s]   this project has asked CMake to find a package configuration file provided
+[6.209s]   by "joint_state_publisher_gui", but CMake did not find one.
+[6.209s] 
+[6.210s]   Could not find a package configuration file provided by
+[6.217s]   "joint_state_publisher_gui" with any of the following names:
+[6.217s] 
+[6.218s]     joint_state_publisher_guiConfig.cmake
+[6.221s]     joint_state_publisher_gui-config.cmake
+[6.224s] 
+[6.225s]   Add the installation prefix of "joint_state_publisher_gui" to
+[6.229s]   CMAKE_PREFIX_PATH or set "joint_state_publisher_gui_DIR" to a directory
+[6.235s]   containing one of the above files.  If "joint_state_publisher_gui" provides
+[6.237s]   a separate development package or SDK, be sure it has been installed.
+[6.237s] 
+[6.238s] [0m
+[6.238s] -- Configuring incomplete, errors occurred!
+[6.238s] See also "/home/rs/go1_robot/build/go1_description/CMakeFiles/CMakeOutput.log".
+[6.260s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[6.267s] Invoked command in '/home/rs/go1_robot/build/go1_description' returned '2': /usr/bin/cmake --build /home/rs/go1_robot/build/go1_description -- -j13 -l13

@@ -1,0 +1,46 @@
+[0.044s] Invoking command in '/home/rs/go1_robot/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_legged_real -- -j13 -l13
+[0.371s] [ 12%] Built target jsp_low
+[0.373s] [ 25%] Built target jsp_high
+[0.376s] [ 37%] Built target custom_gait
+[0.441s] [ 50%] Built target ros2_udp
+[0.442s] [ 62%] Built target ros2_position_example
+[0.444s] [ 75%] Built target ros2_walk_example
+[0.449s] [ 87%] Built target udp_low
+[0.456s] [100%] Built target udp_high
+[0.484s] Invoked command in '/home/rs/go1_robot/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_legged_real -- -j13 -l13
+[0.781s] Invoking command in '/home/rs/go1_robot/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_legged_real
+[0.800s] -- Install configuration: ""
+[0.800s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/lib
+[0.801s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/lib/libunitree_legged_sdk_arm64.so
+[0.801s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/lib/libunitree_legged_sdk_amd64.so
+[0.802s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp
+[0.802s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/lib/unitree_legged_real/udp_high
+[0.802s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/lib/unitree_legged_real/jsp_high
+[0.803s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example
+[0.803s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example
+[0.804s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/lib/unitree_legged_real/custom_gait
+[0.806s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/lib/unitree_legged_real/udp_low
+[0.807s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/lib/unitree_legged_real/jsp_low
+[0.809s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real//launch
+[0.810s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real//launch/high.launch.py
+[0.810s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real//launch/low.launch.py
+[0.811s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real//config
+[0.811s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real//config/state_only.rviz
+[0.813s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real//config/state_and_cmd.rviz
+[0.813s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real//config/cmd_only.rviz
+[0.813s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real
+[0.813s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real
+[0.813s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.sh
+[0.814s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.dsv
+[0.816s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real/environment/path.sh
+[0.816s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real/environment/path.dsv
+[0.816s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real/local_setup.bash
+[0.817s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real/local_setup.sh
+[0.817s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real/local_setup.zsh
+[0.817s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real/local_setup.dsv
+[0.817s] -- Installing: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real/package.dsv
+[0.817s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/ament_index/resource_index/packages/unitree_legged_real
+[0.818s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig.cmake
+[0.818s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig-version.cmake
+[0.818s] -- Up-to-date: /home/rs/go1_robot/install/unitree_legged_real/share/unitree_legged_real/package.xml
+[0.824s] Invoked command in '/home/rs/go1_robot/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rs/go1_robot/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_legged_real

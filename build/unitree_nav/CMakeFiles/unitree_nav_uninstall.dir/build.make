@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_nav/unitree_nav
+CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_nav/unitree_nav
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_nav
+CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_nav
 
 # Utility rule file for unitree_nav_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/unitree_nav_uninstall.dir/compiler_depend.make
 include CMakeFiles/unitree_nav_uninstall.dir/progress.make
 
 CMakeFiles/unitree_nav_uninstall:
-	/usr/bin/cmake -P /home/rs/final_auto/build/unitree_nav/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rs/go1_robot/build/unitree_nav/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 unitree_nav_uninstall: CMakeFiles/unitree_nav_uninstall
 unitree_nav_uninstall: CMakeFiles/unitree_nav_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/unitree_nav_uninstall.dir/clean:
 .PHONY : CMakeFiles/unitree_nav_uninstall.dir/clean
 
 CMakeFiles/unitree_nav_uninstall.dir/depend:
-	cd /home/rs/final_auto/build/unitree_nav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_nav/unitree_nav /home/rs/final_auto/src/unitree_nav/unitree_nav /home/rs/final_auto/build/unitree_nav /home/rs/final_auto/build/unitree_nav /home/rs/final_auto/build/unitree_nav/CMakeFiles/unitree_nav_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/go1_robot/build/unitree_nav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_nav/unitree_nav /home/rs/go1_robot/src/unitree_nav/unitree_nav /home/rs/go1_robot/build/unitree_nav /home/rs/go1_robot/build/unitree_nav /home/rs/go1_robot/build/unitree_nav/CMakeFiles/unitree_nav_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_nav_uninstall.dir/depend
 

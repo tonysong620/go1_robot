@@ -1,0 +1,27 @@
+[1.643s] Invoking command in '/home/rs/go1_robot/src/unitree_nav/unitree_nav_launch_module': PYTHONPATH=/home/rs/go1_robot/build/unitree_nav_launch_module/prefix_override:/home/rs/go1_robot/install/unitree_nav_launch_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/unitree_nav_launch_module build --build-base /home/rs/go1_robot/build/unitree_nav_launch_module/build install --record /home/rs/go1_robot/build/unitree_nav_launch_module/install.log --single-version-externally-managed install_data
+[2.227s] running egg_info
+[2.230s] creating ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info
+[2.230s] writing ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/PKG-INFO
+[2.232s] writing dependency_links to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/dependency_links.txt
+[2.232s] writing entry points to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/entry_points.txt
+[2.234s] writing requirements to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/requires.txt
+[2.234s] writing top-level names to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/top_level.txt
+[2.234s] writing manifest file '../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/SOURCES.txt'
+[2.235s] reading manifest file '../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/SOURCES.txt'
+[2.242s] writing manifest file '../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/SOURCES.txt'
+[2.243s] running build
+[2.243s] running build_py
+[2.244s] creating /home/rs/go1_robot/build/unitree_nav_launch_module/build
+[2.245s] creating /home/rs/go1_robot/build/unitree_nav_launch_module/build/lib
+[2.246s] creating /home/rs/go1_robot/build/unitree_nav_launch_module/build/lib/unitree_nav_launch_module
+[2.247s] copying unitree_nav_launch_module/ternary_text_substitution.py -> /home/rs/go1_robot/build/unitree_nav_launch_module/build/lib/unitree_nav_launch_module
+[2.248s] copying unitree_nav_launch_module/__init__.py -> /home/rs/go1_robot/build/unitree_nav_launch_module/build/lib/unitree_nav_launch_module
+[2.250s] running install
+[2.250s] running install_lib
+[2.250s] running install_data
+[2.251s] running install_egg_info
+[2.252s] removing '/home/rs/go1_robot/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree_nav_launch_module-0.0.0-py3.10.egg-info' (and everything under it)
+[2.252s] Copying ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info to /home/rs/go1_robot/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree_nav_launch_module-0.0.0-py3.10.egg-info
+[2.253s] running install_scripts
+[2.305s] writing list of installed files to '/home/rs/go1_robot/build/unitree_nav_launch_module/install.log'
+[2.360s] Invoked command in '/home/rs/go1_robot/src/unitree_nav/unitree_nav_launch_module' returned '0': PYTHONPATH=/home/rs/go1_robot/build/unitree_nav_launch_module/prefix_override:/home/rs/go1_robot/install/unitree_nav_launch_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/unitree_nav_launch_module build --build-base /home/rs/go1_robot/build/unitree_nav_launch_module/build install --record /home/rs/go1_robot/build/unitree_nav_launch_module/install.log --single-version-externally-managed install_data

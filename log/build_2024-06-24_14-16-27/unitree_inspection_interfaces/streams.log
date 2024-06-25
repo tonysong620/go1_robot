@@ -1,0 +1,23 @@
+[0.119s] Invoking command in '/home/rs/go1_robot/build/unitree_inspection_interfaces': /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_inspection_interfaces -- -j13 -l13
+[0.553s] [  3%] Built target unitree_inspection_interfaces_msg__cpp
+[0.597s] [  3%] Built target ament_cmake_python_copy_unitree_inspection_interfaces
+[0.598s] [ 12%] Built target unitree_inspection_interfaces_msg__rosidl_generator_c
+[0.867s] [ 32%] Built target unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_cpp
+[0.868s] [ 32%] Built target unitree_inspection_interfaces_msg__rosidl_typesupport_fastrtps_cpp
+[0.900s] [ 41%] Built target unitree_inspection_interfaces_msg__rosidl_typesupport_cpp
+[0.915s] [ 51%] Built target unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c
+[0.915s] [ 61%] Built target unitree_inspection_interfaces_msg__rosidl_typesupport_c
+[0.923s] [ 70%] Built target unitree_inspection_interfaces_msg__rosidl_typesupport_fastrtps_c
+[1.053s] [ 70%] Built target unitree_inspection_interfaces_msg
+[1.141s] [ 74%] Built target unitree_inspection_interfaces_msg__py
+[1.262s] [ 80%] Built target unitree_inspection_interfaces_msg__rosidl_generator_py
+[1.374s] [ 87%] Built target unitree_inspection_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.375s] [ 93%] Built target unitree_inspection_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.385s] [100%] Built target unitree_inspection_interfaces__rosidl_typesupport_c__pyext
+[1.649s] running egg_info
+[1.651s] writing unitree_inspection_interfaces.egg-info/PKG-INFO
+[1.651s] writing dependency_links to unitree_inspection_interfaces.egg-info/dependency_links.txt
+[1.652s] writing top-level names to unitree_inspection_interfaces.egg-info/top_level.txt
+[1.663s] reading manifest file 'unitree_inspection_interfaces.egg-info/SOURCES.txt'
+[1.663s] writing manifest file 'unitree_inspection_interfaces.egg-info/SOURCES.txt'
+[1.746s] [100%] Built target ament_cmake_python_build_unitree_inspection_interfaces_egg

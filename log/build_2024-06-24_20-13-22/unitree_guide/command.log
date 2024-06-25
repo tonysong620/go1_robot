@@ -1,0 +1,1 @@
+Invoking command in '/home/rs/go1_robot/build/unitree_guide': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/rs/go1_robot/install/unitree_nav_launch_module /usr/bin/cmake /home/rs/go1_robot/src/unitree_guide/unitree_guide -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/unitree_guide

@@ -1,0 +1,25 @@
+running egg_info
+creating ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info
+writing ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/PKG-INFO
+writing dependency_links to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/dependency_links.txt
+writing entry points to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/entry_points.txt
+writing requirements to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/requires.txt
+writing top-level names to ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/top_level.txt
+writing manifest file '../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/SOURCES.txt'
+reading manifest file '../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/SOURCES.txt'
+writing manifest file '../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rs/go1_robot/build/unitree_nav_launch_module/build
+creating /home/rs/go1_robot/build/unitree_nav_launch_module/build/lib
+creating /home/rs/go1_robot/build/unitree_nav_launch_module/build/lib/unitree_nav_launch_module
+copying unitree_nav_launch_module/ternary_text_substitution.py -> /home/rs/go1_robot/build/unitree_nav_launch_module/build/lib/unitree_nav_launch_module
+copying unitree_nav_launch_module/__init__.py -> /home/rs/go1_robot/build/unitree_nav_launch_module/build/lib/unitree_nav_launch_module
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/rs/go1_robot/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree_nav_launch_module-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/unitree_nav_launch_module/unitree_nav_launch_module.egg-info to /home/rs/go1_robot/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree_nav_launch_module-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rs/go1_robot/build/unitree_nav_launch_module/install.log'

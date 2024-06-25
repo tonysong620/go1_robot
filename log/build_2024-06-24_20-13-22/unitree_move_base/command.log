@@ -1,0 +1,2 @@
+Invoking command in '/home/rs/go1_robot/build/unitree_move_base': /usr/bin/cmake /home/rs/go1_robot/src/unitree_guide/unitree_move_base -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/unitree_move_base
+Invoked command in '/home/rs/go1_robot/build/unitree_move_base' returned '1': /usr/bin/cmake /home/rs/go1_robot/src/unitree_guide/unitree_move_base -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/unitree_move_base

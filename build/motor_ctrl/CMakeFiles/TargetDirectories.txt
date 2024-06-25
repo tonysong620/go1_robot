@@ -1,0 +1,4 @@
+/home/rs/go1_robot/build/motor_ctrl/CMakeFiles/check_c.dir
+/home/rs/go1_robot/build/motor_ctrl/CMakeFiles/check_cpp.dir
+/home/rs/go1_robot/build/motor_ctrl/CMakeFiles/edit_cache.dir
+/home/rs/go1_robot/build/motor_ctrl/CMakeFiles/rebuild_cache.dir

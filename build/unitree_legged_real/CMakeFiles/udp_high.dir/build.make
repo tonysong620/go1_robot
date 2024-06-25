@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_ros2/unitree_legged_real
+CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_legged_real
+CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_legged_real
 
 # Include any dependencies generated for this target.
 include CMakeFiles/udp_high.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/udp_high.dir/progress.make
 include CMakeFiles/udp_high.dir/flags.make
 
 CMakeFiles/udp_high.dir/src/udp_high.cpp.o: CMakeFiles/udp_high.dir/flags.make
-CMakeFiles/udp_high.dir/src/udp_high.cpp.o: /home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/udp_high.cpp
+CMakeFiles/udp_high.dir/src/udp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/udp_high.cpp
 CMakeFiles/udp_high.dir/src/udp_high.cpp.o: CMakeFiles/udp_high.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/final_auto/build/unitree_legged_real/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/udp_high.dir/src/udp_high.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/udp_high.dir/src/udp_high.cpp.o -MF CMakeFiles/udp_high.dir/src/udp_high.cpp.o.d -o CMakeFiles/udp_high.dir/src/udp_high.cpp.o -c /home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/udp_high.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/go1_robot/build/unitree_legged_real/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/udp_high.dir/src/udp_high.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/udp_high.dir/src/udp_high.cpp.o -MF CMakeFiles/udp_high.dir/src/udp_high.cpp.o.d -o CMakeFiles/udp_high.dir/src/udp_high.cpp.o -c /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/udp_high.cpp
 
 CMakeFiles/udp_high.dir/src/udp_high.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/udp_high.dir/src/udp_high.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/udp_high.cpp > CMakeFiles/udp_high.dir/src/udp_high.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/udp_high.cpp > CMakeFiles/udp_high.dir/src/udp_high.cpp.i
 
 CMakeFiles/udp_high.dir/src/udp_high.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/udp_high.dir/src/udp_high.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/udp_high.cpp -o CMakeFiles/udp_high.dir/src/udp_high.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/udp_high.cpp -o CMakeFiles/udp_high.dir/src/udp_high.cpp.s
 
 # Object files for target udp_high
 udp_high_OBJECTS = \
@@ -93,12 +93,12 @@ udp_high_EXTERNAL_OBJECTS =
 udp_high: CMakeFiles/udp_high.dir/src/udp_high.cpp.o
 udp_high: CMakeFiles/udp_high.dir/build.make
 udp_high: /opt/ros/humble/lib/librclcpp.so
-udp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c.so
-udp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_c.so
-udp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp.so
-udp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp.so
-udp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_cpp.so
-udp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_py.so
+udp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c.so
+udp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_c.so
+udp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp.so
+udp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp.so
+udp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_cpp.so
+udp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_py.so
 udp_high: /opt/ros/humble/lib/liblibstatistics_collector.so
 udp_high: /opt/ros/humble/lib/librcl.so
 udp_high: /opt/ros/humble/lib/librmw_implementation.so
@@ -147,15 +147,15 @@ udp_high: /opt/ros/humble/lib/librmw.so
 udp_high: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 udp_high: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 udp_high: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-udp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_c.so
-udp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_c.so
+udp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_c.so
+udp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_c.so
 udp_high: /opt/ros/humble/lib/librosidl_typesupport_c.so
 udp_high: /opt/ros/humble/lib/librcpputils.so
 udp_high: /opt/ros/humble/lib/librosidl_runtime_c.so
 udp_high: /opt/ros/humble/lib/librcutils.so
 udp_high: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 udp_high: CMakeFiles/udp_high.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/final_auto/build/unitree_legged_real/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable udp_high"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/go1_robot/build/unitree_legged_real/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable udp_high"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/udp_high.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -167,6 +167,6 @@ CMakeFiles/udp_high.dir/clean:
 .PHONY : CMakeFiles/udp_high.dir/clean
 
 CMakeFiles/udp_high.dir/depend:
-	cd /home/rs/final_auto/build/unitree_legged_real && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_ros2/unitree_legged_real /home/rs/final_auto/src/unitree_ros2/unitree_legged_real /home/rs/final_auto/build/unitree_legged_real /home/rs/final_auto/build/unitree_legged_real /home/rs/final_auto/build/unitree_legged_real/CMakeFiles/udp_high.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/go1_robot/build/unitree_legged_real && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real /home/rs/go1_robot/build/unitree_legged_real /home/rs/go1_robot/build/unitree_legged_real /home/rs/go1_robot/build/unitree_legged_real/CMakeFiles/udp_high.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/udp_high.dir/depend
 

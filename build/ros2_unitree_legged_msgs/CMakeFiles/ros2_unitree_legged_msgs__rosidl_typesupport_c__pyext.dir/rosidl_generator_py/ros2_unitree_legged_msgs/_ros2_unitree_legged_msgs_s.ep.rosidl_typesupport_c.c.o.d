@@ -1,5 +1,5 @@
 CMakeFiles/ros2_unitree_legged_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosidl_typesupport_c.c.o: \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_py/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosidl_typesupport_c.c \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_py/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosidl_typesupport_c.c \
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
@@ -201,37 +201,37 @@ CMakeFiles/ros2_unitree_legged_msgs__rosidl_typesupport_c__pyext.dir/rosidl_gene
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_cmd__type_support.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/rosidl_generator_c__visibility_control.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_cmd__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_cmd__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__type_support.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_cmd__type_support.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_cmd__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_cmd__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_state__type_support.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_state__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_state__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__type_support.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/imu__type_support.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/imu__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/imu__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/led__type_support.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/led__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/led__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/low_cmd__type_support.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/low_cmd__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/low_cmd__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/low_state__type_support.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/low_state__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/low_state__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_cmd__type_support.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_cmd__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_cmd__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__type_support.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__functions.h
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_cmd__type_support.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_cmd__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_cmd__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__type_support.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_cmd__type_support.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_cmd__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_cmd__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_state__type_support.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_state__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_state__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__type_support.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/imu__type_support.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/imu__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/imu__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/led__type_support.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/led__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/led__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/low_cmd__type_support.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/low_cmd__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/low_cmd__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/low_state__type_support.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/low_state__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/low_state__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_cmd__type_support.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_cmd__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_cmd__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__type_support.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__functions.h

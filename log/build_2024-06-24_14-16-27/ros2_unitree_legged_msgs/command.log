@@ -1,0 +1,1 @@
+Invoking command in '/home/rs/go1_robot/build/ros2_unitree_legged_msgs': /usr/bin/cmake --build /home/rs/go1_robot/build/ros2_unitree_legged_msgs -- -j13 -l13

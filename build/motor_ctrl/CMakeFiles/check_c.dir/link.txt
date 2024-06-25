@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/check_c.dir/src/check.c.o -o /home/rs/go1_robot/src/unitree_guide/unitree_actuator_sdk/bin/check_c   -L/home/rs/go1_robot/src/unitree_guide/unitree_actuator_sdk/lib  -Wl,-rpath,/home/rs/go1_robot/src/unitree_guide/unitree_actuator_sdk/lib -lUnitree_motor_SDK_Linux64 

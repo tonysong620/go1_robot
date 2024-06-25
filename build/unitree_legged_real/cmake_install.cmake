@@ -1,8 +1,8 @@
-# Install script for directory: /home/rs/final_auto/src/unitree_ros2/unitree_legged_real
+# Install script for directory: /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rs/final_auto/install/unitree_legged_real")
+  set(CMAKE_INSTALL_PREFIX "/home/rs/go1_robot/install/unitree_legged_real")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE DIRECTORY FILES "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE DIRECTORY FILES "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,12 +53,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_udp"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/final_auto/build/unitree_legged_real/ros2_udp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/go1_robot/build/unitree_legged_real/ros2_udp")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_udp" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_udp")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_udp"
-         OLD_RPATH "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/final_auto/install/ros2_unitree_legged_msgs/lib:"
+         OLD_RPATH "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_udp")
@@ -73,12 +73,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/udp_high"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/final_auto/build/unitree_legged_real/udp_high")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/go1_robot/build/unitree_legged_real/udp_high")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/udp_high" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/udp_high")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/udp_high"
-         OLD_RPATH "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/final_auto/install/ros2_unitree_legged_msgs/lib:"
+         OLD_RPATH "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/udp_high")
@@ -93,12 +93,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/jsp_high"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/final_auto/build/unitree_legged_real/jsp_high")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/go1_robot/build/unitree_legged_real/jsp_high")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/jsp_high" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/jsp_high")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/jsp_high"
-         OLD_RPATH "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/final_auto/install/ros2_unitree_legged_msgs/lib:"
+         OLD_RPATH "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/jsp_high")
@@ -113,12 +113,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_walk_example"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/final_auto/build/unitree_legged_real/ros2_walk_example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/go1_robot/build/unitree_legged_real/ros2_walk_example")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_walk_example" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_walk_example")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_walk_example"
-         OLD_RPATH "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/final_auto/install/ros2_unitree_legged_msgs/lib:"
+         OLD_RPATH "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_walk_example")
@@ -133,12 +133,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_position_example"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/final_auto/build/unitree_legged_real/ros2_position_example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/go1_robot/build/unitree_legged_real/ros2_position_example")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_position_example" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_position_example")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_position_example"
-         OLD_RPATH "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/final_auto/install/ros2_unitree_legged_msgs/lib:"
+         OLD_RPATH "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/ros2_position_example")
@@ -153,12 +153,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/custom_gait"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/final_auto/build/unitree_legged_real/custom_gait")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/go1_robot/build/unitree_legged_real/custom_gait")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/custom_gait" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/custom_gait")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/custom_gait"
-         OLD_RPATH "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/final_auto/install/ros2_unitree_legged_msgs/lib:"
+         OLD_RPATH "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/custom_gait")
@@ -173,12 +173,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/udp_low"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/final_auto/build/unitree_legged_real/udp_low")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/go1_robot/build/unitree_legged_real/udp_low")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/udp_low" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/udp_low")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/udp_low"
-         OLD_RPATH "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/final_auto/install/ros2_unitree_legged_msgs/lib:"
+         OLD_RPATH "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/udp_low")
@@ -193,12 +193,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/jsp_low"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/final_auto/build/unitree_legged_real/jsp_low")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE EXECUTABLE FILES "/home/rs/go1_robot/build/unitree_legged_real/jsp_low")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/jsp_low" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/jsp_low")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/jsp_low"
-         OLD_RPATH "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/final_auto/install/ros2_unitree_legged_msgs/lib:"
+         OLD_RPATH "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/lib:/opt/ros/humble/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real/jsp_low")
@@ -208,17 +208,17 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real/" TYPE DIRECTORY FILES
-    "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/launch"
-    "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/config"
+    "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/launch"
+    "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/config"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rs/final_auto/build/unitree_legged_real/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_legged_real/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rs/final_auto/build/unitree_legged_real/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_legged_real/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -226,7 +226,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real/environment" TYPE FILE FILES "/home/rs/final_auto/build/unitree_legged_real/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real/environment" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_legged_real/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -234,42 +234,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real/environment" TYPE FILE FILES "/home/rs/final_auto/build/unitree_legged_real/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real/environment" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_legged_real/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/rs/final_auto/build/unitree_legged_real/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_legged_real/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/rs/final_auto/build/unitree_legged_real/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_legged_real/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/rs/final_auto/build/unitree_legged_real/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_legged_real/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/rs/final_auto/build/unitree_legged_real/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_legged_real/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/rs/final_auto/build/unitree_legged_real/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_legged_real/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rs/final_auto/build/unitree_legged_real/ament_cmake_index/share/ament_index/resource_index/packages/unitree_legged_real")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_legged_real/ament_cmake_index/share/ament_index/resource_index/packages/unitree_legged_real")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real/cmake" TYPE FILE FILES
-    "/home/rs/final_auto/build/unitree_legged_real/ament_cmake_core/unitree_legged_realConfig.cmake"
-    "/home/rs/final_auto/build/unitree_legged_real/ament_cmake_core/unitree_legged_realConfig-version.cmake"
+    "/home/rs/go1_robot/build/unitree_legged_real/ament_cmake_core/unitree_legged_realConfig.cmake"
+    "/home/rs/go1_robot/build/unitree_legged_real/ament_cmake_core/unitree_legged_realConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -280,5 +280,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rs/final_auto/build/unitree_legged_real/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rs/go1_robot/build/unitree_legged_real/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

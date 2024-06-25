@@ -1,0 +1,1 @@
+Invoking command in '/home/rs/go1_robot/build/unitree_ocr_interfaces': /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_ocr_interfaces -- -j13 -l13

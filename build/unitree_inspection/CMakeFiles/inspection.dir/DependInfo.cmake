@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rs/final_auto/src/unitree_inspection/unitree_inspection/src/inspection.cpp" "CMakeFiles/inspection.dir/src/inspection.cpp.o" "gcc" "CMakeFiles/inspection.dir/src/inspection.cpp.o.d"
+  "/home/rs/go1_robot/src/unitree_inspection/unitree_inspection/src/inspection.cpp" "CMakeFiles/inspection.dir/src/inspection.cpp.o" "gcc" "CMakeFiles/inspection.dir/src/inspection.cpp.o.d"
   )
 
 # Targets to which this target links.

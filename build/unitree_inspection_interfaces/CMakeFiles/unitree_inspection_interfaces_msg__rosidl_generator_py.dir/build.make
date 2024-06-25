@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces
+CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_inspection_interfaces
+CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_inspection_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/fl
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.o: CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/flags.make
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.o: rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.o: CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.o -MF CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.o.d -o CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.o -c /home/rs/final_auto/build/unitree_inspection_interfaces/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.o -MF CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.o.d -o CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.o -c /home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c
 
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rs/final_auto/build/unitree_inspection_interfaces/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c > CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c > CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.i
 
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rs/final_auto/build/unitree_inspection_interfaces/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c -o CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c -o CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_inspection_interfaces/srv/_go_to_inspection_point_s.c.s
 
 # Object files for target unitree_inspection_interfaces_msg__rosidl_generator_py
 unitree_inspection_interfaces_msg__rosidl_generator_py_OBJECTS = \
@@ -98,7 +98,7 @@ rosidl_generator_py/unitree_inspection_interfaces/libunitree_inspection_interfac
 rosidl_generator_py/unitree_inspection_interfaces/libunitree_inspection_interfaces_msg__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/unitree_inspection_interfaces/libunitree_inspection_interfaces_msg__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/unitree_inspection_interfaces/libunitree_inspection_interfaces_msg__rosidl_generator_py.so: CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/unitree_inspection_interfaces/libunitree_inspection_interfaces_msg__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/unitree_inspection_interfaces/libunitree_inspection_interfaces_msg__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/clean
 
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/depend:
-	cd /home/rs/final_auto/build/unitree_inspection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/go1_robot/build/unitree_inspection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/depend
 
