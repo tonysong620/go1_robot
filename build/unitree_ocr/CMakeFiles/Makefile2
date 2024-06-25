@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_ocr
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_ocr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_ocr
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_ocr
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -88,14 +88,14 @@ clean: CMakeFiles/doxygen.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/unitree_ocr_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rs/go1_robot/build/unitree_ocr/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rs/final_auto/build/unitree_ocr/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/go1_robot/build/unitree_ocr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/final_auto/build/unitree_ocr/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/go1_robot/build/unitree_ocr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/final_auto/build/unitree_ocr/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -114,14 +114,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/unitree_ocr_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitree_ocr_uninstall.dir/build.make CMakeFiles/unitree_ocr_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitree_ocr_uninstall.dir/build.make CMakeFiles/unitree_ocr_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rs/go1_robot/build/unitree_ocr/CMakeFiles --progress-num= "Built target unitree_ocr_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rs/final_auto/build/unitree_ocr/CMakeFiles --progress-num= "Built target unitree_ocr_uninstall"
 .PHONY : CMakeFiles/unitree_ocr_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/unitree_ocr_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/go1_robot/build/unitree_ocr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/final_auto/build/unitree_ocr/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/unitree_ocr_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/go1_robot/build/unitree_ocr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/final_auto/build/unitree_ocr/CMakeFiles 0
 .PHONY : CMakeFiles/unitree_ocr_uninstall.dir/rule
 
 # Convenience name for target.
@@ -140,14 +140,14 @@ CMakeFiles/unitree_ocr_uninstall.dir/clean:
 CMakeFiles/unitree_ocr.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitree_ocr.dir/build.make CMakeFiles/unitree_ocr.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitree_ocr.dir/build.make CMakeFiles/unitree_ocr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rs/go1_robot/build/unitree_ocr/CMakeFiles --progress-num=4,5 "Built target unitree_ocr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rs/final_auto/build/unitree_ocr/CMakeFiles --progress-num=4,5 "Built target unitree_ocr"
 .PHONY : CMakeFiles/unitree_ocr.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/unitree_ocr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/go1_robot/build/unitree_ocr/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/final_auto/build/unitree_ocr/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/unitree_ocr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/go1_robot/build/unitree_ocr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/final_auto/build/unitree_ocr/CMakeFiles 0
 .PHONY : CMakeFiles/unitree_ocr.dir/rule
 
 # Convenience name for target.
@@ -166,14 +166,14 @@ CMakeFiles/unitree_ocr.dir/clean:
 CMakeFiles/text_detection_subscriber.dir/all: CMakeFiles/unitree_ocr.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_detection_subscriber.dir/build.make CMakeFiles/text_detection_subscriber.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_detection_subscriber.dir/build.make CMakeFiles/text_detection_subscriber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rs/go1_robot/build/unitree_ocr/CMakeFiles --progress-num=2,3 "Built target text_detection_subscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rs/final_auto/build/unitree_ocr/CMakeFiles --progress-num=2,3 "Built target text_detection_subscriber"
 .PHONY : CMakeFiles/text_detection_subscriber.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/text_detection_subscriber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/go1_robot/build/unitree_ocr/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/final_auto/build/unitree_ocr/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/text_detection_subscriber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/go1_robot/build/unitree_ocr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/final_auto/build/unitree_ocr/CMakeFiles 0
 .PHONY : CMakeFiles/text_detection_subscriber.dir/rule
 
 # Convenience name for target.
@@ -192,14 +192,14 @@ CMakeFiles/text_detection_subscriber.dir/clean:
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rs/go1_robot/build/unitree_ocr/CMakeFiles --progress-num=1 "Built target doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rs/final_auto/build/unitree_ocr/CMakeFiles --progress-num=1 "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/go1_robot/build/unitree_ocr/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/final_auto/build/unitree_ocr/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/go1_robot/build/unitree_ocr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rs/final_auto/build/unitree_ocr/CMakeFiles 0
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.

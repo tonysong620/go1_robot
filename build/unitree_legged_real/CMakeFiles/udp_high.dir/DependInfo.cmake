@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/udp_high.cpp" "CMakeFiles/udp_high.dir/src/udp_high.cpp.o" "gcc" "CMakeFiles/udp_high.dir/src/udp_high.cpp.o.d"
+  "/home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/udp_high.cpp" "CMakeFiles/udp_high.dir/src/udp_high.cpp.o" "gcc" "CMakeFiles/udp_high.dir/src/udp_high.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/ros2_unitree_legged_msgs
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/ros2_unitree_legged_msgs
 
 # Utility rule file for ros2_unitree_legged_msgs_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ros2_unitree_legged_msgs_uninstall.dir/compiler_depend.make
 include CMakeFiles/ros2_unitree_legged_msgs_uninstall.dir/progress.make
 
 CMakeFiles/ros2_unitree_legged_msgs_uninstall:
-	/usr/bin/cmake -P /home/rs/go1_robot/build/ros2_unitree_legged_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rs/final_auto/build/ros2_unitree_legged_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ros2_unitree_legged_msgs_uninstall: CMakeFiles/ros2_unitree_legged_msgs_uninstall
 ros2_unitree_legged_msgs_uninstall: CMakeFiles/ros2_unitree_legged_msgs_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ros2_unitree_legged_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/ros2_unitree_legged_msgs_uninstall.dir/clean
 
 CMakeFiles/ros2_unitree_legged_msgs_uninstall.dir/depend:
-	cd /home/rs/go1_robot/build/ros2_unitree_legged_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs/CMakeFiles/ros2_unitree_legged_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/ros2_unitree_legged_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs/CMakeFiles/ros2_unitree_legged_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ros2_unitree_legged_msgs_uninstall.dir/depend
 

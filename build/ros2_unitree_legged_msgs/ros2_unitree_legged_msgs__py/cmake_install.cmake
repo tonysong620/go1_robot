@@ -1,8 +1,8 @@
-# Install script for directory: /home/rs/go1_robot/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py
+# Install script for directory: /home/rs/final_auto/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rs/go1_robot/install/ros2_unitree_legged_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/rs/final_auto/install/ros2_unitree_legged_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

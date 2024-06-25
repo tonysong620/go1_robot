@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_nav/unitree_nav
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_nav/unitree_nav
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_nav
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_nav
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cmd_processor.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/cmd_processor.dir/progress.make
 include CMakeFiles/cmd_processor.dir/flags.make
 
 CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: CMakeFiles/cmd_processor.dir/flags.make
-CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/unitree_nav/unitree_nav/src/cmd_processor.cpp
+CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/final_auto/src/unitree_nav/unitree_nav/src/cmd_processor.cpp
 CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: CMakeFiles/cmd_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/go1_robot/build/unitree_nav/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o -MF CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o.d -o CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o -c /home/rs/go1_robot/src/unitree_nav/unitree_nav/src/cmd_processor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/final_auto/build/unitree_nav/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o -MF CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o.d -o CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o -c /home/rs/final_auto/src/unitree_nav/unitree_nav/src/cmd_processor.cpp
 
 CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/go1_robot/src/unitree_nav/unitree_nav/src/cmd_processor.cpp > CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/final_auto/src/unitree_nav/unitree_nav/src/cmd_processor.cpp > CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.i
 
 CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/go1_robot/src/unitree_nav/unitree_nav/src/cmd_processor.cpp -o CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/final_auto/src/unitree_nav/unitree_nav/src/cmd_processor.cpp -o CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.s
 
 # Object files for target cmd_processor
 cmd_processor_OBJECTS = \
@@ -99,18 +99,18 @@ cmd_processor: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.
 cmd_processor: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
 cmd_processor: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_cpp.so
 cmd_processor: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_py.so
-cmd_processor: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c.so
-cmd_processor: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_c.so
-cmd_processor: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp.so
-cmd_processor: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp.so
-cmd_processor: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_cpp.so
-cmd_processor: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_py.so
-cmd_processor: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so
-cmd_processor: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so
-cmd_processor: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so
-cmd_processor: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so
-cmd_processor: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_cpp.so
-cmd_processor: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces_srv__rosidl_generator_py.so
+cmd_processor: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c.so
+cmd_processor: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_c.so
+cmd_processor: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp.so
+cmd_processor: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp.so
+cmd_processor: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_cpp.so
+cmd_processor: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_py.so
+cmd_processor: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so
+cmd_processor: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so
+cmd_processor: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so
+cmd_processor: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so
+cmd_processor: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_cpp.so
+cmd_processor: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces_srv__rosidl_generator_py.so
 cmd_processor: /opt/ros/humble/lib/liblibstatistics_collector.so
 cmd_processor: /opt/ros/humble/lib/librcl.so
 cmd_processor: /opt/ros/humble/lib/librmw_implementation.so
@@ -146,8 +146,8 @@ cmd_processor: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
 cmd_processor: /opt/ros/humble/lib/libtracetools.so
 cmd_processor: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so
 cmd_processor: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
-cmd_processor: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_c.so
-cmd_processor: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_c.so
+cmd_processor: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_c.so
+cmd_processor: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_c.so
 cmd_processor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 cmd_processor: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 cmd_processor: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -171,9 +171,9 @@ cmd_processor: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 cmd_processor: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 cmd_processor: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 cmd_processor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-cmd_processor: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_c.so
+cmd_processor: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_c.so
 cmd_processor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-cmd_processor: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_generator_c.so
+cmd_processor: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_generator_c.so
 cmd_processor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 cmd_processor: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 cmd_processor: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
@@ -187,7 +187,7 @@ cmd_processor: /opt/ros/humble/lib/librcpputils.so
 cmd_processor: /opt/ros/humble/lib/librosidl_runtime_c.so
 cmd_processor: /opt/ros/humble/lib/librcutils.so
 cmd_processor: CMakeFiles/cmd_processor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/go1_robot/build/unitree_nav/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cmd_processor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/final_auto/build/unitree_nav/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cmd_processor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cmd_processor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -199,6 +199,6 @@ CMakeFiles/cmd_processor.dir/clean:
 .PHONY : CMakeFiles/cmd_processor.dir/clean
 
 CMakeFiles/cmd_processor.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_nav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_nav/unitree_nav /home/rs/go1_robot/src/unitree_nav/unitree_nav /home/rs/go1_robot/build/unitree_nav /home/rs/go1_robot/build/unitree_nav /home/rs/go1_robot/build/unitree_nav/CMakeFiles/cmd_processor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_nav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_nav/unitree_nav /home/rs/final_auto/src/unitree_nav/unitree_nav /home/rs/final_auto/build/unitree_nav /home/rs/final_auto/build/unitree_nav /home/rs/final_auto/build/unitree_nav/CMakeFiles/cmd_processor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cmd_processor.dir/depend
 

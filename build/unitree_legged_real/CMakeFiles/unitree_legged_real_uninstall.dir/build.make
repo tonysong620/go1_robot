@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_ros2/unitree_legged_real
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_legged_real
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_legged_real
 
 # Utility rule file for unitree_legged_real_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/unitree_legged_real_uninstall.dir/compiler_depend.make
 include CMakeFiles/unitree_legged_real_uninstall.dir/progress.make
 
 CMakeFiles/unitree_legged_real_uninstall:
-	/usr/bin/cmake -P /home/rs/go1_robot/build/unitree_legged_real/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rs/final_auto/build/unitree_legged_real/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 unitree_legged_real_uninstall: CMakeFiles/unitree_legged_real_uninstall
 unitree_legged_real_uninstall: CMakeFiles/unitree_legged_real_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/unitree_legged_real_uninstall.dir/clean:
 .PHONY : CMakeFiles/unitree_legged_real_uninstall.dir/clean
 
 CMakeFiles/unitree_legged_real_uninstall.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_legged_real && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real /home/rs/go1_robot/build/unitree_legged_real /home/rs/go1_robot/build/unitree_legged_real /home/rs/go1_robot/build/unitree_legged_real/CMakeFiles/unitree_legged_real_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_legged_real && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_ros2/unitree_legged_real /home/rs/final_auto/src/unitree_ros2/unitree_legged_real /home/rs/final_auto/build/unitree_legged_real /home/rs/final_auto/build/unitree_legged_real /home/rs/final_auto/build/unitree_legged_real/CMakeFiles/unitree_legged_real_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_legged_real_uninstall.dir/depend
 

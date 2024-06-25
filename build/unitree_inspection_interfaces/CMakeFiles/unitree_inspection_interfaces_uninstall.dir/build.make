@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_inspection_interfaces
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_inspection_interfaces
 
 # Utility rule file for unitree_inspection_interfaces_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/unitree_inspection_interfaces_uninstall.dir/compiler_depend.m
 include CMakeFiles/unitree_inspection_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/unitree_inspection_interfaces_uninstall:
-	/usr/bin/cmake -P /home/rs/go1_robot/build/unitree_inspection_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rs/final_auto/build/unitree_inspection_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 unitree_inspection_interfaces_uninstall: CMakeFiles/unitree_inspection_interfaces_uninstall
 unitree_inspection_interfaces_uninstall: CMakeFiles/unitree_inspection_interfaces_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/unitree_inspection_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/unitree_inspection_interfaces_uninstall.dir/clean
 
 CMakeFiles/unitree_inspection_interfaces_uninstall.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_inspection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_inspection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_inspection_interfaces_uninstall.dir/depend
 

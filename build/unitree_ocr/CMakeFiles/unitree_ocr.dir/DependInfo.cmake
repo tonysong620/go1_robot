@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rs/go1_robot/src/unitree_inspection/unitree_ocr/src/ocr.cpp" "CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o" "gcc" "CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o.d"
+  "/home/rs/final_auto/src/unitree_inspection/unitree_ocr/src/ocr.cpp" "CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o" "gcc" "CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o.d"
   )
 
 # Targets to which this target links.

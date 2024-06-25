@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_ocr
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_ocr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_ocr
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_ocr
 
 # Utility rule file for unitree_ocr_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/unitree_ocr_uninstall.dir/compiler_depend.make
 include CMakeFiles/unitree_ocr_uninstall.dir/progress.make
 
 CMakeFiles/unitree_ocr_uninstall:
-	/usr/bin/cmake -P /home/rs/go1_robot/build/unitree_ocr/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rs/final_auto/build/unitree_ocr/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 unitree_ocr_uninstall: CMakeFiles/unitree_ocr_uninstall
 unitree_ocr_uninstall: CMakeFiles/unitree_ocr_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/unitree_ocr_uninstall.dir/clean:
 .PHONY : CMakeFiles/unitree_ocr_uninstall.dir/clean
 
 CMakeFiles/unitree_ocr_uninstall.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_ocr && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_ocr /home/rs/go1_robot/src/unitree_inspection/unitree_ocr /home/rs/go1_robot/build/unitree_ocr /home/rs/go1_robot/build/unitree_ocr /home/rs/go1_robot/build/unitree_ocr/CMakeFiles/unitree_ocr_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_ocr && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_ocr /home/rs/final_auto/src/unitree_inspection/unitree_ocr /home/rs/final_auto/build/unitree_ocr /home/rs/final_auto/build/unitree_ocr /home/rs/final_auto/build/unitree_ocr/CMakeFiles/unitree_ocr_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_ocr_uninstall.dir/depend
 

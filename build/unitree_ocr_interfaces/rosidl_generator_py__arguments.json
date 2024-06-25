@@ -1,10 +1,10 @@
 {
   "package_name": "unitree_ocr_interfaces",
-  "output_dir": "/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_py/unitree_ocr_interfaces",
+  "output_dir": "/home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_py/unitree_ocr_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces:msg/Detection.idl",
-    "/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces:msg/Detections.idl"
+    "/home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces:msg/Detection.idl",
+    "/home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces:msg/Detections.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -20,7 +20,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces/msg/Detection.idl",
-    "/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces/msg/Detections.idl"
+    "/home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces/msg/Detection.idl",
+    "/home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces/msg/Detections.idl"
   ]
 }

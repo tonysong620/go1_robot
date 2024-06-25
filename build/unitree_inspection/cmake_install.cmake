@@ -1,8 +1,8 @@
-# Install script for directory: /home/rs/go1_robot/src/unitree_inspection/unitree_inspection
+# Install script for directory: /home/rs/final_auto/src/unitree_inspection/unitree_inspection
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rs/go1_robot/install/unitree_inspection")
+  set(CMAKE_INSTALL_PREFIX "/home/rs/final_auto/install/unitree_inspection")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_inspection/inspection"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_inspection" TYPE EXECUTABLE FILES "/home/rs/go1_robot/build/unitree_inspection/inspection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_inspection" TYPE EXECUTABLE FILES "/home/rs/final_auto/build/unitree_inspection/inspection")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_inspection/inspection" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_inspection/inspection")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_inspection/inspection"
-         OLD_RPATH "/opt/ros/humble/lib:/home/rs/go1_robot/install/unitree_nav_interfaces/lib:/home/rs/go1_robot/install/unitree_ocr_interfaces/lib:/home/rs/go1_robot/install/unitree_inspection_interfaces/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/rs/final_auto/install/unitree_nav_interfaces/lib:/home/rs/final_auto/install/unitree_ocr_interfaces/lib:/home/rs/final_auto/install/unitree_inspection_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/unitree_inspection/inspection")
@@ -64,17 +64,17 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE DIRECTORY FILES
-    "/home/rs/go1_robot/src/unitree_inspection/unitree_inspection/launch"
-    "/home/rs/go1_robot/src/unitree_inspection/unitree_inspection/config"
+    "/home/rs/final_auto/src/unitree_inspection/unitree_inspection/launch"
+    "/home/rs/final_auto/src/unitree_inspection/unitree_inspection/config"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_inspection/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_inspection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rs/final_auto/build/unitree_inspection/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_inspection")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_inspection/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/unitree_inspection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rs/final_auto/build/unitree_inspection/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/unitree_inspection")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -82,7 +82,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection/environment" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_inspection/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection/environment" TYPE FILE FILES "/home/rs/final_auto/build/unitree_inspection/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -90,42 +90,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection/environment" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_inspection/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection/environment" TYPE FILE FILES "/home/rs/final_auto/build/unitree_inspection/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_inspection/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE FILE FILES "/home/rs/final_auto/build/unitree_inspection/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_inspection/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE FILE FILES "/home/rs/final_auto/build/unitree_inspection/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_inspection/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE FILE FILES "/home/rs/final_auto/build/unitree_inspection/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_inspection/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE FILE FILES "/home/rs/final_auto/build/unitree_inspection/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_inspection/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE FILE FILES "/home/rs/final_auto/build/unitree_inspection/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rs/go1_robot/build/unitree_inspection/ament_cmake_index/share/ament_index/resource_index/packages/unitree_inspection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rs/final_auto/build/unitree_inspection/ament_cmake_index/share/ament_index/resource_index/packages/unitree_inspection")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection/cmake" TYPE FILE FILES
-    "/home/rs/go1_robot/build/unitree_inspection/ament_cmake_core/unitree_inspectionConfig.cmake"
-    "/home/rs/go1_robot/build/unitree_inspection/ament_cmake_core/unitree_inspectionConfig-version.cmake"
+    "/home/rs/final_auto/build/unitree_inspection/ament_cmake_core/unitree_inspectionConfig.cmake"
+    "/home/rs/final_auto/build/unitree_inspection/ament_cmake_core/unitree_inspectionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE FILE FILES "/home/rs/go1_robot/src/unitree_inspection/unitree_inspection/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_inspection" TYPE FILE FILES "/home/rs/final_auto/src/unitree_inspection/unitree_inspection/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -136,5 +136,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rs/go1_robot/build/unitree_inspection/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rs/final_auto/build/unitree_inspection/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

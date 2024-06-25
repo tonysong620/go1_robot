@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_inspection_interfaces
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_inspection_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/depend.make
@@ -78,8 +78,8 @@ rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_t
 rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__rosidl_typesupport_introspection_c.h: rosidl_adapter/unitree_inspection_interfaces/srv/GoToInspectionPoint.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_typesupport_introspection_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/rs/final_auto/build/unitree_inspection_interfaces/rosidl_typesupport_introspection_c__arguments.json
 
 rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c: rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c
@@ -87,16 +87,16 @@ rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_t
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.o: CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.o: rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.o: CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.o -MF CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.o.d -o CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.o -c /home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.o -MF CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.o.d -o CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.o -c /home/rs/final_auto/build/unitree_inspection_interfaces/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c
 
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c > CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rs/final_auto/build/unitree_inspection_interfaces/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c > CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.i
 
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c -o CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rs/final_auto/build/unitree_inspection_interfaces/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c -o CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c.s
 
 # Object files for target unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c
 unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c_OBJECTS = \
@@ -112,7 +112,7 @@ libunitree_inspection_interfaces__rosidl_typesupport_introspection_c.so: /opt/ro
 libunitree_inspection_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libunitree_inspection_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libunitree_inspection_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libunitree_inspection_interfaces__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libunitree_inspection_interfaces__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +125,6 @@ CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c
 
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__rosidl_typesupport_introspection_c.h
 CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__type_support.c
-	cd /home/rs/go1_robot/build/unitree_inspection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_inspection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_introspection_c.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_ocr_interfaces
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_ocr_interfaces
 
 # Utility rule file for unitree_ocr_interfaces_msg__cpp.
 
@@ -92,8 +92,8 @@ rosidl_generator_cpp/unitree_ocr_interfaces/msg/detection.hpp: /opt/ros/humble/s
 rosidl_generator_cpp/unitree_ocr_interfaces/msg/detection.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/unitree_ocr_interfaces/msg/detection.hpp: rosidl_adapter/unitree_ocr_interfaces/msg/Detection.idl
 rosidl_generator_cpp/unitree_ocr_interfaces/msg/detection.hpp: rosidl_adapter/unitree_ocr_interfaces/msg/Detections.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rs/go1_robot/build/unitree_ocr_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rs/final_auto/build/unitree_ocr_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__builder.hpp: rosidl_generator_cpp/unitree_ocr_interfaces/msg/detection.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__builder.hpp
@@ -137,6 +137,6 @@ CMakeFiles/unitree_ocr_interfaces_msg__cpp.dir/clean:
 .PHONY : CMakeFiles/unitree_ocr_interfaces_msg__cpp.dir/clean
 
 CMakeFiles/unitree_ocr_interfaces_msg__cpp.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_ocr_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces /home/rs/go1_robot/build/unitree_ocr_interfaces /home/rs/go1_robot/build/unitree_ocr_interfaces /home/rs/go1_robot/build/unitree_ocr_interfaces/CMakeFiles/unitree_ocr_interfaces_msg__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_ocr_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces /home/rs/final_auto/build/unitree_ocr_interfaces /home/rs/final_auto/build/unitree_ocr_interfaces /home/rs/final_auto/build/unitree_ocr_interfaces/CMakeFiles/unitree_ocr_interfaces_msg__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_ocr_interfaces_msg__cpp.dir/depend
 

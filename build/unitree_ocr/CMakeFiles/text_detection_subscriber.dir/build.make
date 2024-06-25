@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_ocr
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_ocr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_ocr
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_ocr
 
 # Include any dependencies generated for this target.
 include CMakeFiles/text_detection_subscriber.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/text_detection_subscriber.dir/progress.make
 include CMakeFiles/text_detection_subscriber.dir/flags.make
 
 CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: CMakeFiles/text_detection_subscriber.dir/flags.make
-CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: /home/rs/go1_robot/src/unitree_inspection/unitree_ocr/src/text_detection_subscriber.cpp
+CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: /home/rs/final_auto/src/unitree_inspection/unitree_ocr/src/text_detection_subscriber.cpp
 CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: CMakeFiles/text_detection_subscriber.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/go1_robot/build/unitree_ocr/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o -MF CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o.d -o CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o -c /home/rs/go1_robot/src/unitree_inspection/unitree_ocr/src/text_detection_subscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/final_auto/build/unitree_ocr/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o -MF CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o.d -o CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o -c /home/rs/final_auto/src/unitree_inspection/unitree_ocr/src/text_detection_subscriber.cpp
 
 CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/go1_robot/src/unitree_inspection/unitree_ocr/src/text_detection_subscriber.cpp > CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/final_auto/src/unitree_inspection/unitree_ocr/src/text_detection_subscriber.cpp > CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.i
 
 CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/go1_robot/src/unitree_inspection/unitree_ocr/src/text_detection_subscriber.cpp -o CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/final_auto/src/unitree_inspection/unitree_ocr/src/text_detection_subscriber.cpp -o CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.s
 
 # Object files for target text_detection_subscriber
 text_detection_subscriber_OBJECTS = \
@@ -94,12 +94,12 @@ text_detection_subscriber: CMakeFiles/text_detection_subscriber.dir/src/text_det
 text_detection_subscriber: CMakeFiles/text_detection_subscriber.dir/build.make
 text_detection_subscriber: /opt/ros/humble/lib/libcv_bridge.so
 text_detection_subscriber: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
-text_detection_subscriber: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_fastrtps_c.so
-text_detection_subscriber: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_introspection_c.so
-text_detection_subscriber: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_fastrtps_cpp.so
-text_detection_subscriber: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_introspection_cpp.so
-text_detection_subscriber: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_cpp.so
-text_detection_subscriber: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces_msg__rosidl_generator_py.so
+text_detection_subscriber: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_fastrtps_c.so
+text_detection_subscriber: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_introspection_c.so
+text_detection_subscriber: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_fastrtps_cpp.so
+text_detection_subscriber: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_introspection_cpp.so
+text_detection_subscriber: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_cpp.so
+text_detection_subscriber: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces_msg__rosidl_generator_py.so
 text_detection_subscriber: libunitree_ocr.a
 text_detection_subscriber: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 text_detection_subscriber: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
@@ -175,8 +175,8 @@ text_detection_subscriber: /opt/ros/humble/lib/librmw.so
 text_detection_subscriber: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 text_detection_subscriber: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 text_detection_subscriber: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-text_detection_subscriber: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_c.so
-text_detection_subscriber: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_generator_c.so
+text_detection_subscriber: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_c.so
+text_detection_subscriber: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_generator_c.so
 text_detection_subscriber: /opt/ros/humble/lib/librosidl_typesupport_c.so
 text_detection_subscriber: /opt/ros/humble/lib/librcpputils.so
 text_detection_subscriber: /opt/ros/humble/lib/librosidl_runtime_c.so
@@ -237,7 +237,7 @@ text_detection_subscriber: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
 text_detection_subscriber: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 text_detection_subscriber: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 text_detection_subscriber: CMakeFiles/text_detection_subscriber.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/go1_robot/build/unitree_ocr/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable text_detection_subscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/final_auto/build/unitree_ocr/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable text_detection_subscriber"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/text_detection_subscriber.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -249,6 +249,6 @@ CMakeFiles/text_detection_subscriber.dir/clean:
 .PHONY : CMakeFiles/text_detection_subscriber.dir/clean
 
 CMakeFiles/text_detection_subscriber.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_ocr && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_ocr /home/rs/go1_robot/src/unitree_inspection/unitree_ocr /home/rs/go1_robot/build/unitree_ocr /home/rs/go1_robot/build/unitree_ocr /home/rs/go1_robot/build/unitree_ocr/CMakeFiles/text_detection_subscriber.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_ocr && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_ocr /home/rs/final_auto/src/unitree_inspection/unitree_ocr /home/rs/final_auto/build/unitree_ocr /home/rs/final_auto/build/unitree_ocr /home/rs/final_auto/build/unitree_ocr/CMakeFiles/text_detection_subscriber.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/text_detection_subscriber.dir/depend
 

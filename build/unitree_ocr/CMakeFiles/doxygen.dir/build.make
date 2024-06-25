@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_ocr
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_ocr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_ocr
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_ocr
 
 # Utility rule file for doxygen.
 
@@ -67,11 +67,11 @@ include CMakeFiles/doxygen.dir/compiler_depend.make
 include CMakeFiles/doxygen.dir/progress.make
 
 CMakeFiles/doxygen: Doxyfile.doxygen
-CMakeFiles/doxygen: /home/rs/go1_robot/src/unitree_inspection/unitree_ocr/include/unitree_ocr/ocr.hpp
-CMakeFiles/doxygen: /home/rs/go1_robot/src/unitree_inspection/unitree_ocr/src/ocr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rs/go1_robot/build/unitree_ocr/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate API documentation for doxygen"
-	cd /home/rs/go1_robot/src/unitree_inspection/unitree_ocr && /usr/bin/cmake -E make_directory /home/rs/go1_robot/build/unitree_ocr
-	cd /home/rs/go1_robot/src/unitree_inspection/unitree_ocr && /usr/bin/doxygen /home/rs/go1_robot/build/unitree_ocr/Doxyfile.doxygen
+CMakeFiles/doxygen: /home/rs/final_auto/src/unitree_inspection/unitree_ocr/include/unitree_ocr/ocr.hpp
+CMakeFiles/doxygen: /home/rs/final_auto/src/unitree_inspection/unitree_ocr/src/ocr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rs/final_auto/build/unitree_ocr/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate API documentation for doxygen"
+	cd /home/rs/final_auto/src/unitree_inspection/unitree_ocr && /usr/bin/cmake -E make_directory /home/rs/final_auto/build/unitree_ocr
+	cd /home/rs/final_auto/src/unitree_inspection/unitree_ocr && /usr/bin/doxygen /home/rs/final_auto/build/unitree_ocr/Doxyfile.doxygen
 
 doxygen: CMakeFiles/doxygen
 doxygen: CMakeFiles/doxygen.dir/build.make
@@ -86,6 +86,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_ocr && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_ocr /home/rs/go1_robot/src/unitree_inspection/unitree_ocr /home/rs/go1_robot/build/unitree_ocr /home/rs/go1_robot/build/unitree_ocr /home/rs/go1_robot/build/unitree_ocr/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_ocr && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_ocr /home/rs/final_auto/src/unitree_inspection/unitree_ocr /home/rs/final_auto/build/unitree_ocr /home/rs/final_auto/build/unitree_ocr /home/rs/final_auto/build/unitree_ocr/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

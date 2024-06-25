@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rs/go1_robot/src/unitree_inspection/unitree_ocr/include -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/rs/final_auto/src/unitree_inspection/unitree_ocr/include -isystem /usr/include/opencv4
 
 CXX_FLAGS = -Wall -Wextra -Wpedantic
 

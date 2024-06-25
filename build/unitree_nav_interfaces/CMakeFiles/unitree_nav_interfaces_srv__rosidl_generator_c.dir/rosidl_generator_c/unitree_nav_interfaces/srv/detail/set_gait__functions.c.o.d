@@ -1,7 +1,7 @@
 CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_c.dir/rosidl_generator_c/unitree_nav_interfaces/srv/detail/set_gait__functions.c.o: \
- /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_c/unitree_nav_interfaces/srv/detail/set_gait__functions.c \
+ /home/rs/final_auto/build/unitree_nav_interfaces/rosidl_generator_c/unitree_nav_interfaces/srv/detail/set_gait__functions.c \
  /usr/include/stdc-predef.h \
- /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_c/unitree_nav_interfaces/srv/detail/set_gait__functions.h \
+ /home/rs/final_auto/build/unitree_nav_interfaces/rosidl_generator_c/unitree_nav_interfaces/srv/detail/set_gait__functions.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -43,8 +43,8 @@ CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_c.dir/rosidl_generator_c
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_c/unitree_nav_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_c/unitree_nav_interfaces/srv/detail/set_gait__struct.h \
+ /home/rs/final_auto/build/unitree_nav_interfaces/rosidl_generator_c/unitree_nav_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/rs/final_auto/build/unitree_nav_interfaces/rosidl_generator_c/unitree_nav_interfaces/srv/detail/set_gait__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/assert.h \

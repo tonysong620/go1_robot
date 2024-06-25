@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_inspection_interfaces
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_inspection_interfaces
 
 # Utility rule file for ament_cmake_python_copy_unitree_inspection_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces.dir/com
 include CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces:
-	/usr/bin/cmake -E copy_directory /home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_generator_py/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces/ament_cmake_python/unitree_inspection_interfaces/unitree_inspection_interfaces
+	/usr/bin/cmake -E copy_directory /home/rs/final_auto/build/unitree_inspection_interfaces/rosidl_generator_py/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces/ament_cmake_python/unitree_inspection_interfaces/unitree_inspection_interfaces
 
 ament_cmake_python_copy_unitree_inspection_interfaces: CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces
 ament_cmake_python_copy_unitree_inspection_interfaces: CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_inspection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_inspection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces.dir/depend
 

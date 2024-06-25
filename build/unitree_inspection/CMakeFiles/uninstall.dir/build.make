@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_inspection
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_inspection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_inspection
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_inspection
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_inspection && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_inspection /home/rs/go1_robot/src/unitree_inspection/unitree_inspection /home/rs/go1_robot/build/unitree_inspection /home/rs/go1_robot/build/unitree_inspection /home/rs/go1_robot/build/unitree_inspection/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_inspection && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_inspection /home/rs/final_auto/src/unitree_inspection/unitree_inspection /home/rs/final_auto/build/unitree_inspection /home/rs/final_auto/build/unitree_inspection /home/rs/final_auto/build/unitree_inspection/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

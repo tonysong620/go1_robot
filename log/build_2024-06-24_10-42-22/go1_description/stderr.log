@@ -1,1 +1,0 @@
-[0mCMake Error: The current CMakeCache.txt directory /home/rs/go1_robot/build/go1_description/CMakeCache.txt is different than the directory /home/rs/final_auto/build/go1_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m

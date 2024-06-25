@@ -1,11 +1,11 @@
 {
   "package_name": "unitree_nav_interfaces",
-  "output_dir": "/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_typesupport_introspection_cpp/unitree_nav_interfaces",
+  "output_dir": "/home/rs/final_auto/build/unitree_nav_interfaces/rosidl_typesupport_introspection_cpp/unitree_nav_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_adapter/unitree_nav_interfaces:srv/SetBodyRPY.idl",
-    "/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_adapter/unitree_nav_interfaces:srv/NavToPose.idl",
-    "/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_adapter/unitree_nav_interfaces:srv/SetGait.idl"
+    "/home/rs/final_auto/build/unitree_nav_interfaces/rosidl_adapter/unitree_nav_interfaces:srv/SetBodyRPY.idl",
+    "/home/rs/final_auto/build/unitree_nav_interfaces/rosidl_adapter/unitree_nav_interfaces:srv/NavToPose.idl",
+    "/home/rs/final_auto/build/unitree_nav_interfaces/rosidl_adapter/unitree_nav_interfaces:srv/SetGait.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -78,9 +78,9 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_adapter/unitree_nav_interfaces/srv/SetBodyRPY.idl",
-    "/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_adapter/unitree_nav_interfaces/srv/NavToPose.idl",
-    "/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_adapter/unitree_nav_interfaces/srv/SetGait.idl",
+    "/home/rs/final_auto/build/unitree_nav_interfaces/rosidl_adapter/unitree_nav_interfaces/srv/SetBodyRPY.idl",
+    "/home/rs/final_auto/build/unitree_nav_interfaces/rosidl_adapter/unitree_nav_interfaces/srv/NavToPose.idl",
+    "/home/rs/final_auto/build/unitree_nav_interfaces/rosidl_adapter/unitree_nav_interfaces/srv/SetGait.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",

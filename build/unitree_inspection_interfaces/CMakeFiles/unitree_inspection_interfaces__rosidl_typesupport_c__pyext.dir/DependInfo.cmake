@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_generator_py/unitree_inspection_interfaces/_unitree_inspection_interfaces_s.ep.rosidl_typesupport_c.c" "CMakeFiles/unitree_inspection_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_inspection_interfaces/_unitree_inspection_interfaces_s.ep.rosidl_typesupport_c.c.o" "gcc" "CMakeFiles/unitree_inspection_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_inspection_interfaces/_unitree_inspection_interfaces_s.ep.rosidl_typesupport_c.c.o.d"
+  "/home/rs/final_auto/build/unitree_inspection_interfaces/rosidl_generator_py/unitree_inspection_interfaces/_unitree_inspection_interfaces_s.ep.rosidl_typesupport_c.c" "CMakeFiles/unitree_inspection_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_inspection_interfaces/_unitree_inspection_interfaces_s.ep.rosidl_typesupport_c.c.o" "gcc" "CMakeFiles/unitree_inspection_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_inspection_interfaces/_unitree_inspection_interfaces_s.ep.rosidl_typesupport_c.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/DependInfo.cmake"
-  "/home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_c.dir/DependInfo.cmake"
-  "/home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_c.dir/DependInfo.cmake"
+  "/home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_py.dir/DependInfo.cmake"
+  "/home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_msg__rosidl_typesupport_c.dir/DependInfo.cmake"
+  "/home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_msg__rosidl_generator_c.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

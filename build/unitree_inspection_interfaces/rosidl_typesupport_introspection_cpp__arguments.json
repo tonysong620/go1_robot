@@ -1,9 +1,9 @@
 {
   "package_name": "unitree_inspection_interfaces",
-  "output_dir": "/home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_typesupport_introspection_cpp/unitree_inspection_interfaces",
+  "output_dir": "/home/rs/final_auto/build/unitree_inspection_interfaces/rosidl_typesupport_introspection_cpp/unitree_inspection_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_adapter/unitree_inspection_interfaces:srv/GoToInspectionPoint.idl"
+    "/home/rs/final_auto/build/unitree_inspection_interfaces/rosidl_adapter/unitree_inspection_interfaces:srv/GoToInspectionPoint.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -14,6 +14,6 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_adapter/unitree_inspection_interfaces/srv/GoToInspectionPoint.idl"
+    "/home/rs/final_auto/build/unitree_inspection_interfaces/rosidl_adapter/unitree_inspection_interfaces/srv/GoToInspectionPoint.idl"
   ]
 }

@@ -7,11 +7,9 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(xacro REQUIRED)
-find_package(gazebo_ros REQUIRED)
-find_package(urdf REQUIRED)
-find_package(rviz2 REQUIRED)
-find_package(robot_state_publisher REQUIRED)
+# uncomment the following section in order to fill in
+# further dependencies manually.
+# find_package(<dependency> REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -32,7 +30,7 @@ if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
 endif()
 
 install(DIRECTORY
-  launch config meshes xacro urdf
+  launch config meshes xacro
   DESTINATION share/${PROJECT_NAME}/
 )
 

@@ -1,7 +1,7 @@
 CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o: \
- /home/rs/go1_robot/src/unitree_inspection/unitree_ocr/src/ocr.cpp \
+ /home/rs/final_auto/src/unitree_inspection/unitree_ocr/src/ocr.cpp \
  /usr/include/stdc-predef.h \
- /home/rs/go1_robot/src/unitree_inspection/unitree_ocr/include/unitree_ocr/ocr.hpp \
+ /home/rs/final_auto/src/unitree_inspection/unitree_ocr/include/unitree_ocr/ocr.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

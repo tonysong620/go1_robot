@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_inspection
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_inspection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_inspection
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_inspection
 
 # Include any dependencies generated for this target.
 include CMakeFiles/inspection.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/inspection.dir/progress.make
 include CMakeFiles/inspection.dir/flags.make
 
 CMakeFiles/inspection.dir/src/inspection.cpp.o: CMakeFiles/inspection.dir/flags.make
-CMakeFiles/inspection.dir/src/inspection.cpp.o: /home/rs/go1_robot/src/unitree_inspection/unitree_inspection/src/inspection.cpp
+CMakeFiles/inspection.dir/src/inspection.cpp.o: /home/rs/final_auto/src/unitree_inspection/unitree_inspection/src/inspection.cpp
 CMakeFiles/inspection.dir/src/inspection.cpp.o: CMakeFiles/inspection.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/go1_robot/build/unitree_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/inspection.dir/src/inspection.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/inspection.dir/src/inspection.cpp.o -MF CMakeFiles/inspection.dir/src/inspection.cpp.o.d -o CMakeFiles/inspection.dir/src/inspection.cpp.o -c /home/rs/go1_robot/src/unitree_inspection/unitree_inspection/src/inspection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/final_auto/build/unitree_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/inspection.dir/src/inspection.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/inspection.dir/src/inspection.cpp.o -MF CMakeFiles/inspection.dir/src/inspection.cpp.o.d -o CMakeFiles/inspection.dir/src/inspection.cpp.o -c /home/rs/final_auto/src/unitree_inspection/unitree_inspection/src/inspection.cpp
 
 CMakeFiles/inspection.dir/src/inspection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/inspection.dir/src/inspection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/go1_robot/src/unitree_inspection/unitree_inspection/src/inspection.cpp > CMakeFiles/inspection.dir/src/inspection.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/final_auto/src/unitree_inspection/unitree_inspection/src/inspection.cpp > CMakeFiles/inspection.dir/src/inspection.cpp.i
 
 CMakeFiles/inspection.dir/src/inspection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/inspection.dir/src/inspection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/go1_robot/src/unitree_inspection/unitree_inspection/src/inspection.cpp -o CMakeFiles/inspection.dir/src/inspection.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/final_auto/src/unitree_inspection/unitree_inspection/src/inspection.cpp -o CMakeFiles/inspection.dir/src/inspection.cpp.s
 
 # Object files for target inspection
 inspection_OBJECTS = \
@@ -104,24 +104,24 @@ inspection: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_c
 inspection: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
 inspection: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_cpp.so
 inspection: /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_py.so
-inspection: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so
-inspection: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so
-inspection: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so
-inspection: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so
-inspection: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_cpp.so
-inspection: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces_srv__rosidl_generator_py.so
-inspection: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_fastrtps_c.so
-inspection: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_introspection_c.so
-inspection: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_fastrtps_cpp.so
-inspection: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_introspection_cpp.so
-inspection: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_cpp.so
-inspection: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces_msg__rosidl_generator_py.so
-inspection: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_fastrtps_c.so
-inspection: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_introspection_c.so
-inspection: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_fastrtps_cpp.so
-inspection: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_introspection_cpp.so
-inspection: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_cpp.so
-inspection: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces_msg__rosidl_generator_py.so
+inspection: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so
+inspection: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so
+inspection: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so
+inspection: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so
+inspection: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_cpp.so
+inspection: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces_srv__rosidl_generator_py.so
+inspection: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_fastrtps_c.so
+inspection: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_introspection_c.so
+inspection: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_fastrtps_cpp.so
+inspection: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_introspection_cpp.so
+inspection: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_cpp.so
+inspection: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces_msg__rosidl_generator_py.so
+inspection: /home/rs/final_auto/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_fastrtps_c.so
+inspection: /home/rs/final_auto/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_introspection_c.so
+inspection: /home/rs/final_auto/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_fastrtps_cpp.so
+inspection: /home/rs/final_auto/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_introspection_cpp.so
+inspection: /home/rs/final_auto/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_cpp.so
+inspection: /home/rs/final_auto/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces_msg__rosidl_generator_py.so
 inspection: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so
 inspection: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
 inspection: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
@@ -214,9 +214,9 @@ inspection: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 inspection: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 inspection: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 inspection: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-inspection: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_c.so
+inspection: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_c.so
 inspection: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-inspection: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_generator_c.so
+inspection: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_generator_c.so
 inspection: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 inspection: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 inspection: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
@@ -224,8 +224,8 @@ inspection: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 inspection: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 inspection: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 inspection: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-inspection: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_c.so
-inspection: /home/rs/go1_robot/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_generator_c.so
+inspection: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_typesupport_c.so
+inspection: /home/rs/final_auto/install/unitree_ocr_interfaces/lib/libunitree_ocr_interfaces__rosidl_generator_c.so
 inspection: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 inspection: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 inspection: /opt/ros/humble/lib/libfastcdr.so.1.0.24
@@ -233,15 +233,15 @@ inspection: /opt/ros/humble/lib/librmw.so
 inspection: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 inspection: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 inspection: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-inspection: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_c.so
-inspection: /home/rs/go1_robot/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_generator_c.so
+inspection: /home/rs/final_auto/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_typesupport_c.so
+inspection: /home/rs/final_auto/install/unitree_inspection_interfaces/lib/libunitree_inspection_interfaces__rosidl_generator_c.so
 inspection: /opt/ros/humble/lib/librosidl_typesupport_c.so
 inspection: /opt/ros/humble/lib/librcpputils.so
 inspection: /opt/ros/humble/lib/librosidl_runtime_c.so
 inspection: /opt/ros/humble/lib/librcutils.so
 inspection: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 inspection: CMakeFiles/inspection.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/go1_robot/build/unitree_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable inspection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/final_auto/build/unitree_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable inspection"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/inspection.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -253,6 +253,6 @@ CMakeFiles/inspection.dir/clean:
 .PHONY : CMakeFiles/inspection.dir/clean
 
 CMakeFiles/inspection.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_inspection && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_inspection /home/rs/go1_robot/src/unitree_inspection/unitree_inspection /home/rs/go1_robot/build/unitree_inspection /home/rs/go1_robot/build/unitree_inspection /home/rs/go1_robot/build/unitree_inspection/CMakeFiles/inspection.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_inspection && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_inspection /home/rs/final_auto/src/unitree_inspection/unitree_inspection /home/rs/final_auto/build/unitree_inspection /home/rs/final_auto/build/unitree_inspection /home/rs/final_auto/build/unitree_inspection/CMakeFiles/inspection.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/inspection.dir/depend
 

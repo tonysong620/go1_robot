@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_ros2/unitree_legged_real
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_legged_real
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_legged_real
 
 # Include any dependencies generated for this target.
 include CMakeFiles/jsp_high.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/jsp_high.dir/progress.make
 include CMakeFiles/jsp_high.dir/flags.make
 
 CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: CMakeFiles/jsp_high.dir/flags.make
-CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/jsp_high.cpp
+CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/jsp_high.cpp
 CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: CMakeFiles/jsp_high.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/go1_robot/build/unitree_legged_real/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o -MF CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o.d -o CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o -c /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/jsp_high.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/final_auto/build/unitree_legged_real/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o -MF CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o.d -o CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o -c /home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/jsp_high.cpp
 
 CMakeFiles/jsp_high.dir/src/jsp_high.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jsp_high.dir/src/jsp_high.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/jsp_high.cpp > CMakeFiles/jsp_high.dir/src/jsp_high.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/jsp_high.cpp > CMakeFiles/jsp_high.dir/src/jsp_high.cpp.i
 
 CMakeFiles/jsp_high.dir/src/jsp_high.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jsp_high.dir/src/jsp_high.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real/src/jsp_high.cpp -o CMakeFiles/jsp_high.dir/src/jsp_high.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/final_auto/src/unitree_ros2/unitree_legged_real/src/jsp_high.cpp -o CMakeFiles/jsp_high.dir/src/jsp_high.cpp.s
 
 # Object files for target jsp_high
 jsp_high_OBJECTS = \
@@ -93,12 +93,12 @@ jsp_high_EXTERNAL_OBJECTS =
 jsp_high: CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o
 jsp_high: CMakeFiles/jsp_high.dir/build.make
 jsp_high: /opt/ros/humble/lib/librclcpp.so
-jsp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c.so
-jsp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_c.so
-jsp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp.so
-jsp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp.so
-jsp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_cpp.so
-jsp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_py.so
+jsp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c.so
+jsp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_c.so
+jsp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp.so
+jsp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp.so
+jsp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_cpp.so
+jsp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_py.so
 jsp_high: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 jsp_high: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 jsp_high: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
@@ -137,8 +137,8 @@ jsp_high: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
 jsp_high: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
 jsp_high: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
 jsp_high: /opt/ros/humble/lib/libtracetools.so
-jsp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_c.so
-jsp_high: /home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_c.so
+jsp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_c.so
+jsp_high: /home/rs/final_auto/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_c.so
 jsp_high: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 jsp_high: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 jsp_high: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -179,7 +179,7 @@ jsp_high: /opt/ros/humble/lib/librcpputils.so
 jsp_high: /opt/ros/humble/lib/librosidl_runtime_c.so
 jsp_high: /opt/ros/humble/lib/librcutils.so
 jsp_high: CMakeFiles/jsp_high.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/go1_robot/build/unitree_legged_real/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable jsp_high"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/final_auto/build/unitree_legged_real/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable jsp_high"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/jsp_high.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -191,6 +191,6 @@ CMakeFiles/jsp_high.dir/clean:
 .PHONY : CMakeFiles/jsp_high.dir/clean
 
 CMakeFiles/jsp_high.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_legged_real && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real /home/rs/go1_robot/src/unitree_ros2/unitree_legged_real /home/rs/go1_robot/build/unitree_legged_real /home/rs/go1_robot/build/unitree_legged_real /home/rs/go1_robot/build/unitree_legged_real/CMakeFiles/jsp_high.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_legged_real && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_ros2/unitree_legged_real /home/rs/final_auto/src/unitree_ros2/unitree_legged_real /home/rs/final_auto/build/unitree_legged_real /home/rs/final_auto/build/unitree_legged_real /home/rs/final_auto/build/unitree_legged_real/CMakeFiles/jsp_high.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/jsp_high.dir/depend
 

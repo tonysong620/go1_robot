@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_nav/unitree_nav_interfaces
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_nav/unitree_nav_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_nav_interfaces
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_nav_interfaces
 
 # Utility rule file for unitree_nav_interfaces_srv.
 
@@ -66,13 +66,13 @@ include CMakeFiles/unitree_nav_interfaces_srv.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/unitree_nav_interfaces_srv.dir/progress.make
 
-CMakeFiles/unitree_nav_interfaces_srv: /home/rs/go1_robot/src/unitree_nav/unitree_nav_interfaces/srv/SetBodyRPY.srv
+CMakeFiles/unitree_nav_interfaces_srv: /home/rs/final_auto/src/unitree_nav/unitree_nav_interfaces/srv/SetBodyRPY.srv
 CMakeFiles/unitree_nav_interfaces_srv: rosidl_cmake/srv/SetBodyRPY_Request.msg
 CMakeFiles/unitree_nav_interfaces_srv: rosidl_cmake/srv/SetBodyRPY_Response.msg
-CMakeFiles/unitree_nav_interfaces_srv: /home/rs/go1_robot/src/unitree_nav/unitree_nav_interfaces/srv/NavToPose.srv
+CMakeFiles/unitree_nav_interfaces_srv: /home/rs/final_auto/src/unitree_nav/unitree_nav_interfaces/srv/NavToPose.srv
 CMakeFiles/unitree_nav_interfaces_srv: rosidl_cmake/srv/NavToPose_Request.msg
 CMakeFiles/unitree_nav_interfaces_srv: rosidl_cmake/srv/NavToPose_Response.msg
-CMakeFiles/unitree_nav_interfaces_srv: /home/rs/go1_robot/src/unitree_nav/unitree_nav_interfaces/srv/SetGait.srv
+CMakeFiles/unitree_nav_interfaces_srv: /home/rs/final_auto/src/unitree_nav/unitree_nav_interfaces/srv/SetGait.srv
 CMakeFiles/unitree_nav_interfaces_srv: rosidl_cmake/srv/SetGait_Request.msg
 CMakeFiles/unitree_nav_interfaces_srv: rosidl_cmake/srv/SetGait_Response.msg
 CMakeFiles/unitree_nav_interfaces_srv: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
@@ -119,6 +119,6 @@ CMakeFiles/unitree_nav_interfaces_srv.dir/clean:
 .PHONY : CMakeFiles/unitree_nav_interfaces_srv.dir/clean
 
 CMakeFiles/unitree_nav_interfaces_srv.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_nav_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_nav/unitree_nav_interfaces /home/rs/go1_robot/src/unitree_nav/unitree_nav_interfaces /home/rs/go1_robot/build/unitree_nav_interfaces /home/rs/go1_robot/build/unitree_nav_interfaces /home/rs/go1_robot/build/unitree_nav_interfaces/CMakeFiles/unitree_nav_interfaces_srv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_nav_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_nav/unitree_nav_interfaces /home/rs/final_auto/src/unitree_nav/unitree_nav_interfaces /home/rs/final_auto/build/unitree_nav_interfaces /home/rs/final_auto/build/unitree_nav_interfaces /home/rs/final_auto/build/unitree_nav_interfaces/CMakeFiles/unitree_nav_interfaces_srv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_nav_interfaces_srv.dir/depend
 

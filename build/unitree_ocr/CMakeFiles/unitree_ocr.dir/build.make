@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_ocr
+CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_ocr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_ocr
+CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_ocr
 
 # Include any dependencies generated for this target.
 include CMakeFiles/unitree_ocr.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/unitree_ocr.dir/progress.make
 include CMakeFiles/unitree_ocr.dir/flags.make
 
 CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o: CMakeFiles/unitree_ocr.dir/flags.make
-CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o: /home/rs/go1_robot/src/unitree_inspection/unitree_ocr/src/ocr.cpp
+CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o: /home/rs/final_auto/src/unitree_inspection/unitree_ocr/src/ocr.cpp
 CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o: CMakeFiles/unitree_ocr.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/go1_robot/build/unitree_ocr/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o -MF CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o.d -o CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o -c /home/rs/go1_robot/src/unitree_inspection/unitree_ocr/src/ocr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/final_auto/build/unitree_ocr/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o -MF CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o.d -o CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o -c /home/rs/final_auto/src/unitree_inspection/unitree_ocr/src/ocr.cpp
 
 CMakeFiles/unitree_ocr.dir/src/ocr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_ocr.dir/src/ocr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/go1_robot/src/unitree_inspection/unitree_ocr/src/ocr.cpp > CMakeFiles/unitree_ocr.dir/src/ocr.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/final_auto/src/unitree_inspection/unitree_ocr/src/ocr.cpp > CMakeFiles/unitree_ocr.dir/src/ocr.cpp.i
 
 CMakeFiles/unitree_ocr.dir/src/ocr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_ocr.dir/src/ocr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/go1_robot/src/unitree_inspection/unitree_ocr/src/ocr.cpp -o CMakeFiles/unitree_ocr.dir/src/ocr.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/final_auto/src/unitree_inspection/unitree_ocr/src/ocr.cpp -o CMakeFiles/unitree_ocr.dir/src/ocr.cpp.s
 
 # Object files for target unitree_ocr
 unitree_ocr_OBJECTS = \
@@ -93,7 +93,7 @@ unitree_ocr_EXTERNAL_OBJECTS =
 libunitree_ocr.a: CMakeFiles/unitree_ocr.dir/src/ocr.cpp.o
 libunitree_ocr.a: CMakeFiles/unitree_ocr.dir/build.make
 libunitree_ocr.a: CMakeFiles/unitree_ocr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/go1_robot/build/unitree_ocr/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libunitree_ocr.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/final_auto/build/unitree_ocr/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libunitree_ocr.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/unitree_ocr.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unitree_ocr.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/unitree_ocr.dir/clean:
 .PHONY : CMakeFiles/unitree_ocr.dir/clean
 
 CMakeFiles/unitree_ocr.dir/depend:
-	cd /home/rs/go1_robot/build/unitree_ocr && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_ocr /home/rs/go1_robot/src/unitree_inspection/unitree_ocr /home/rs/go1_robot/build/unitree_ocr /home/rs/go1_robot/build/unitree_ocr /home/rs/go1_robot/build/unitree_ocr/CMakeFiles/unitree_ocr.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/final_auto/build/unitree_ocr && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_ocr /home/rs/final_auto/src/unitree_inspection/unitree_ocr /home/rs/final_auto/build/unitree_ocr /home/rs/final_auto/build/unitree_ocr /home/rs/final_auto/build/unitree_ocr/CMakeFiles/unitree_ocr.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_ocr.dir/depend
 
