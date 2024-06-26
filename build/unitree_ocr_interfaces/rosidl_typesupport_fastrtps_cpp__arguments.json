@@ -1,10 +1,10 @@
 {
   "package_name": "unitree_ocr_interfaces",
-  "output_dir": "/home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_typesupport_fastrtps_cpp/unitree_ocr_interfaces",
+  "output_dir": "/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_typesupport_fastrtps_cpp/unitree_ocr_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces:msg/Detection.idl",
-    "/home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces:msg/Detections.idl"
+    "/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces:msg/Detection.idl",
+    "/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces:msg/Detections.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
@@ -15,7 +15,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces/msg/Detection.idl",
-    "/home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces/msg/Detections.idl"
+    "/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces/msg/Detection.idl",
+    "/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces/msg/Detections.idl"
   ]
 }

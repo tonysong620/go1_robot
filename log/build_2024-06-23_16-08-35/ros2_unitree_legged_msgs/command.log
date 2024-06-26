@@ -1,6 +1,0 @@
-Invoking command in '/home/rs/final_auto/build/ros2_unitree_legged_msgs': /usr/bin/cmake /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs -DCMAKE_INSTALL_PREFIX=/home/rs/final_auto/install/ros2_unitree_legged_msgs
-Invoked command in '/home/rs/final_auto/build/ros2_unitree_legged_msgs' returned '0': /usr/bin/cmake /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs -DCMAKE_INSTALL_PREFIX=/home/rs/final_auto/install/ros2_unitree_legged_msgs
-Invoking command in '/home/rs/final_auto/build/ros2_unitree_legged_msgs': /usr/bin/cmake --build /home/rs/final_auto/build/ros2_unitree_legged_msgs -- -j13 -l13
-Invoked command in '/home/rs/final_auto/build/ros2_unitree_legged_msgs' returned '0': /usr/bin/cmake --build /home/rs/final_auto/build/ros2_unitree_legged_msgs -- -j13 -l13
-Invoking command in '/home/rs/final_auto/build/ros2_unitree_legged_msgs': /usr/bin/cmake --install /home/rs/final_auto/build/ros2_unitree_legged_msgs
-Invoked command in '/home/rs/final_auto/build/ros2_unitree_legged_msgs' returned '0': /usr/bin/cmake --install /home/rs/final_auto/build/ros2_unitree_legged_msgs

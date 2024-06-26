@@ -1,5 +1,5 @@
 CMakeFiles/unitree_ocr_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_ocr_interfaces/_unitree_ocr_interfaces_s.ep.rosidl_typesupport_c.c.o: \
- /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_py/unitree_ocr_interfaces/_unitree_ocr_interfaces_s.ep.rosidl_typesupport_c.c \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_py/unitree_ocr_interfaces/_unitree_ocr_interfaces_s.ep.rosidl_typesupport_c.c \
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
@@ -201,12 +201,12 @@ CMakeFiles/unitree_ocr_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_genera
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
- /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__type_support.h \
- /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__struct.h \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__type_support.h \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.h \
- /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__type_support.h \
- /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__struct.h \
- /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.h
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.h \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__type_support.h \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__struct.h \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detections__functions.h

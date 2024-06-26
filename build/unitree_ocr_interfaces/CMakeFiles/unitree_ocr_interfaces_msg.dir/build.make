@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces
+CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_ocr_interfaces
+CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_ocr_interfaces
 
 # Utility rule file for unitree_ocr_interfaces_msg.
 
@@ -66,8 +66,8 @@ include CMakeFiles/unitree_ocr_interfaces_msg.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/unitree_ocr_interfaces_msg.dir/progress.make
 
-CMakeFiles/unitree_ocr_interfaces_msg: /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces/msg/Detection.msg
-CMakeFiles/unitree_ocr_interfaces_msg: /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces/msg/Detections.msg
+CMakeFiles/unitree_ocr_interfaces_msg: /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces/msg/Detection.msg
+CMakeFiles/unitree_ocr_interfaces_msg: /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces/msg/Detections.msg
 
 unitree_ocr_interfaces_msg: CMakeFiles/unitree_ocr_interfaces_msg
 unitree_ocr_interfaces_msg: CMakeFiles/unitree_ocr_interfaces_msg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/unitree_ocr_interfaces_msg.dir/clean:
 .PHONY : CMakeFiles/unitree_ocr_interfaces_msg.dir/clean
 
 CMakeFiles/unitree_ocr_interfaces_msg.dir/depend:
-	cd /home/rs/final_auto/build/unitree_ocr_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces /home/rs/final_auto/build/unitree_ocr_interfaces /home/rs/final_auto/build/unitree_ocr_interfaces /home/rs/final_auto/build/unitree_ocr_interfaces/CMakeFiles/unitree_ocr_interfaces_msg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/go1_robot/build/unitree_ocr_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces /home/rs/go1_robot/build/unitree_ocr_interfaces /home/rs/go1_robot/build/unitree_ocr_interfaces /home/rs/go1_robot/build/unitree_ocr_interfaces/CMakeFiles/unitree_ocr_interfaces_msg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_ocr_interfaces_msg.dir/depend
 

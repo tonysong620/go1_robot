@@ -1,7 +1,7 @@
 CMakeFiles/ros2_unitree_legged_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__functions.c.o: \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__functions.c \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__functions.c \
  /usr/include/stdc-predef.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__functions.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -43,15 +43,15 @@ CMakeFiles/ros2_unitree_legged_msgs__rosidl_generator_c.dir/rosidl_generator_c/r
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/rosidl_generator_c__visibility_control.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/imu__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_state__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/imu__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_state__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__struct.h \
  /usr/include/assert.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
@@ -70,7 +70,7 @@ CMakeFiles/ros2_unitree_legged_msgs__rosidl_generator_c.dir/rosidl_generator_c/r
  /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
  /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/imu__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_state__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__functions.h
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/imu__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_state__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__functions.h

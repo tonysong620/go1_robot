@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"ros2_unitree_legged_msgs\" -Dros2_unitree_legged_msgs__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c -I/home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
+C_INCLUDES = -I/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c -I/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
 
 C_FLAGS = -fPIC -Wall -Wextra
 

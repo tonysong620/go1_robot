@@ -1,0 +1,94 @@
+[0.040s] Invoking command in '/home/rs/go1_robot/build/unitree_nav': AMENT_PREFIX_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces:/home/rs/go1_robot/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces:/home/rs/go1_robot/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rs/go1_robot/src/unitree_nav/unitree_nav -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/unitree_nav
+[0.180s] -- The C compiler identification is GNU 11.4.0
+[0.318s] -- The CXX compiler identification is GNU 11.4.0
+[0.332s] -- Detecting C compiler ABI info
+[0.486s] -- Detecting C compiler ABI info - done
+[0.507s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.507s] -- Detecting C compile features
+[0.508s] -- Detecting C compile features - done
+[0.513s] -- Detecting CXX compiler ABI info
+[0.695s] -- Detecting CXX compiler ABI info - done
+[0.711s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.711s] -- Detecting CXX compile features
+[0.712s] -- Detecting CXX compile features - done
+[0.716s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.004s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.171s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.249s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.261s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.278s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.486s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.491s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.725s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.769s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.864s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.884s] -- Looking for pthread.h
+[2.053s] -- Looking for pthread.h - found
+[2.054s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.218s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.220s] -- Found Threads: TRUE  
+[2.534s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.776s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.821s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.918s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[2.948s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.994s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.998s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.998s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.820s] -- Found nav2_msgs: 1.1.15 (/opt/ros/humble/share/nav2_msgs/cmake)
+[4.694s] -- Found ros2_unitree_legged_msgs: 0.4.0 (/home/rs/go1_robot/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake)
+[4.774s] -- Found unitree_nav_interfaces: 0.0.0 (/home/rs/go1_robot/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake)
+[5.038s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.389s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.392s] -- Configured cppcheck include dirs: 
+[5.393s] -- Configured cppcheck exclude dirs and/or files: 
+[5.394s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.396s] -- Added test 'lint_cmake' to check CMake code style
+[5.397s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.400s] -- Added test 'uncrustify' to check C / C++ code style
+[5.401s] -- Configured uncrustify additional arguments: 
+[5.404s] -- Added test 'xmllint' to check XML markup files
+[5.404s] -- Configuring done
+[5.509s] -- Generating done
+[5.516s] -- Build files have been written to: /home/rs/go1_robot/build/unitree_nav
+[5.539s] Invoked command in '/home/rs/go1_robot/build/unitree_nav' returned '0': AMENT_PREFIX_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces:/home/rs/go1_robot/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces:/home/rs/go1_robot/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rs/go1_robot/src/unitree_nav/unitree_nav -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/unitree_nav
+[5.544s] Invoking command in '/home/rs/go1_robot/build/unitree_nav': AMENT_PREFIX_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces:/home/rs/go1_robot/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces:/home/rs/go1_robot/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_nav -- -j13 -l13
+[5.803s] [ 25%] [32mBuilding CXX object CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o[0m
+[5.817s] [ 50%] [32mBuilding CXX object CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o[0m
+[28.489s] [ 75%] [32m[1mLinking CXX executable nav_to_pose[0m
+[29.470s] [ 75%] Built target nav_to_pose
+[37.006s] [100%] [32m[1mLinking CXX executable cmd_processor[0m
+[38.086s] [100%] Built target cmd_processor
+[38.113s] Invoked command in '/home/rs/go1_robot/build/unitree_nav' returned '0': AMENT_PREFIX_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces:/home/rs/go1_robot/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces:/home/rs/go1_robot/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_nav -- -j13 -l13
+[38.227s] Invoking command in '/home/rs/go1_robot/build/unitree_nav': AMENT_PREFIX_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces:/home/rs/go1_robot/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces:/home/rs/go1_robot/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_nav
+[38.246s] -- Install configuration: ""
+[38.246s] -- Installing: /home/rs/go1_robot/install/unitree_nav/lib/unitree_nav/cmd_processor
+[38.254s] -- Set runtime path of "/home/rs/go1_robot/install/unitree_nav/lib/unitree_nav/cmd_processor" to ""
+[38.254s] -- Installing: /home/rs/go1_robot/install/unitree_nav/lib/unitree_nav/nav_to_pose
+[38.258s] -- Set runtime path of "/home/rs/go1_robot/install/unitree_nav/lib/unitree_nav/nav_to_pose" to ""
+[38.258s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/launch
+[38.259s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/launch/rslidar_robosense.launch.py
+[38.259s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/launch/unitree_nav.launch.py
+[38.259s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/launch/mapping.launch.py
+[38.259s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/launch/control.launch.py
+[38.260s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/config
+[38.260s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/config/nav.rviz
+[38.260s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/config/nav2_params.yaml
+[38.260s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/ament_index/resource_index/package_run_dependencies/unitree_nav
+[38.261s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/ament_index/resource_index/parent_prefix_path/unitree_nav
+[38.261s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/environment/ament_prefix_path.sh
+[38.261s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/environment/ament_prefix_path.dsv
+[38.262s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/environment/path.sh
+[38.262s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/environment/path.dsv
+[38.262s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/local_setup.bash
+[38.263s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/local_setup.sh
+[38.263s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/local_setup.zsh
+[38.263s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/local_setup.dsv
+[38.263s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/package.dsv
+[38.264s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/ament_index/resource_index/packages/unitree_nav
+[38.264s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/cmake/unitree_navConfig.cmake
+[38.264s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/cmake/unitree_navConfig-version.cmake
+[38.265s] -- Installing: /home/rs/go1_robot/install/unitree_nav/share/unitree_nav/package.xml
+[38.289s] Invoked command in '/home/rs/go1_robot/build/unitree_nav' returned '0': AMENT_PREFIX_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces:/home/rs/go1_robot/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces:/home/rs/go1_robot/install/ros2_unitree_legged_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/go1_robot/install/unitree_nav_interfaces/lib:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rs/go1_robot/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages:/home/rs/go1_robot/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_nav

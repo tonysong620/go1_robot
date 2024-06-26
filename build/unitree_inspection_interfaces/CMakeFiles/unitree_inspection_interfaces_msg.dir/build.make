@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces
+CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_inspection_interfaces
+CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_inspection_interfaces
 
 # Utility rule file for unitree_inspection_interfaces_msg.
 
@@ -66,7 +66,7 @@ include CMakeFiles/unitree_inspection_interfaces_msg.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/unitree_inspection_interfaces_msg.dir/progress.make
 
-CMakeFiles/unitree_inspection_interfaces_msg: /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces/srv/GoToInspectionPoint.srv
+CMakeFiles/unitree_inspection_interfaces_msg: /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces/srv/GoToInspectionPoint.srv
 CMakeFiles/unitree_inspection_interfaces_msg: rosidl_cmake/srv/GoToInspectionPoint_Request.msg
 CMakeFiles/unitree_inspection_interfaces_msg: rosidl_cmake/srv/GoToInspectionPoint_Response.msg
 
@@ -83,6 +83,6 @@ CMakeFiles/unitree_inspection_interfaces_msg.dir/clean:
 .PHONY : CMakeFiles/unitree_inspection_interfaces_msg.dir/clean
 
 CMakeFiles/unitree_inspection_interfaces_msg.dir/depend:
-	cd /home/rs/final_auto/build/unitree_inspection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces /home/rs/final_auto/src/unitree_inspection/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces /home/rs/final_auto/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_msg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/go1_robot/build/unitree_inspection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces /home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces /home/rs/go1_robot/build/unitree_inspection_interfaces/CMakeFiles/unitree_inspection_interfaces_msg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_inspection_interfaces_msg.dir/depend
 

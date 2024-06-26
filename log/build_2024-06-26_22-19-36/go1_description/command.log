@@ -1,0 +1,6 @@
+Invoking command in '/home/rs/go1_robot/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rs/go1_robot/src/unitree_ros2/go1_description -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/go1_description
+Invoked command in '/home/rs/go1_robot/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rs/go1_robot/src/unitree_ros2/go1_description -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/go1_description
+Invoking command in '/home/rs/go1_robot/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rs/go1_robot/build/go1_description -- -j13 -l13
+Invoked command in '/home/rs/go1_robot/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rs/go1_robot/build/go1_description -- -j13 -l13
+Invoking command in '/home/rs/go1_robot/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rs/go1_robot/build/go1_description
+Invoked command in '/home/rs/go1_robot/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rs/go1_robot/build/go1_description

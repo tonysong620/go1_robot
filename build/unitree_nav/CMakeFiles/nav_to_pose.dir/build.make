@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_nav/unitree_nav
+CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_nav/unitree_nav
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/final_auto/build/unitree_nav
+CMAKE_BINARY_DIR = /home/rs/go1_robot/build/unitree_nav
 
 # Include any dependencies generated for this target.
 include CMakeFiles/nav_to_pose.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/nav_to_pose.dir/progress.make
 include CMakeFiles/nav_to_pose.dir/flags.make
 
 CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o: CMakeFiles/nav_to_pose.dir/flags.make
-CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o: /home/rs/final_auto/src/unitree_nav/unitree_nav/src/nav_to_pose.cpp
+CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o: /home/rs/go1_robot/src/unitree_nav/unitree_nav/src/nav_to_pose.cpp
 CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o: CMakeFiles/nav_to_pose.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/final_auto/build/unitree_nav/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o -MF CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o.d -o CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o -c /home/rs/final_auto/src/unitree_nav/unitree_nav/src/nav_to_pose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rs/go1_robot/build/unitree_nav/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o -MF CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o.d -o CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o -c /home/rs/go1_robot/src/unitree_nav/unitree_nav/src/nav_to_pose.cpp
 
 CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/final_auto/src/unitree_nav/unitree_nav/src/nav_to_pose.cpp > CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rs/go1_robot/src/unitree_nav/unitree_nav/src/nav_to_pose.cpp > CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.i
 
 CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/final_auto/src/unitree_nav/unitree_nav/src/nav_to_pose.cpp -o CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rs/go1_robot/src/unitree_nav/unitree_nav/src/nav_to_pose.cpp -o CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.s
 
 # Object files for target nav_to_pose
 nav_to_pose_OBJECTS = \
@@ -104,12 +104,12 @@ nav_to_pose: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_
 nav_to_pose: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
 nav_to_pose: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_cpp.so
 nav_to_pose: /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_py.so
-nav_to_pose: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so
-nav_to_pose: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so
-nav_to_pose: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so
-nav_to_pose: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so
-nav_to_pose: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_cpp.so
-nav_to_pose: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces_srv__rosidl_generator_py.so
+nav_to_pose: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so
+nav_to_pose: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so
+nav_to_pose: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so
+nav_to_pose: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so
+nav_to_pose: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_cpp.so
+nav_to_pose: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces_srv__rosidl_generator_py.so
 nav_to_pose: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so
 nav_to_pose: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
 nav_to_pose: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
@@ -209,9 +209,9 @@ nav_to_pose: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 nav_to_pose: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 nav_to_pose: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 nav_to_pose: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-nav_to_pose: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_c.so
+nav_to_pose: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_c.so
 nav_to_pose: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-nav_to_pose: /home/rs/final_auto/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_generator_c.so
+nav_to_pose: /home/rs/go1_robot/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_generator_c.so
 nav_to_pose: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 nav_to_pose: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 nav_to_pose: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
@@ -225,7 +225,7 @@ nav_to_pose: /opt/ros/humble/lib/librcpputils.so
 nav_to_pose: /opt/ros/humble/lib/librosidl_runtime_c.so
 nav_to_pose: /opt/ros/humble/lib/librcutils.so
 nav_to_pose: CMakeFiles/nav_to_pose.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/final_auto/build/unitree_nav/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nav_to_pose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rs/go1_robot/build/unitree_nav/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nav_to_pose"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nav_to_pose.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -237,6 +237,6 @@ CMakeFiles/nav_to_pose.dir/clean:
 .PHONY : CMakeFiles/nav_to_pose.dir/clean
 
 CMakeFiles/nav_to_pose.dir/depend:
-	cd /home/rs/final_auto/build/unitree_nav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_nav/unitree_nav /home/rs/final_auto/src/unitree_nav/unitree_nav /home/rs/final_auto/build/unitree_nav /home/rs/final_auto/build/unitree_nav /home/rs/final_auto/build/unitree_nav/CMakeFiles/nav_to_pose.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/go1_robot/build/unitree_nav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_nav/unitree_nav /home/rs/go1_robot/src/unitree_nav/unitree_nav /home/rs/go1_robot/build/unitree_nav /home/rs/go1_robot/build/unitree_nav /home/rs/go1_robot/build/unitree_nav/CMakeFiles/nav_to_pose.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nav_to_pose.dir/depend
 

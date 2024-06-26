@@ -1,5 +1,5 @@
 CMakeFiles/ros2_unitree_legged_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros2_unitree_legged_msgs/msg/_high_state_s.c.o: \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_py/ros2_unitree_legged_msgs/msg/_high_state_s.c \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_py/ros2_unitree_legged_msgs/msg/_high_state_s.c \
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
@@ -207,14 +207,14 @@ CMakeFiles/ros2_unitree_legged_msgs__rosidl_generator_py.dir/rosidl_generator_py
  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
  /usr/include/python3.10/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/imu__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_state__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__struct.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/imu__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/bms_state__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__struct.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/high_state__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__functions.h \
- /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__functions.h
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/cartesian__functions.h \
+ /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_c/ros2_unitree_legged_msgs/msg/detail/motor_state__functions.h

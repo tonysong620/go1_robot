@@ -1,5 +1,5 @@
 CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_py/unitree_ocr_interfaces/msg/_detection_s.c.o: \
- /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_py/unitree_ocr_interfaces/msg/_detection_s.c \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_py/unitree_ocr_interfaces/msg/_detection_s.c \
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
@@ -207,9 +207,9 @@ CMakeFiles/unitree_ocr_interfaces_msg__rosidl_generator_py.dir/rosidl_generator_
  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
  /usr/include/python3.10/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__struct.h \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.h \
- /home/rs/final_auto/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/detail/detection__functions.h \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_c/unitree_ocr_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h

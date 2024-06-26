@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs
+CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/final_auto/build/ros2_unitree_legged_msgs
+CMAKE_BINARY_DIR = /home/rs/go1_robot/build/ros2_unitree_legged_msgs
 
 # Utility rule file for ament_cmake_python_build_ros2_unitree_legged_msgs_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_ros2_unitree_legged_msgs_egg.dir/com
 include CMakeFiles/ament_cmake_python_build_ros2_unitree_legged_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_ros2_unitree_legged_msgs_egg:
-	cd /home/rs/final_auto/build/ros2_unitree_legged_msgs/ament_cmake_python/ros2_unitree_legged_msgs && /usr/bin/python3 setup.py egg_info
+	cd /home/rs/go1_robot/build/ros2_unitree_legged_msgs/ament_cmake_python/ros2_unitree_legged_msgs && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_ros2_unitree_legged_msgs_egg: CMakeFiles/ament_cmake_python_build_ros2_unitree_legged_msgs_egg
 ament_cmake_python_build_ros2_unitree_legged_msgs_egg: CMakeFiles/ament_cmake_python_build_ros2_unitree_legged_msgs_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_ros2_unitree_legged_msgs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_ros2_unitree_legged_msgs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_ros2_unitree_legged_msgs_egg.dir/depend:
-	cd /home/rs/final_auto/build/ros2_unitree_legged_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs/CMakeFiles/ament_cmake_python_build_ros2_unitree_legged_msgs_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/go1_robot/build/ros2_unitree_legged_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs/CMakeFiles/ament_cmake_python_build_ros2_unitree_legged_msgs_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_ros2_unitree_legged_msgs_egg.dir/depend
 

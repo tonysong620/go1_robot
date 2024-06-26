@@ -1,6 +1,0 @@
-Invoking command in '/home/rs/final_auto/build/unitree_ocr_interfaces': /usr/bin/cmake /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces -DCMAKE_INSTALL_PREFIX=/home/rs/final_auto/install/unitree_ocr_interfaces
-Invoked command in '/home/rs/final_auto/build/unitree_ocr_interfaces' returned '0': /usr/bin/cmake /home/rs/final_auto/src/unitree_inspection/unitree_ocr_interfaces -DCMAKE_INSTALL_PREFIX=/home/rs/final_auto/install/unitree_ocr_interfaces
-Invoking command in '/home/rs/final_auto/build/unitree_ocr_interfaces': /usr/bin/cmake --build /home/rs/final_auto/build/unitree_ocr_interfaces -- -j13 -l13
-Invoked command in '/home/rs/final_auto/build/unitree_ocr_interfaces' returned '0': /usr/bin/cmake --build /home/rs/final_auto/build/unitree_ocr_interfaces -- -j13 -l13
-Invoking command in '/home/rs/final_auto/build/unitree_ocr_interfaces': /usr/bin/cmake --install /home/rs/final_auto/build/unitree_ocr_interfaces
-Invoked command in '/home/rs/final_auto/build/unitree_ocr_interfaces' returned '0': /usr/bin/cmake --install /home/rs/final_auto/build/unitree_ocr_interfaces

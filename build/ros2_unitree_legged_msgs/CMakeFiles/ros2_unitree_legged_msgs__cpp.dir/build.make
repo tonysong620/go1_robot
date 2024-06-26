@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs
+CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/final_auto/build/ros2_unitree_legged_msgs
+CMAKE_BINARY_DIR = /home/rs/go1_robot/build/ros2_unitree_legged_msgs
 
 # Utility rule file for ros2_unitree_legged_msgs__cpp.
 
@@ -137,8 +137,8 @@ rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/motor_cmd.hpp: rosidl_adapter/
 rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/motor_cmd.hpp: rosidl_adapter/ros2_unitree_legged_msgs/msg/LowState.idl
 rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/motor_cmd.hpp: rosidl_adapter/ros2_unitree_legged_msgs/msg/HighCmd.idl
 rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/motor_cmd.hpp: rosidl_adapter/ros2_unitree_legged_msgs/msg/HighState.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rs/final_auto/build/ros2_unitree_legged_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/rs/final_auto/build/ros2_unitree_legged_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rs/go1_robot/build/ros2_unitree_legged_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/motor_cmd__builder.hpp: rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/motor_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/motor_cmd__builder.hpp
@@ -326,6 +326,6 @@ CMakeFiles/ros2_unitree_legged_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/ros2_unitree_legged_msgs__cpp.dir/clean
 
 CMakeFiles/ros2_unitree_legged_msgs__cpp.dir/depend:
-	cd /home/rs/final_auto/build/ros2_unitree_legged_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs/CMakeFiles/ros2_unitree_legged_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/go1_robot/build/ros2_unitree_legged_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs/CMakeFiles/ros2_unitree_legged_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ros2_unitree_legged_msgs__cpp.dir/depend
 

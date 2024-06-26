@@ -1,6 +1,0 @@
-Invoking command in '/home/rs/final_auto/build/go1_description': /usr/bin/cmake /home/rs/final_auto/src/unitree_ros2/go1_description -DCMAKE_INSTALL_PREFIX=/home/rs/final_auto/install/go1_description
-Invoked command in '/home/rs/final_auto/build/go1_description' returned '0': /usr/bin/cmake /home/rs/final_auto/src/unitree_ros2/go1_description -DCMAKE_INSTALL_PREFIX=/home/rs/final_auto/install/go1_description
-Invoking command in '/home/rs/final_auto/build/go1_description': /usr/bin/cmake --build /home/rs/final_auto/build/go1_description -- -j13 -l13
-Invoked command in '/home/rs/final_auto/build/go1_description' returned '0': /usr/bin/cmake --build /home/rs/final_auto/build/go1_description -- -j13 -l13
-Invoking command in '/home/rs/final_auto/build/go1_description': /usr/bin/cmake --install /home/rs/final_auto/build/go1_description
-Invoked command in '/home/rs/final_auto/build/go1_description' returned '0': /usr/bin/cmake --install /home/rs/final_auto/build/go1_description

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs
+CMAKE_SOURCE_DIR = /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rs/final_auto/build/ros2_unitree_legged_msgs
+CMAKE_BINARY_DIR = /home/rs/go1_robot/build/ros2_unitree_legged_msgs
 
 # Utility rule file for ros2_unitree_legged_msgs.
 
@@ -66,17 +66,17 @@ include CMakeFiles/ros2_unitree_legged_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/ros2_unitree_legged_msgs.dir/progress.make
 
-CMakeFiles/ros2_unitree_legged_msgs: /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs/msg/MotorCmd.msg
-CMakeFiles/ros2_unitree_legged_msgs: /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs/msg/MotorState.msg
-CMakeFiles/ros2_unitree_legged_msgs: /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs/msg/BmsCmd.msg
-CMakeFiles/ros2_unitree_legged_msgs: /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs/msg/BmsState.msg
-CMakeFiles/ros2_unitree_legged_msgs: /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs/msg/Cartesian.msg
-CMakeFiles/ros2_unitree_legged_msgs: /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs/msg/IMU.msg
-CMakeFiles/ros2_unitree_legged_msgs: /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs/msg/LED.msg
-CMakeFiles/ros2_unitree_legged_msgs: /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs/msg/LowCmd.msg
-CMakeFiles/ros2_unitree_legged_msgs: /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs/msg/LowState.msg
-CMakeFiles/ros2_unitree_legged_msgs: /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs/msg/HighCmd.msg
-CMakeFiles/ros2_unitree_legged_msgs: /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs/msg/HighState.msg
+CMakeFiles/ros2_unitree_legged_msgs: /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/MotorCmd.msg
+CMakeFiles/ros2_unitree_legged_msgs: /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/MotorState.msg
+CMakeFiles/ros2_unitree_legged_msgs: /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/BmsCmd.msg
+CMakeFiles/ros2_unitree_legged_msgs: /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/BmsState.msg
+CMakeFiles/ros2_unitree_legged_msgs: /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/Cartesian.msg
+CMakeFiles/ros2_unitree_legged_msgs: /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/IMU.msg
+CMakeFiles/ros2_unitree_legged_msgs: /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/LED.msg
+CMakeFiles/ros2_unitree_legged_msgs: /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/LowCmd.msg
+CMakeFiles/ros2_unitree_legged_msgs: /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/LowState.msg
+CMakeFiles/ros2_unitree_legged_msgs: /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/HighCmd.msg
+CMakeFiles/ros2_unitree_legged_msgs: /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/HighState.msg
 
 ros2_unitree_legged_msgs: CMakeFiles/ros2_unitree_legged_msgs
 ros2_unitree_legged_msgs: CMakeFiles/ros2_unitree_legged_msgs.dir/build.make
@@ -91,6 +91,6 @@ CMakeFiles/ros2_unitree_legged_msgs.dir/clean:
 .PHONY : CMakeFiles/ros2_unitree_legged_msgs.dir/clean
 
 CMakeFiles/ros2_unitree_legged_msgs.dir/depend:
-	cd /home/rs/final_auto/build/ros2_unitree_legged_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/final_auto/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs /home/rs/final_auto/build/ros2_unitree_legged_msgs/CMakeFiles/ros2_unitree_legged_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rs/go1_robot/build/ros2_unitree_legged_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs /home/rs/go1_robot/build/ros2_unitree_legged_msgs/CMakeFiles/ros2_unitree_legged_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ros2_unitree_legged_msgs.dir/depend
 
