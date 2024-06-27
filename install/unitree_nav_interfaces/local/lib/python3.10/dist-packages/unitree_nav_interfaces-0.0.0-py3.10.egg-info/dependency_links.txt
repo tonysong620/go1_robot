@@ -1,1 +1,1 @@
-
+/home/rs/go1_robot/build/unitree_nav_interfaces/ament_cmake_python/unitree_nav_interfaces/unitree_nav_interfaces.egg-info/dependency_links.txt

@@ -675,33 +675,41 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/high_cmd.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__builder.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__traits.hpp \
-  /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_body_rpy.hpp \
-  /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.hpp \
-  /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__builder.hpp \
-  /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__traits.hpp \
-  /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_gait.hpp \
-  /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__struct.hpp \
-  /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__builder.hpp \
-  /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__traits.hpp
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/high_cmd.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_cmd__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/bms_cmd__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/led__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_cmd__builder.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_cmd__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/bms_cmd__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/led__traits.hpp \
+  /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/set_body_rpy.hpp \
+  /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.hpp \
+  /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_body_rpy__builder.hpp \
+  /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_body_rpy__traits.hpp \
+  /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/set_gait.hpp \
+  /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_gait__struct.hpp \
+  /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_gait__builder.hpp \
+  /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_gait__traits.hpp
 
 
-/home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__builder.hpp:
+/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_gait__traits.hpp:
 
-/home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__builder.hpp:
+/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_gait__builder.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__struct.hpp:
+/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_gait__struct.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__struct.hpp:
+/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_body_rpy__builder.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__struct.hpp:
+/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/set_body_rpy.hpp:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/bms_cmd__traits.hpp:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_cmd__traits.hpp:
+
+/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.hpp:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/bms_cmd__struct.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
 
@@ -815,8 +823,6 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 
 /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/high_cmd.hpp:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
@@ -857,17 +863,19 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 
 /usr/include/c++/11/bits/vector.tcc:
 
-/home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__traits.hpp:
-
 /usr/include/c++/11/bits/stl_bvector.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/led__traits.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
+
+/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/set_gait.hpp:
 
 /usr/include/c++/11/bits/stl_heap.h:
 
@@ -993,6 +1001,8 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 
 /usr/include/c++/11/limits:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/led__struct.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
 
 /usr/include/c++/11/cstdint:
@@ -1006,6 +1016,8 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_cmd__struct.hpp:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
@@ -1025,13 +1037,9 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 
 /opt/ros/humble/include/rcl/rcl/graph.h:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__builder.hpp:
-
 /usr/include/c++/11/bits/stl_set.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
-
-/home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_body_rpy.hpp:
 
 /usr/include/c++/11/exception:
 
@@ -1099,8 +1107,6 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
-/home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__traits.hpp:
-
 /usr/include/c++/11/bits/basic_string.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
@@ -1134,8 +1140,6 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 /usr/include/c++/11/bits/unique_lock.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
@@ -1271,6 +1275,8 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 
 /usr/include/c++/11/ext/numeric_traits.h:
 
+/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_body_rpy__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
@@ -1365,6 +1371,8 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 
 /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/high_cmd.hpp:
+
 /usr/include/c++/11/bits/unique_ptr.h:
 
 /usr/include/c++/11/bits/stl_relops.h:
@@ -1390,8 +1398,6 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 /opt/ros/humble/include/rcl/rcl/init_options.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
-
-/home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_gait.hpp:
 
 /opt/ros/humble/include/tracetools/tracetools/config.h:
 
@@ -1470,8 +1476,6 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp:
-
-/home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.hpp:
 
 /usr/include/c++/11/backward/auto_ptr.h:
 
@@ -1633,6 +1637,8 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 
 /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_cmd__builder.hpp:
+
 /opt/ros/humble/include/rmw/rmw/init_options.h:
 
 /opt/ros/humble/include/rmw/rmw/domain_id.h:
@@ -1662,8 +1668,6 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/snprintf.h:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__traits.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/time.h:
 
@@ -1813,11 +1817,7 @@ CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o: /home/rs/go1_robot/src/uni
 
 /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__traits.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
-
-/home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
 

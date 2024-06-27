@@ -1,2 +1,1 @@
-string text # the text that was detected
-uint16 count # the number of consecutive times this text has been detected
+/home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces/msg/Detection.msg

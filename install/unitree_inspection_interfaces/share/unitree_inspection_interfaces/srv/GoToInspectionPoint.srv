@@ -1,2 +1,1 @@
-string inspection_point # the name of the inspection point to navigate to
----
+/home/rs/go1_robot/src/unitree_inspection/unitree_inspection_interfaces/srv/GoToInspectionPoint.srv

@@ -1,9 +1,1 @@
-setup.py
-unitree_ocr_interfaces/__init__.py
-unitree_ocr_interfaces.egg-info/PKG-INFO
-unitree_ocr_interfaces.egg-info/SOURCES.txt
-unitree_ocr_interfaces.egg-info/dependency_links.txt
-unitree_ocr_interfaces.egg-info/top_level.txt
-unitree_ocr_interfaces/msg/__init__.py
-unitree_ocr_interfaces/msg/_detection.py
-unitree_ocr_interfaces/msg/_detections.py
+/home/rs/go1_robot/build/unitree_ocr_interfaces/ament_cmake_python/unitree_ocr_interfaces/unitree_ocr_interfaces.egg-info/SOURCES.txt

@@ -1,1 +1,1 @@
-unitree_inspection_interfaces
+/home/rs/go1_robot/build/unitree_inspection_interfaces/ament_cmake_python/unitree_inspection_interfaces/unitree_inspection_interfaces.egg-info/top_level.txt

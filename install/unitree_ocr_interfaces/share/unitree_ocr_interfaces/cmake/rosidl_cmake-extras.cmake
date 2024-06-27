@@ -1,4 +1,1 @@
-# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
-
-set(unitree_ocr_interfaces_IDL_FILES "msg/Detection.idl;msg/Detections.idl")
-set(unitree_ocr_interfaces_INTERFACE_FILES "msg/Detection.msg;msg/Detections.msg")
+/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

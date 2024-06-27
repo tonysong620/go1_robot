@@ -766,23 +766,23 @@ CMakeFiles/inspection.dir/src/inspection.cpp.o: \
  /opt/ros/humble/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__builder.hpp \
  /opt/ros/humble/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp \
- /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_body_rpy.hpp \
- /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.hpp \
- /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__builder.hpp \
- /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__traits.hpp \
- /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/nav_to_pose.hpp \
- /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__struct.hpp \
- /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__builder.hpp \
- /home/rs/go1_robot/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__traits.hpp \
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detection.hpp \
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__struct.hpp \
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__builder.hpp \
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__traits.hpp \
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detections.hpp \
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__struct.hpp \
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__builder.hpp \
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__traits.hpp \
- /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/go_to_inspection_point.hpp \
- /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__struct.hpp \
- /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__builder.hpp \
- /home/rs/go1_robot/install/unitree_inspection_interfaces/include/unitree_inspection_interfaces/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__traits.hpp
+ /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/set_body_rpy.hpp \
+ /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.hpp \
+ /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_body_rpy__builder.hpp \
+ /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/set_body_rpy__traits.hpp \
+ /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/nav_to_pose.hpp \
+ /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/nav_to_pose__struct.hpp \
+ /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/nav_to_pose__builder.hpp \
+ /home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_cpp/unitree_nav_interfaces/srv/detail/nav_to_pose__traits.hpp \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detection.hpp \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__struct.hpp \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__builder.hpp \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__traits.hpp \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detections.hpp \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detections__struct.hpp \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detections__builder.hpp \
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detections__traits.hpp \
+ /home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_generator_cpp/unitree_inspection_interfaces/srv/go_to_inspection_point.hpp \
+ /home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_generator_cpp/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__struct.hpp \
+ /home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_generator_cpp/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__builder.hpp \
+ /home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_generator_cpp/unitree_inspection_interfaces/srv/detail/go_to_inspection_point__traits.hpp

@@ -1,7 +1,1 @@
-uint8 IDLE=0
-uint8 TROT=1
-uint8 TROT_RUNNING=2
-uint8 CLIMB_STAIRS=3
-uint8 TROT_OBSTACLE=4
-
-uint8 gait
+/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_cmake/srv/SetGait_Request.msg

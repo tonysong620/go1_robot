@@ -759,25 +759,19 @@ CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: /h
   /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp \
   /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
   /usr/include/opencv4/opencv2/dnn/dnn.hpp \
-  /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detection.hpp \
-  /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__struct.hpp \
-  /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__builder.hpp \
-  /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__traits.hpp \
-  /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detections.hpp \
-  /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__struct.hpp \
-  /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__builder.hpp \
-  /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__traits.hpp
+  /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detection.hpp \
+  /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__struct.hpp \
+  /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__builder.hpp \
+  /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__traits.hpp \
+  /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detections.hpp \
+  /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detections__struct.hpp \
+  /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detections__builder.hpp \
+  /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detections__traits.hpp
 
 
-/home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__traits.hpp:
+/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detections__traits.hpp:
 
-/home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__builder.hpp:
-
-/home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__struct.hpp:
-
-/home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__builder.hpp:
-
-/home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detection.hpp:
+/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detection.hpp:
 
 /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
 
@@ -864,6 +858,8 @@ CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: /h
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
+
+/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__builder.hpp:
 
 /usr/include/c++/11/cstddef:
 
@@ -1069,6 +1065,8 @@ CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: /h
 
 /usr/include/c++/11/bits/stl_algo.h:
 
+/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detections.hpp:
+
 /usr/include/c++/11/bits/move.h:
 
 /usr/include/opencv4/opencv2/core/core.hpp:
@@ -1105,6 +1103,8 @@ CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: /h
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
+/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__traits.hpp:
+
 /usr/include/c++/11/bits/parse_numbers.h:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
@@ -1118,6 +1118,8 @@ CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: /h
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp:
 
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h:
+
+/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__struct.hpp:
 
 /usr/include/c++/11/exception:
 
@@ -1175,6 +1177,8 @@ CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: /h
 
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
+/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detections__builder.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
@@ -1202,6 +1206,8 @@ CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: /h
 /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
+
+/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detections__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
@@ -1481,8 +1487,6 @@ CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: /h
 
 /usr/include/c++/11/tr1/gamma.tcc:
 
-/home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__traits.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
@@ -1740,8 +1744,6 @@ CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: /h
 /usr/include/c++/11/cstdlib:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detections.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -2254,8 +2256,6 @@ CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o: /h
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp:
 
 /usr/include/c++/11/bits/specfun.h:
-
-/home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 

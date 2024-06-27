@@ -315,17 +315,17 @@ unitree_inspection_interfaces_msg__rosidl_typesupport_cpp/fast:
 .PHONY : unitree_inspection_interfaces_msg__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_unitree_inspection_interfaces
+# Target rules for targets named ament_cmake_python_symlink_unitree_inspection_interfaces
 
 # Build rule for target.
-ament_cmake_python_copy_unitree_inspection_interfaces: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_unitree_inspection_interfaces
-.PHONY : ament_cmake_python_copy_unitree_inspection_interfaces
+ament_cmake_python_symlink_unitree_inspection_interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_unitree_inspection_interfaces
+.PHONY : ament_cmake_python_symlink_unitree_inspection_interfaces
 
 # fast build rule for target.
-ament_cmake_python_copy_unitree_inspection_interfaces/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_unitree_inspection_interfaces.dir/build
-.PHONY : ament_cmake_python_copy_unitree_inspection_interfaces/fast
+ament_cmake_python_symlink_unitree_inspection_interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_unitree_inspection_interfaces.dir/build.make CMakeFiles/ament_cmake_python_symlink_unitree_inspection_interfaces.dir/build
+.PHONY : ament_cmake_python_symlink_unitree_inspection_interfaces/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_unitree_inspection_interfaces_egg
@@ -683,7 +683,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_unitree_inspection_interfaces_egg"
-	@echo "... ament_cmake_python_copy_unitree_inspection_interfaces"
+	@echo "... ament_cmake_python_symlink_unitree_inspection_interfaces"
 	@echo "... uninstall"
 	@echo "... unitree_inspection_interfaces_msg"
 	@echo "... unitree_inspection_interfaces_msg__cpp"

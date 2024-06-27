@@ -1,3 +1,1 @@
-float64 x       # x coordinate of goal pose
-float64 y       # y coordinate of goal pose
-float64 theta   # rotation of goal pose
+/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_cmake/srv/NavToPose_Request.msg

@@ -1,0 +1,6 @@
+Invoking command in '/home/rs/go1_robot/build/unitree_ocr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/unitree_ocr_interfaces
+Invoked command in '/home/rs/go1_robot/build/unitree_ocr_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rs/go1_robot/src/unitree_inspection/unitree_ocr_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rs/go1_robot/install/unitree_ocr_interfaces
+Invoking command in '/home/rs/go1_robot/build/unitree_ocr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_ocr_interfaces -- -j13 -l13
+Invoked command in '/home/rs/go1_robot/build/unitree_ocr_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rs/go1_robot/build/unitree_ocr_interfaces -- -j13 -l13
+Invoking command in '/home/rs/go1_robot/build/unitree_ocr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_ocr_interfaces
+Invoked command in '/home/rs/go1_robot/build/unitree_ocr_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rs/go1_robot/build/unitree_ocr_interfaces

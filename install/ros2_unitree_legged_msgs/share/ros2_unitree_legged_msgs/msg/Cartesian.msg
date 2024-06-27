@@ -1,3 +1,1 @@
-float32 x
-float32 y
-float32 z
+/home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/Cartesian.msg

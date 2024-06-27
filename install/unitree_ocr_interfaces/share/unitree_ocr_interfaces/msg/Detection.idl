@@ -1,18 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from unitree_ocr_interfaces/msg/Detection.msg
-// generated code does not contain a copyright notice
-
-
-module unitree_ocr_interfaces {
-  module msg {
-    struct Detection {
-      @verbatim (language="comment", text=
-        "the text that was detected")
-      string text;
-
-      @verbatim (language="comment", text=
-        "the number of consecutive times this text has been detected")
-      uint16 count;
-    };
-  };
-};
+/home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_adapter/unitree_ocr_interfaces/msg/Detection.idl

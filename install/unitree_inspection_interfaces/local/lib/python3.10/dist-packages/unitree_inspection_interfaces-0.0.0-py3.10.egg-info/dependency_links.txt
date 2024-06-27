@@ -1,1 +1,1 @@
-
+/home/rs/go1_robot/build/unitree_inspection_interfaces/ament_cmake_python/unitree_inspection_interfaces/unitree_inspection_interfaces.egg-info/dependency_links.txt

@@ -1,2 +1,1 @@
-source;share/unitree_inspection/environment/ament_prefix_path.sh
-source;share/unitree_inspection/environment/path.sh
+/home/rs/go1_robot/build/unitree_inspection/ament_cmake_environment_hooks/local_setup.dsv

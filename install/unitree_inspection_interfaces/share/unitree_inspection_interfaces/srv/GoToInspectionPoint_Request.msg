@@ -1,1 +1,1 @@
-string inspection_point # the name of the inspection point to navigate to
+/home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_cmake/srv/GoToInspectionPoint_Request.msg

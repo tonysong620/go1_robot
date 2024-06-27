@@ -1,16 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from ros2_unitree_legged_msgs/msg/Cartesian.msg
-// generated code does not contain a copyright notice
-
-
-module ros2_unitree_legged_msgs {
-  module msg {
-    struct Cartesian {
-      float x;
-
-      float y;
-
-      float z;
-    };
-  };
-};
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_adapter/ros2_unitree_legged_msgs/msg/Cartesian.idl

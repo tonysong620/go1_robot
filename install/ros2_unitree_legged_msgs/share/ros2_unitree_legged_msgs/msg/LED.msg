@@ -1,3 +1,1 @@
-uint8 r
-uint8 g
-uint8 b
+/home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/LED.msg

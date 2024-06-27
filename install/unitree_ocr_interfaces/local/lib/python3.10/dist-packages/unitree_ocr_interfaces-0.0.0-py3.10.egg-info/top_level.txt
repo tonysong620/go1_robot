@@ -1,1 +1,1 @@
-unitree_ocr_interfaces
+/home/rs/go1_robot/build/unitree_ocr_interfaces/ament_cmake_python/unitree_ocr_interfaces/unitree_ocr_interfaces.egg-info/top_level.txt

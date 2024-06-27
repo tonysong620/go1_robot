@@ -1,0 +1,16 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing unitree_nav_launch_module.egg-info/PKG-INFO
+writing dependency_links to unitree_nav_launch_module.egg-info/dependency_links.txt
+writing entry points to unitree_nav_launch_module.egg-info/entry_points.txt
+writing requirements to unitree_nav_launch_module.egg-info/requires.txt
+writing top-level names to unitree_nav_launch_module.egg-info/top_level.txt
+reading manifest file 'unitree_nav_launch_module.egg-info/SOURCES.txt'
+writing manifest file 'unitree_nav_launch_module.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rs/go1_robot/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree-nav-launch-module.egg-link (link to .)
+
+Installed /home/rs/go1_robot/build/unitree_nav_launch_module
+running symlink_data

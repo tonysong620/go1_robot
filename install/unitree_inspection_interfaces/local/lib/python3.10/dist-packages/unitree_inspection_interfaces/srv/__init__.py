@@ -1,1 +1,1 @@
-from unitree_inspection_interfaces.srv._go_to_inspection_point import GoToInspectionPoint  # noqa: F401
+/home/rs/go1_robot/build/unitree_inspection_interfaces/rosidl_generator_py/unitree_inspection_interfaces/srv/__init__.py

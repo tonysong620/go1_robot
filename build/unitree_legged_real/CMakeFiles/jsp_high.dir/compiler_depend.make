@@ -674,36 +674,36 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/high_cmd.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__builder.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/high_state.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__builder.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/low_cmd.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__builder.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__traits.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/low_state.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__struct.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__builder.hpp \
-  /home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/high_cmd.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_cmd__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/bms_cmd__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/led__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_cmd__builder.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_cmd__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/bms_cmd__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/led__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/high_state.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_state__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/imu__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/motor_state__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/bms_state__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/cartesian__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_state__builder.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_state__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/imu__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/motor_state__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/bms_state__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/cartesian__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/low_cmd.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/low_cmd__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/motor_cmd__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/low_cmd__builder.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/low_cmd__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/motor_cmd__traits.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/low_state.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/low_state__struct.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/low_state__builder.hpp \
+  /home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/low_state__traits.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
@@ -718,41 +718,33 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__traits.hpp:
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/low_cmd__traits.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__traits.hpp:
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/low_cmd__struct.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__struct.hpp:
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/low_cmd.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/low_cmd.hpp:
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/cartesian__struct.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__traits.hpp:
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/bms_state__struct.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__builder.hpp:
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_state__struct.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__struct.hpp:
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/high_state.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__struct.hpp:
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/bms_cmd__traits.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__struct.hpp:
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_cmd__traits.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__struct.hpp:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__struct.hpp:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/high_state.hpp:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__struct.hpp:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__struct.hpp:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__struct.hpp:
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/bms_cmd__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/motor_state__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp:
 
@@ -814,8 +806,6 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__traits.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp:
@@ -840,8 +830,6 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/low_state.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:
@@ -853,8 +841,6 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /opt/ros/humble/include/rcutils/rcutils/shared_library.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/high_cmd.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
@@ -948,7 +934,11 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/low_state__builder.hpp:
+
 /usr/include/c++/11/bits/stl_bvector.h:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/led__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
 
@@ -984,6 +974,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/motor_cmd__traits.hpp:
+
 /usr/include/ctype.h:
 
 /usr/include/c++/11/locale:
@@ -1001,6 +993,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/bms_state__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -1034,6 +1028,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /usr/include/c++/11/limits:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/led__struct.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
 
 /usr/include/c++/11/cstdint:
@@ -1049,6 +1045,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_cmd__struct.hpp:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
@@ -1067,8 +1065,6 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h:
 
 /opt/ros/humble/include/rcl/rcl/graph.h:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__builder.hpp:
 
 /usr/include/c++/11/bits/stl_set.h:
 
@@ -1176,13 +1172,9 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /usr/include/c++/11/bits/uses_allocator.h:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__traits.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__struct.hpp:
 
 /usr/include/c++/11/bits/exception_defines.h:
 
@@ -1207,6 +1199,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_state__builder.hpp:
 
 /usr/include/locale.h:
 
@@ -1390,6 +1384,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /usr/include/c++/11/bits/memoryfwd.h:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/motor_state__struct.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
@@ -1397,6 +1393,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/c++/11/bits/stl_iterator.h:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/imu__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
@@ -1412,8 +1410,6 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__struct.hpp:
-
 /opt/ros/humble/include/rcl/rcl/types.h:
 
 /usr/include/c++/11/bits/stl_pair.h:
@@ -1423,6 +1419,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /usr/include/c++/11/ext/atomicity.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/high_cmd.hpp:
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
@@ -1458,6 +1456,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /usr/include/c++/11/debug/assertions.h:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_state__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
@@ -1485,8 +1485,6 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
 
 /usr/include/c++/11/bits/locale_facets.h:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__builder.hpp:
 
 /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h:
 
@@ -1531,8 +1529,6 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /usr/include/unistd.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp:
 
@@ -1590,6 +1586,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /usr/include/c++/11/bits/std_mutex.h:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/cartesian__traits.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
@@ -1607,8 +1605,6 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
 
 /usr/include/c++/11/vector:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
 
@@ -1642,8 +1638,6 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__builder.hpp:
-
 /opt/ros/humble/include/rcutils/rcutils/types/string_map.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
@@ -1659,6 +1653,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/include/c++/11/list:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/imu__struct.hpp:
 
 /usr/include/c++/11/bits/stl_list.h:
 
@@ -1702,6 +1698,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/high_cmd__builder.hpp:
+
 /opt/ros/humble/include/rmw/rmw/init_options.h:
 
 /opt/ros/humble/include/rmw/rmw/domain_id.h:
@@ -1722,6 +1720,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /usr/include/c++/11/bits/stream_iterator.h:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/motor_cmd__struct.hpp:
+
 /opt/ros/humble/include/rcl/rcl/log_level.h:
 
 /opt/ros/humble/include/rcl/rcl/macros.h:
@@ -1732,6 +1732,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /usr/include/c++/11/stdlib.h:
 
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/low_state__struct.hpp:
+
 /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
@@ -1739,8 +1741,6 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/snprintf.h:
-
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__traits.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/time.h:
 
@@ -1779,6 +1779,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/low_state__traits.hpp:
 
 /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
 
@@ -1886,8 +1888,6 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__traits.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
@@ -1924,13 +1924,13 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__traits.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp:
 
 /opt/ros/humble/include/rcl/rcl/arguments.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/low_state.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
 
@@ -2018,8 +2018,6 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 
 /opt/ros/humble/include/rcpputils/rcpputils/time.hpp:
 
-/home/rs/go1_robot/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__traits.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
@@ -2039,6 +2037,8 @@ CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o: /home/rs/go1_robot/src/unitree_ros2/
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
+
+/home/rs/go1_robot/build/ros2_unitree_legged_msgs/rosidl_generator_cpp/ros2_unitree_legged_msgs/msg/detail/low_cmd__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
 

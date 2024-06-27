@@ -1,3 +1,1 @@
-from unitree_nav_interfaces.srv._nav_to_pose import NavToPose  # noqa: F401
-from unitree_nav_interfaces.srv._set_body_rpy import SetBodyRPY  # noqa: F401
-from unitree_nav_interfaces.srv._set_gait import SetGait  # noqa: F401
+/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_generator_py/unitree_nav_interfaces/srv/__init__.py

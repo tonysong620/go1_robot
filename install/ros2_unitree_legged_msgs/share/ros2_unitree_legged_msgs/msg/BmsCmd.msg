@@ -1,2 +1,1 @@
-uint8 off            # off 0xA5
-uint8[3] reserve
+/home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/BmsCmd.msg

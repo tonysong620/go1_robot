@@ -1,0 +1,1 @@
+/home/rs/go1_robot/build/unitree_nav_interfaces/rosidl_cmake/srv/SetGait_Response.msg

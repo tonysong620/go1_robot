@@ -1,5 +1,1 @@
-float32[4] quaternion
-float32[3] gyroscope
-float32[3] accelerometer
-float32[3] rpy
-int8 temperature
+/home/rs/go1_robot/src/unitree_ros2/ros2_unitree_legged_msgs/msg/IMU.msg

@@ -1,12 +1,1 @@
-<?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
-
-    <xacro:include filename="robot.xacro" />
-    <xacro:include filename="const.xacro"/>
-    <xacro:include filename="materials.xacro"/>
-    <xacro:include filename="leg.xacro"/>
-    <xacro:include filename="gazebo.xacro"/>
-    <xacro:include filename="depthCamera.xacro"/>
-    <xacro:include filename="ultraSound.xacro"/>
-    
-</robot>
+/home/rs/go1_robot/src/unitree_ros2/go1_description/xacro/robot.urdf.xacro

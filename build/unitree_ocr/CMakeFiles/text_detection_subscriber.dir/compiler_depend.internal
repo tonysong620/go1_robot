@@ -760,12 +760,12 @@ CMakeFiles/text_detection_subscriber.dir/src/text_detection_subscriber.cpp.o
  /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp
  /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp
  /usr/include/opencv4/opencv2/dnn/dnn.hpp
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detection.hpp
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__struct.hpp
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__builder.hpp
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detection__traits.hpp
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detections.hpp
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__struct.hpp
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__builder.hpp
- /home/rs/go1_robot/install/unitree_ocr_interfaces/include/unitree_ocr_interfaces/unitree_ocr_interfaces/msg/detail/detections__traits.hpp
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detection.hpp
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__struct.hpp
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__builder.hpp
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detection__traits.hpp
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detections.hpp
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detections__struct.hpp
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detections__builder.hpp
+ /home/rs/go1_robot/build/unitree_ocr_interfaces/rosidl_generator_cpp/unitree_ocr_interfaces/msg/detail/detections__traits.hpp
 
